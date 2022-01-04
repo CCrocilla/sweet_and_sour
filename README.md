@@ -1,108 +1,291 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Sweet & Sour Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## **Overview**
+<hr>
+The website provides the possibility to discover new recipes and not just that! 
+Internet users all around the world love to share every day experience using Social Media. Sharing images, documents, stories are part of everyday life. With this website the user will have the possibility to share one of the most beautiful thing in life… The passion for Food! Thousands of recipes will be available, each, for user convenience, categorized into 3 main sessions (Appetizer, Main, and Dessert). The best recipes are rewarded by making the Home Page in the section “Recipe of the Day!”
+The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing from for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
+ 
+[IMAGE BELOW]
 
-## Gitpod Reminders
+<br><br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## **Project** 
+<hr>
 
-A blue button should appear to click: _Make Public_,
+### **User Goal**
+Easy, Intuitive and User-Friendly Website!
+Wide compatibility with every Browser and Devices.
+Images of the final products are displayed to catch users attention (and appetite!), providing clear instructions for the realization of the dish and a detailed lists of needed ingredients.
+Possibility for the user to check the ingredients in order to highlight what is missing/presents for the realization of the selected dishes (including the possibility of take a screenshot of the final list to store in your phone for your supermarket trip).
+Possibility for the user to share his/her own recipes.
+Newsletter available in order to receive daily, weekly or monthly recipes via email.
 
-Another blue button should appear to click: _Open Browser_.
+<br><br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## **User Experience (UX)**
+<hr>
 
-Another blue button should appear to click: _Open Browser_.
+### **User Stories**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- First Time Visitor Goals
+    1. As a First Time visitor of a website dedicated to food and recipes, I need to be able to have a visual impact of the type of food and recipes sponsored by this websites, this can be obtained showing images of the finished food products.  
+    2. As a First Time Visitor, I want to be able to navigate through the website and find recipes easily.
+    3. As a First Time Visitor, I want to be able to a large variety of recipes.
+    4. A First Time Visitor, I want to visually see the recipes and to understand their level of complexity.
+    5. As a First Time Visitor, I want to find the website pleasant to the eye, visually intuitive, with catchy colours and images.
+    6. As a First Time Visitor, I want to see in the foreground the necessary ingredients for the realization of the dishes. 
 
-To log into the Heroku toolbelt CLI:
+<br><br>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Returning Visitor Goals
+    1. As a Returning Visitor, I want to frequently be able find new recipes.
+    2. As a Returning Visitor, I want to share my personal recipes with the rest of the community sharing a similar passion for cooking.
+    3. As a Returning Visitor, I want to access the website through my social media account.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<br><br>
 
-------
+- Frequent User Goals
+    1. As a Frequent User, I want to see the recipe of the day.
+    2. As a Frequent User, I want to check if my recipes that I sent is displayed in the Recipes page.
+    3. As a Frequent User, I want to sign up to the Newsletter in order to receive daily/weekly/monthly update on the recipes and news. 
 
-## Release History
+<br><br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## **Design**
+<hr>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The webpage has been designed to provide a simple, intuitive view which is able to provide a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect results. 
+Every page has a minimalistic structure which however contains all the relevant features in order to provide the user with a simple, clear and effective experience. 
+<br><br> 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- Colour Scheme
+<br>
+The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
+The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
+Choosen also a color that can be modified using the Dark Theme without creating any issue 
+Colour Source: https://color.adobe.com/create/color-wheel
+<br><br>  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Typography
+<br>
+Google Fonts has been used to select the fonts for the Website. 
+The Main font used is:  XXX while the Sans-serif has been set up as fall-back in case the main font is not loaded. 
+Source: https://fonts.google.com/
+<br><br>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Image and Video
+<br>
+Real images have been used to show the completed recipes.
+The developer selected and merged a set of videos for the home page of the websites. The video merging was performed using different tools such as: XXX 
+Sources:  
+ https://www.pexels.com/
+ XXX
+<br><br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## **Features**
+<hr>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-	Structure:
+<br>
+The page has been structured in an easy and user-friendly way with 7 different pages. 
+The Structure of the website and the component used are listed below: 
+<br><br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-	Home Page:
+<br>
+The Home Page shows the logo of the website on the top left of the page and a navigation bar on the top right.
+A small animation activates when the user mouse hovers on of the elements in the nav bar, highlighting the content hovered. 
+The active page is underlined in the navigation bar when selected. 
+Depending on the device used (if laptop, desktop, tablet or smartphone) the position of the logo and the nav bar changes moving the nav bar below the logo to adapt the view and for a highly responsive rendering. 
+Those behaviour are consistent in all pages. 
+Below the Logo and the Nav Bar the user will see a Hero Image characterized by a muted and in loop video that shows chefs in action. 
+Below the Hero Image there will be a section dedicated to the rational and history of the website and an additional section dedicated to the Recipe of the Day.
+The Recipe of the Day shows an image of the recipe and the ingredient necessary for the realization using an unordered list.
+There will also be in the unordered list the checkbox for each of the ingredient in order to allow the user to flag which ingredients might be missing.
+<br><br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-	Recipes Page:
+<br>
+This page has Header and Footer consistent with the Home Page. 
+The Recipes page is divided in Sections: Appetiser, Main Courses, and Dessert
+On the top pf the page, there will be a Hero Image below the Logo and the Nav Bar. After the hero image there will be 3 different buttons that will allow the user to easily reach the different sections of the page. 
+In each section there will be 3 dishes displayed with an image and the ingredients. All the recipes will be clickable element opening the recipe in a new page using the target=”_blank” functionality. 
+When changing Device, the visualization of the element displayed in the row will change adapting to the selected device dimensions. 
+<br><br>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-	Share Page:
+<br>
+This page has Header and Footer consistent with the Home Page.
+The page has an image extended in the page as background on top of which there will be a Form that the user can fill to be able to send and share a recipe including an attachment button for images. 
+All the fields have been set as required and the proper message is displayed to the user if the form is not filled in correctly. 
+A Reset Button in order to clear the form and a Submit Button are included.
+<br><br>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-	Newsletter Page:
+<br>
+This page has Header and Footer consistent with the Home Page.
+The page is characterized by a Form that the user can fill for: First Name, Last Name, Email Address and a Radio Button to select the frequency by which the users can receive the newsletter (daily, weekly, monthly).
+<br><br>
 
-------
+-	Thank you page:
+<br>
+This page will be triggered when the user clicks on the Submit Button for both the Share and Newsletter Page. 
+This will be used to let the user know that the data has been inserted correctly. 
+<br><br>
 
-## FAQ about the uptime script
+-	404 Error Page:
+<br>
+For any broken or incorrect links, the 404 Error page will be triggered. Here the user will have an image displayed in the background and a text in the image that will inform that the page is not correct. 
+A Button will be present in order to allow the user to come back to the Home Page.
+<br><br>  
+ 
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## **Wireframe**
+<hr>
 
-**How will this affect me?**
+Balsamiq has been used in order to create the wireframe:
+-	Home
+-	Recipes
+-	Share
+-	Newsletter
+-	Thanks Page
+-	404 Error Page
+-	Recipes
+<br><br>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## **Technologies Used**
+<hr>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The Languages used are:
+ - HTML5
+ - CSS3
+<br><br>
 
-**So….?**
+### **Frameworks, Libraries & Programs Used** [Section that needs to be reviewed]
+- Google Fonts: 
+Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Font Awesome: 
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-**Can I opt out?**
+- Git: 
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- GitHub: 
+GitHub is used to store the projects code after being pushed from Git.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Balsamiq: 
+Balsamiq was used to create the wireframes during the design process.
+<br><br>
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+## **Testing**
+<hr>
 
-Happy coding!
+The testing phase have been carried out using the W3C Markup Validator and W3C CSS Validator Services. 
+No errors have been identified from the W3C Markup Validator has can be seen in the screenshot below: 
+<br>
+
+
+IMAGE
+
+<br><br>
+No errors have been identified from the W3C CSS Validator has can be seen in the screenshot below: 
+
+
+IMAGE
+
+<br><br>
+
+Lighthouse Validation Area
+Example
+<br><br>
+
+### **Test Cases**
+
+List of Test Cases Perfomed
+
+Example:
+| Area  | Feature | Expected Result | Status | 
+| --- | --- | --- | --- |
+| Home  | Read More Button | Recipe opened in a new browser tab and content displayed correctly | Pass |
+|   |   |
+<br><br>
+			
+
+### **Additional Tests**
+Tests have been performed on Firefox, Microsoft Edge, Chrome and Safari and the result is consistent in all the browser. 
+Additional tests include also the check on different devices. Here the list of device used for the tests:
+* iPhone 8
+* iPhone 12 Pro Max
+* iPad Pro
+* iPad 
+* Moto 4G
+* Samsung Galaxy
+<br>
+Bugs
+List here the bugs
+<br><br>
+
+
+
+## **Development**  [Need to be modified]
+<hr>
+
+Deployment
+
+GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+1.	Log in to GitHub and locate the GitHub Repository
+2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+o	Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.	Under "Source", click the dropdown called "None" and select "Master Branch".
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+<br><br>
+Forking the GitHub Repository
+<br>
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+<br>
+1.	Log in to GitHub and locate the GitHub Repository
+2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3.	You should now have a copy of the original repository in your GitHub account.
+
+<br><br>
+Making a Local Clone
+<br>
+1.	Log in to GitHub and locate the GitHub Repository
+2.	Under the repository name, click "Clone or download".
+3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.	Open Git Bash
+5.	Change the current working directory to the location where you want the cloned directory to be made.
+6.	Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7.	Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+<br><br>
+
+## **Credits**
+<hr>
+
+Here the list of Credits. 
