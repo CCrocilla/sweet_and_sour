@@ -20,7 +20,7 @@ body {
 
 
 /* Logo and Headers */
-h1 {
+h1, h2 {
     font-family: 'Viga', sans-serif;
     color: #181D31;
 }
@@ -75,14 +75,42 @@ h1 {
 
 /* Video loop for Home Page */
 
-#video-homepage {
-width: 100%;
-height: 300px;
-overflow: hidden;
-}
-
 #video-section {
     width: 100%;
-    height: 600px;
-    overflow: hidden;
+    height: 400px;
+    overflow: hidden; 
+    
 }
+ 
+
+#video-homepage {
+   object-position: center;
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
+
+
+
+/* Text over video */
+
+#video-text {
+    font-size: 150%;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 15px 20px;
+
+    background-color: rgba(24, 29, 49, 0.5);
+    
+    top: 200px;
+    right: 150px;
+
+    position: absolute;
+}
+
+
+#video-text h2 {
+    color:rgb(162, 172, 170);
+}
+
