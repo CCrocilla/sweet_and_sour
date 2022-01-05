@@ -18,30 +18,32 @@ body {
 }
 
 
-/* Logo and Headers */
 
+/* Logo and Headers */
 h1 {
     font-family: 'Viga', sans-serif;
     color: #181D31;
 }
 
 
+/* Display the Logo on the Left side and add margin and increased font size*/
 #logo {
-    font-size: 150%;
     float: left;
+    font-size: 150%;
     margin-left: 15px;
-    
 }
 
 
+/* Display the Menu Bar on the right side, add margin */
 #menu {
     float: right;
-    color: #181D31;
-    font-weight: 300;
+    font-weight: 400;
     word-spacing: 5px;
     margin-right: 15px;
 }
 
+
+/* Set the nav bar horizontally */
 #menu li {
     display: inline;
     list-style-type: none;
@@ -49,11 +51,38 @@ h1 {
 }
 
 
+/* For the a element remove the underline, apply the color:#181D31 and then the padding in order to create space */
+#menu > ul > li > a {
+    text-decoration-line: none;
+    color: #181D31;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+
 #menu, #logo {
-    line-height: 50px;
+    line-height: 100px;
     text-decoration-line: none;
 }
 
+/* Undeline the Active Page and change color */
 .active {
     border-bottom: 2px solid #000000;
+    font-size: 150%;
+}
+
+
+
+/* Video loop for Home Page */
+
+#video-homepage {
+width: 100%;
+height: 300px;
+overflow: hidden;
+}
+
+#video-section {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
 }
