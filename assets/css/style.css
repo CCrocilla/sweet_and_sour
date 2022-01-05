@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Viga&display=swap');
+
+/* Remove any default setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
+body {
+    font-family: 'Viga', sans-serif;
+    background-color: #e6ddc4;
+    max-width: 500;
+}
