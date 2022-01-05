@@ -13,12 +13,12 @@
 body {
     font-family: 'Oxygen', sans-serif;
     background-color: #E6DDC4;
+    color: #181D31; 
     font-weight: 400;
-    
 }
 
 
-/* Logo and Header Section */
+/* Logo and Headers */
 
 h1 {
     font-family: 'Viga', sans-serif;
@@ -29,8 +29,8 @@ h1 {
 #logo {
     font-size: 150%;
     float: left;
-    margin: 15px 0 0 15px;
-    text-decoration-line: none;
+    margin-left: 15px;
+    
 }
 
 
@@ -38,12 +38,22 @@ h1 {
     float: right;
     color: #181D31;
     font-weight: 300;
-    word-spacing: 10px;
-
+    word-spacing: 5px;
+    margin-right: 15px;
 }
 
 #menu li {
     display: inline;
     list-style-type: none;
+    
 }
 
+
+#menu, #logo {
+    line-height: 50px;
+    text-decoration-line: none;
+}
+
+.active {
+    border-bottom: 2px solid #000000;
+}
