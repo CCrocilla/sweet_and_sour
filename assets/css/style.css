@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Viga&display=swap');
 
-/* Remove any default setting */
+/* Remove any default margin, padding and border */
 
 * {
     margin: 0;
@@ -11,7 +11,39 @@
 
 
 body {
-    font-family: 'Viga', sans-serif;
-    background-color: #e6ddc4;
-    max-width: 500;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #E6DDC4;
+    font-weight: 400;
+    
 }
+
+
+/* Logo and Header Section */
+
+h1 {
+    font-family: 'Viga', sans-serif;
+    color: #181D31;
+}
+
+
+#logo {
+    font-size: 150%;
+    float: left;
+    margin: 15px 0 0 15px;
+    text-decoration-line: none;
+}
+
+
+#menu {
+    float: right;
+    color: #181D31;
+    font-weight: 300;
+    word-spacing: 10px;
+
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+}
+
