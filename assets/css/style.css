@@ -29,7 +29,7 @@ h1, h2 {
 /* Display the Logo on the Left side and add margin and increased font size*/
 #logo {
     float: left;
-    font-size: 150%;
+    font-size: 200%;
     margin-left: 15px;
 }
 
@@ -118,19 +118,27 @@ h1, h2 {
 /* This area is dedicated to the Story Section */
 
 #story-section {
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 
 #comment-content {
     float: left;
     padding-top: 30px;
-    width: 60%;
+    margin-left: 40px;
+    width: 50%;
 }
 
 #video-content {
     float: right;
-    padding-top: 30px;
-    width: 40%;
+    margin-right: 40px;
+    width: 35%;
+    border-radius: 20px;
 }
 
+
+#story {
+    text-align: center;
+    font-size: 250%;
+    margin: 75px 0 40px 0;
+}
