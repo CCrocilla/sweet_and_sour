@@ -115,3 +115,22 @@ h1, h2 {
     color:rgb(240, 233, 210);
 }
 
+/* This area is dedicated to the Story Section */
+
+#story-section {
+    height: 600px;
+    width: 100%;
+}
+
+#comment-content {
+    float: left;
+    padding-top: 30px;
+    width: 60%;
+}
+
+#video-content {
+    float: right;
+    padding-top: 30px;
+    width: 40%;
+}
+
