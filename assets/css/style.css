@@ -142,3 +142,16 @@ h1, h2 {
     font-size: 250%;
     margin: 75px 0 40px 0;
 }
+
+
+#recipe-section-homepage {
+    height: 600px;
+}
+
+
+#image-homepage {
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-left: 40px;
+}
