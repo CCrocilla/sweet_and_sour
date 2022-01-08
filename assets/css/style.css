@@ -15,6 +15,7 @@ body {
     background-color: #E6DDC4;
     color: #181D31; 
     font-weight: 400;
+    width: 100%;
 }
 
 
@@ -30,7 +31,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 
@@ -39,7 +40,7 @@ h1, h2 {
     float: right;
     font-weight: 400;
     word-spacing: 5px;
-    margin-right: 15px;
+    margin-right: 40px;
 }
 
 
@@ -67,8 +68,8 @@ h1, h2 {
 
 /* Undeline the Active Page and change sizee */
 .active {
-    border-bottom: 2px solid #000000;
-    font-size: 150%;
+    border-bottom: 2px solid #181D31;
+    font-size: 125%;
 }
 
 
@@ -114,6 +115,9 @@ h1, h2 {
 #video-text h2 {
     color:rgb(240, 233, 210);
 }
+
+
+
 
 /* This area is dedicated to the Story Section */
 
@@ -164,6 +168,8 @@ h1, h2 {
 }
 
 
+
+
 /* This area is dedicated to the Recipe of the Day Section */
 
 #recipe-section-homepage {
@@ -173,10 +179,17 @@ h1, h2 {
 
 #recipes {
     border: 1px solid #181D31;
+    width: 100%;
     height: 400px;
+}
+
+.container {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row no-wrap; /* This is a shorthand for flex direction and wrap. To allow flex items to wrap onto multiple lines, from top to bottom use wrap. */
     align-items: center;
+    justify-content: space-between; /* Justify-Content: Defines the alignment along the main axis. */
+    /* gap: 10px; */
 }
 
 
@@ -189,12 +202,11 @@ h1, h2 {
 }
 
 #recipe-image {
-    width: 20%;
+    width: 50%;
 }
 
 #recipe-ingredients {
     width: 50%;
-    margin-left: -10px;
 }
 
 #recipe-title {
