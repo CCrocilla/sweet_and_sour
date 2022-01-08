@@ -140,11 +140,13 @@ h1, h2 {
     padding-top: 30px;
     margin: 40px;
     width: 60%;
-    color: #E6DDC4;   /*ADDED COLOR TO TEXT HERE*/
+    color: #E6DDC4;   /* Add color for paragraphs in Story Area */
 }
 
-#comment-story-section h2 {   /*ADDED COLOR TO TEXT HERE*/
+#comment-story-section h2 {   /* Add color, alignement and new font size for title in Story Area */
     color: #E6DDC4;
+    text-align: center;
+    font-size: 30px;
 }
 
 
@@ -201,7 +203,7 @@ h1, h2 {
 #image-recipe-homepage {
     float: left;
     width: 550px;
-    height: 290px;
+    height: 350px;
     margin-left: 40px;
     border-radius: 20px;
 }
@@ -213,6 +215,11 @@ h1, h2 {
 #recipe-ingredients {
     width: 50%;
 }
+
+#recipe-ingredients h2 {
+    text-align: center;
+}
+
 
 #recipe-title {
     width: 20%;
