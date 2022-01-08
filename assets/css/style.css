@@ -154,4 +154,31 @@ h1, h2 {
     width: auto;
     height: 300px;
     margin-left: 40px;
+    border-radius: 20px;
 }
+
+
+/* Footer Section */
+footer {
+    height: 200px;
+}
+
+#social {
+    text-align: center;
+    
+}
+
+#social li {
+    display: inline;
+    
+}
+
+#social li i {
+    font-size: 70px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 100px;
+    color: #181D31;
+}
+
+
