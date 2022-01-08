@@ -94,7 +94,7 @@ h1, h2 {
 
 
 
-/* Text above video */
+/* Text above video. Source Love Running Project */
 
 #video-text {
     font-size: 150%;
@@ -127,12 +127,11 @@ h1, h2 {
 }
 
 #story {
-    border: 1px solid #181D31;
     height: 400px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    
+    background-color: #181D31;
 }
 
 
@@ -141,7 +140,13 @@ h1, h2 {
     padding-top: 30px;
     margin: 40px;
     width: 60%;
+    color: #E6DDC4;   /*ADDED COLOR TO TEXT HERE*/
 }
+
+#comment-story-section h2 {   /*ADDED COLOR TO TEXT HERE*/
+    color: #E6DDC4;
+}
+
 
 #video-story-section {
     float: right;
