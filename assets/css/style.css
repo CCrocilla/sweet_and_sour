@@ -65,7 +65,7 @@ h1, h2 {
     text-decoration-line: none;
 }
 
-/* Undeline the Active Page and change color */
+/* Undeline the Active Page and change sizee */
 .active {
     border-bottom: 2px solid #000000;
     font-size: 150%;
@@ -118,9 +118,15 @@ h1, h2 {
 /* This area is dedicated to the Story Section */
 
 #story-section {
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
+
+#story {
+    border: 1px solid #181D31;
+    height: 400px;
+}
+
 
 #comment-content {
     float: left;
@@ -137,21 +143,24 @@ h1, h2 {
 }
 
 
+/* This content is used for all the titles in the Homepage */
+
 .titles-sections {
     text-align: center;
     font-size: 250%;
-    margin: 75px 0 40px 0;
+    margin: 60px 0 20px 0;
 }
 
 
-/* Area of Recipe Section */
+/* This area is dedicated to the Recipe of the Day Section */
 
 #recipe-section-homepage {
-    height: 600px;
+    height: 500px;
+    width: 100%;
 }
 
 #recipes {
-    border: 2px solid black;
+    border: 1px solid #181D31;
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -159,16 +168,16 @@ h1, h2 {
 }
 
 
-#image-homepage {
+#image-recipe-homepage {
     float: left;
-    width: auto;
-    height: 300px;
+    width: 550px;
+    height: 350px;
     margin-left: 40px;
     border-radius: 20px;
 }
 
 #recipe-image {
-    width: 40%;
+    width: 50%;
 }
 
 #recipe-ingredients {
@@ -176,7 +185,7 @@ h1, h2 {
 }
 
 #recipe-title {
-    width: 10%;
+    display: ruby-text;
 }
 
 #recipe-ingredients ul li {
@@ -188,7 +197,7 @@ h1, h2 {
 
 /* Footer Section */
 footer {
-    height: 200px;
+    height: 150px;
 }
 
 #social {
@@ -202,10 +211,11 @@ footer {
 }
 
 #social li i {
-    font-size: 70px;
+    font-size: 50px;
     text-decoration: none;
     list-style-type: none;
-    margin: 100px;
+    margin: 20px;
+    padding: 20px;
     color: #181D31;
 }
 
