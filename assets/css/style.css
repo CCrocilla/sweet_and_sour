@@ -144,8 +144,18 @@ h1, h2 {
 }
 
 
+/* Area of Recipe Section */
+
 #recipe-section-homepage {
     height: 600px;
+}
+
+#recipes {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -156,6 +166,24 @@ h1, h2 {
     margin-left: 40px;
     border-radius: 20px;
 }
+
+#recipe-image {
+    width: 40%;
+}
+
+#recipe-ingredients {
+    width: 50%;
+}
+
+#recipe-title {
+    width: 10%;
+}
+
+#recipe-ingredients ul li {
+    list-style-type: none;
+}
+
+
 
 
 /* Footer Section */
