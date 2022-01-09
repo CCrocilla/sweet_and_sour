@@ -299,6 +299,12 @@ footer {
 
 /* Contact Us Page */
 
+#form-area {
+    background: url();
+}
+
+
+
 #image-text-contact-us{
     font-size: 150%;
     width: 80%;
