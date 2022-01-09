@@ -312,7 +312,7 @@ footer {
 #image-text-contact-us{
     font-size: 150%;
     width: 80%;
-    height: 175px;
+    height: 190px;
     text-align: center;
     padding: 30px;
     margin: 0 auto;
@@ -331,11 +331,13 @@ footer {
 }
 
 #form-user-contact-us {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #E6DDC4;
-    
+    text-align: center;
+    font-size: 110%;
+
     width: 40%;
-    height: 200px;
+    height: 300px;
     
     border-radius: 20px;
     top: 25%;
@@ -347,3 +349,16 @@ footer {
     position: absolute;
 }
 
+
+.input-contact-us {
+    margin-top: 2px;
+    margin-bottom: 15px; 
+    background: transparent;
+    color: #E6DDC4;
+    width: 100%;
+    height: 25px;
+
+    border: 2px solid #E6DDC4 ;
+    border-radius: 20px;
+    display: block;
+}
