@@ -331,9 +331,9 @@ footer {
 
 #form-user-contact-us {
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: #E6DDC4;
     
-    max-width: 400px;
+    width: 400px;
     height: 175px;
     
     top: 20%;
@@ -343,5 +343,4 @@ footer {
     background-color: rgba(24, 29, 49, 0.9);
 
     position: absolute;
-    clear: left;
 }
