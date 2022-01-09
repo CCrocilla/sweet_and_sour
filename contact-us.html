@@ -49,26 +49,30 @@
 
                 <!-- Form Area for the User -->
             <div id="form-user-contact-us">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" class="input-contact-us" name="first_name" required>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" class="input-contact-us" name="first_name" required>
             
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" class="input-contact-us" name="last_name" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" class="input-contact-us" name="last_name" required>
             
-                <label for="email">Email Address</label>
-                <input type="email" id="email" class="input-contact-us" name="email_address" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="input-contact-us" name="email_address" required>
 
-                <!-- Radio Button Section -->
-                <label for="daily">Daily</label>
-                <input type="radio" id="daily" value="daily" name="newsletter_email" required>
+                    <!-- Radio Button Section -->
+                    <label for="daily">Daily</label>
+                    <input type="radio" id="daily" class="radio-contact-us" value="daily" name="newsletter_email" required>
                 
-                <label for="weekly">Weekly</label>
-                <input type="radio" id="weekly" value="weekly" name="newsletter_email" required>
+                    <label for="weekly">Weekly</label>
+                    <input type="radio" id="weekly" class="radio-contact-us" value="weekly" name="newsletter_email" required>
                 
-                <label for="monthly">Monthly</label>
-                <input type="radio" id="monthly" value="monthly" name="newsletter_email" required>
-
-                <input type="submit" value="Sign Up Here!" class="buttons">
+                    <label for="monthly">Monthly</label>
+                    <input type="radio" id="monthly" class="radio-contact-us" value="monthly" name="newsletter_email" required>
+                </div>
+                <div>
+                    <input type="submit" value="Sign Up Here!" class="buttons">
+                    <input type="reset" value="Reset Form" class="buttons">
+                </div>
             </div>
         </form>
     </section>
