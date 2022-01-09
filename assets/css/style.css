@@ -157,7 +157,17 @@ h1, h2 {
     border-radius: 20px;
 }
 
-/*Added Flex New content here*/
+
+.flex-video-story {
+    flex: 30%;
+}
+
+.flex-comment-story {
+    flex: 70%;
+}
+
+
+/*Add Flex New content here*/
 
 #flex-video-story {
     width: 40%;
@@ -208,7 +218,7 @@ h1, h2 {
     border-radius: 20px;
 }
 
-/* Add Flex PRoperty to the Recipe of the Day Section */
+/* Add Flex property for the div elements of the Recipe of the Day Section */
 .flex-title-recipe {
     flex: 33%;
 }
@@ -220,7 +230,7 @@ h1, h2 {
 .flex-ingredient-recipe {
     flex: 33%;
 }
-/*
+
 #recipe-image {
     width: 50%;
 }
@@ -228,7 +238,7 @@ h1, h2 {
 #recipe-ingredients {
     width: 50%;
 }
-*/
+
 #recipe-ingredients h2 {
     text-align: center;
 }

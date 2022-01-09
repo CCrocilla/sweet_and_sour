@@ -52,12 +52,12 @@
     <section id="story-section">
         <h2 class="titles-sections">The best dishes all in one website!</h2>
             <div id="story" class="container">
-               <div id="flex-video-story">
+               <div id="flex-video-story" class="flex-video-story">
                     <video autoplay="" muted="" loop="" id="video-story-section" controls>
                         <source src="assets/videos/video-homepage.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div id="comment-story-section">
+                <div id="comment-story-section" class="flex-comment-story">
                     <h2>Food, yours and our passion!</h2>
                     <br>
                     <p>If you are looking for a quick fix, a new recipe or a way to impress your guest, Sweet & Sour is the place for you.
@@ -83,10 +83,35 @@
     <section id="recipe-section-homepage">
         <h2 class="titles-sections">Recipe of the Day!</h2>
             
-        <!--  Added <main> and implemented structure for flex boxes-->     
+        <!--  Class container to implement structure for flex boxes -->     
                 <div id="recipes" class="container">
                     <div id="recipe-title" class="flex-title-recipe">
-                        <h2>Gnocchi with Pesto</h2>                     
+                        <h2>Gnocchi with Pesto</h2>
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-euro-sign"></i></span>
+                                Cost:<strong>Low</strong>
+                            </li>
+                            <li>
+                                <span></span>
+                                Difficulty:<strong></strong>
+                            </li>
+                            <li>
+                                <span></span>
+                                Preparation Time:<strong></strong>
+                            </li>
+                            <li>
+                                <span></span>
+                                Coocking Time:<strong></strong>
+                            </li>
+                            <li>
+                                <span></span>
+                                Servings:<strong></strong>
+                            </li>
+                            <li>
+                                <span></span>
+                            </li>
+                        </ul>                    
                     </div>
                     <div id="recipe-image" class="flex-image-recipe">    
                         <img src="/assets/images/gnocchi_pesto.jpg" alt="gnocchi with pesto" id="image-recipe-homepage">
