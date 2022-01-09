@@ -252,6 +252,11 @@ h1, h2 {
 }
 
 
+#recipe-title ul li {
+    list-style-type: none;
+    color: #E6DDC4;
+}
+
 
 
 
