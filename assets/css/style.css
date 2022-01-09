@@ -136,11 +136,12 @@ h1, h2 {
 
 
 #comment-story-section {
+    color: #E6DDC4;   /* Add color for paragraphs in Story Area */
     float: left;
     padding-top: 30px;
     margin: 40px;
     width: 60%;
-    color: #E6DDC4;   /* Add color for paragraphs in Story Area */
+    
 }
 
 #comment-story-section h2 {   /* Add color, alignement and new font size for title in Story Area */
@@ -158,18 +159,16 @@ h1, h2 {
 }
 
 
-.flex-video-story {
-    flex: 30%;
-}
 
 .flex-comment-story {
     flex: 70%;
 }
 
 
-/*Add Flex New content here*/
+/* Add Flex Content for the Video in the Story Section */
 
 #flex-video-story {
+    flex: 30%;
     width: 40%;
     max-width: 550px;
     max-height: 350px;
@@ -230,19 +229,10 @@ h1, h2 {
 .flex-ingredient-recipe {
     flex: 33%;
 }
-/*
-#recipe-image {
-    width: 50%;
-}
 
-#recipe-ingredients {
-    width: 50%;
-}
-*/
 #recipe-ingredients h2 {
     text-align: center;
 }
-
 
 #recipe-title {
     width: 20%;
