@@ -103,7 +103,7 @@ h1, h2 {
     text-align: center;
     padding: 25px 35px;
 
-    background-color: rgba(24, 29, 49, 0.5);
+    background-color: rgba(24, 29, 49, 0.9);
     
     top: 250px;
     right: 100px;
@@ -316,10 +316,15 @@ footer {
     text-align: center;
     padding: 30px;
     margin: 0 auto;
-    background-color: rgba(24, 29, 49, 0.5);
+    background-color: rgba(24, 29, 49, 0.9);
     
     top: 10%;
     left: 7%;
     
     position: absolute;
+}
+
+
+#image-text-contact-us h2 {
+    color: #E6DDC4;
 }
