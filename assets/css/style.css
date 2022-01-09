@@ -230,7 +230,7 @@ h1, h2 {
 .flex-ingredient-recipe {
     flex: 33%;
 }
-
+/*
 #recipe-image {
     width: 50%;
 }
@@ -238,7 +238,7 @@ h1, h2 {
 #recipe-ingredients {
     width: 50%;
 }
-
+*/
 #recipe-ingredients h2 {
     text-align: center;
 }
