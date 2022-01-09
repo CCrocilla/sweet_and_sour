@@ -196,7 +196,7 @@ h1, h2 {
     flex-flow: row no-wrap; /* This is a shorthand for flex direction and wrap. To allow flex items to wrap onto multiple lines, from top to bottom use wrap. */
     align-items: center;
     justify-content: space-between; /* Justify-Content: Defines the alignment along the main axis. */
-    /* gap: 10px; */
+    gap: 10px; 
 }
 
 
@@ -208,6 +208,19 @@ h1, h2 {
     border-radius: 20px;
 }
 
+/* Add Flex PRoperty to the Recipe of the Day Section */
+.flex-title-recipe {
+    flex: 33%;
+}
+
+.flex-image-recipe {
+    flex: 34%;
+}
+
+.flex-ingredient-recipe {
+    flex: 33%;
+}
+/*
 #recipe-image {
     width: 50%;
 }
@@ -215,7 +228,7 @@ h1, h2 {
 #recipe-ingredients {
     width: 50%;
 }
-
+*/
 #recipe-ingredients h2 {
     text-align: center;
 }
