@@ -296,3 +296,20 @@ footer {
 }
 
 
+
+/* Contact Us Page */
+
+#image-text-contact-us{
+    font-size: 150%;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+
+    background-color: rgba(24, 29, 49, 0.5);
+    
+    top: 250px;
+    right: 100px;
+
+    position: absolute;
+}
