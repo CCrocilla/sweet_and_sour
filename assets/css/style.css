@@ -318,7 +318,8 @@ footer {
     margin: 0 auto;
     background-color: rgba(24, 29, 49, 0.9);
     
-    top: 10%;
+    border-radius: 20px;
+    top: 7%;
     left: 7%;
     
     position: absolute;
@@ -333,14 +334,16 @@ footer {
     margin: 150px 10% 0 0;
     color: #E6DDC4;
     
-    width: 400px;
-    height: 175px;
+    width: 40%;
+    height: 200px;
     
-    top: 20%;
-    left: 40%;
+    border-radius: 20px;
+    top: 25%;
+    left: 26%;
 
     padding: 30px;
     background-color: rgba(24, 29, 49, 0.9);
 
     position: absolute;
 }
+
