@@ -19,7 +19,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                         <a href="index.html" class="active">Home</a>
+                         <a href="index.html">Home</a>
                     </li>
                     <li>
                          <a href="recipe.html">Recipe</a>
@@ -28,14 +28,14 @@
                         <a href="share.html">Share</a>
                     </li>
                     <li>
-                        <a href="contact-us.html">Contact Us</a>
+                        <a href="contact-us.html" class="active">Contact Us</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="form-area">
+    <section id="form-area-contact-us">
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <div id="image-text-contact-us">
                 <h2>
@@ -45,6 +45,16 @@
                     <br><br>
                     Sign in here for the newsletter!!!
                 </h2>
+
+                <!-- Form Area for the User -->
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" required>
+            
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" required>
+            
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
             </div>
         </form>
     </section>
