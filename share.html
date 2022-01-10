@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Passion for food in one place! Sharing the Food with everyone!">
+    <meta name="keywords" content="food, recipe, share food, recipe of the day, passion for food, sweet food, sour food, sweet and sour, sweet & sour">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Sweet & Sour</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html" id="logo">
+                 <h1>Sweet & Sour</h1>
+            </a>
+            <nav id="menu">
+                <ul>
+                    <li>
+                         <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                         <a href="recipe.html">Recipe</a>
+                    </li>
+                    <li>
+                        <a href="share.html" class="active">Share</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="form-area-contact-us">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <div id="image-text-contact-us">
+                <h2>
+                    Do you want to receive the recipes in your email address?
+                </h2>
+            </div>
+
+                <!-- Form Area for the User -->
+            <div id="form-user-contact-us">
+                <div>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" class="input-contact-us" name="full_name" required placeholder="* Insert here your Full Name!">
+            
+                    <label for="email-share">Email Address</label>
+                    <input type="email" id="email-share" class="input-contact-us" name="email_address_share" required placeholder="* Insert here your email address!">
+
+                    <label for="recipe-name">Recipe Name</label>
+                    <input type="text" id="recipe-name" class="input-contact-us" name="recipe_name" required placeholder="* Insert here the name of your amazing dish!">
+
+                    <!-- This is the Area of the Radio Buttons -->
+                    <label for="appetizers">Appetizer</label>
+                    <input type="radio" id="appetizers" value="appetizers" name="dishes" required>
+                
+                    <label for="main_courses">Main Course</label>
+                    <input type="radio" id="main_courses" value="main_courses" name="dishes" required>
+                
+                    <label for="desserts">Dessert</label>
+                    <input type="radio" id="desserts" value="desserts" name="dishes" required>
+
+                    <!-- This is the Area for the Textarea Inputs -->
+                    <label for="ingredients">Ingredients</label>
+                    <textarea id="ingredients" name="ingredients" rows="4" cols="50" placeholder="List here the Ingredients necessary for your amazing dish!">
+                        Ingredients Area
+                    </textarea>
+
+                    <label for="preparation">Preparation</label>
+                    <textarea id="preparation" name="preparation" rows="4" cols="50" placeholder="List here the Steps for the Preparation!">
+                        Preparation Area
+                    </textarea>
+
+                    
+                </div>
+                <div id="buttons-area-share">
+                    <h6>Please note that the field with the symbol (*) are mandatory!</h6>
+                    <input type="submit" value="Submit Form!" class="buttons">
+                    <input type="reset" value="Reset Form" class="buttons">
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <ul id="social">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook Page (This link opens in a new tab)" ><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Instagram Page (This link opens in a new tab)" ><i class="fab fa-instagram-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Youtube Page (This link opens in a new tab)" ><i class="fab fa-youtube-square"></i></a>
+            </li>
+            
+        </ul>
+    </footer>
+
+<!-- Font Awesome Script -->
+<script src="https://kit.fontawesome.com/0644654b1f.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
