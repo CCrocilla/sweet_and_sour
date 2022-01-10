@@ -407,39 +407,45 @@ footer {
 
 #about-us-container {
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     background-color: #181D31;
 }
 
 
 .about-us-address {
-    flex: 60%;
+    flex: 50%;
     color: #E6DDC4;
+    margin-left: 40px
 }
 
 #about-us-container h3 {
     font-size: 200%;
     text-align: center;
+    margin: 10px 40px 0 40px;
+    padding: 30px;
 }
 
 .about-us-address li {
     font-size: 110%;
+    margin-left: 40px;
+    list-style-type: none;
 }
 
 
 .about-us-maps {
-    flex: 40%;
+    flex: 50%;
     color: #E6DDC4;
     text-align: center;
+    margin-right: 40px
 }
 
 
 .about-us-maps iframe {
-    width: 100%;
+    width: 80%;
     height: 350px;
     border-radius: 20px;
-    align-items: center;
+    align-items: center; 
 }
 
 
