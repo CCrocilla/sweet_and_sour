@@ -418,11 +418,11 @@ footer {
 .about-us-address {
     flex: 60%;
     color: #E6DDC4;
-    text-align: center;
 }
 
-.about-us-address h3 {
-    font-size: 150%;
+#about-us-container h3 {
+    font-size: 200%;
+    text-align: center;
 }
 
 .about-us-address li {
@@ -432,5 +432,14 @@ footer {
 
 .about-us-maps {
     flex: 40%;
+    color: #E6DDC4;
+    text-align: center;
+}
+
+
+.about-us-maps iframe {
+    width: 80%;
+    height: 500px;
     border-radius: 20px;
+    align-items: center;
 }
