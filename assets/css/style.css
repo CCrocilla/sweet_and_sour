@@ -117,8 +117,6 @@ h1, h2 {
 }
 
 
-
-
 /* This area is dedicated to the Story Section */
 
 #story-section {
@@ -192,7 +190,7 @@ h1, h2 {
 
 
 
-/* This area is dedicated to the Recipe of the Day Section */
+/* Recipe of the Day Section - Homepage */
 
 #recipe-section-homepage {
     height: 500px;
@@ -333,7 +331,7 @@ footer {
 #form-user-contact-us {
     margin: 100px 10% 0 0;
     color: #E6DDC4;
-    text-align: center;
+    text-align: left;
     font-size: 110%;
 
     width: 40%;
@@ -405,7 +403,7 @@ footer {
 }
 
 
-/* This is the Address and Map Section of the Contact Us Page */
+/* Address and Map Section - Contact Us Page */
 
 #about-us-container {
     width: 100%;
@@ -442,4 +440,59 @@ footer {
     height: 500px;
     border-radius: 20px;
     align-items: center;
+}
+
+
+
+/* Share Page */
+
+#form-area-share {
+    width: 100%;
+    margin: 0 auto;
+    height: 1200px;
+    overflow: hidden;
+    background: url(/assets/images/share-background.jpg) repeat center;
+    position: relative;
+    
+}
+
+#image-text-share{
+    font-size: 150%;
+    width: 70%;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    
+    background-color: rgba(24, 29, 49, 0.9);
+    
+    margin: auto 0;
+    border-radius: 20px;
+    top: 7%;
+    left: 13.5%;
+
+    position: absolute;
+}
+
+
+#image-text-share h2 {
+    color: #E6DDC4;
+}
+
+
+#form-user-share {
+    color: #E6DDC4;
+    text-align: left;
+    font-size: 110%;
+
+    width: 80%;
+    height: 600px;
+    
+    border-radius: 20px;
+    top: 30%;
+    left: 8.5%;
+
+    padding: 30px;
+    background-color: rgba(24, 29, 49, 0.9);
+
+    position: absolute;
 }
