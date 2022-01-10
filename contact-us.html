@@ -51,13 +51,13 @@
             <div id="form-user-contact-us">
                 <div>
                     <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" class="input-contact-us" name="first_name" required>
+                    <input type="text" id="first-name" class="input-contact-us" name="first_name" required placeholder="* Insert your first name here!">
             
                     <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" class="input-contact-us" name="last_name" required>
+                    <input type="text" id="last-name" class="input-contact-us" name="last_name" required placeholder="* Insert your last name here!">
             
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" class="input-contact-us" name="email_address" required>
+                    <input type="email" id="email" class="input-contact-us" name="email_address" required placeholder="* Insert your email address here!">
 
                     <!-- Radio Button Section -->
                     <label for="daily">Daily</label>
@@ -69,7 +69,8 @@
                     <label for="monthly">Monthly</label>
                     <input type="radio" id="monthly" class="radio-contact-us" value="monthly" name="newsletter_email" required>
                 </div>
-                <div>
+                <div id="buttons-area-contact-us">
+                    <h6>Please note that the field with the symbol (*) are mandatory!</h6>
                     <input type="submit" value="Sign Up Here!" class="buttons">
                     <input type="reset" value="Reset Form" class="buttons">
                 </div>
@@ -77,8 +78,25 @@
         </form>
     </section>
     
-    <section id="about-us-area">
-
+    <section >
+        <h2 class="titles-sections">Where are we located?</h2>
+            <div id="about-us-container">
+                <div class="about-us-address">
+                    <h3>Address</h3>
+                        <ul>
+                            <li>Sweet & Sour</li>
+                            <li>Dundrum, Sandyford Road</li>
+                            <li>Dublin 18</li>
+                            <li>D18XX5X</li>
+                            <li>Dublin</li>
+                        </ul>
+                </div>
+                <div class="about-us-maps">
+                    <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9540.476619245946!2d-6.253589203939086!3d53.28740055692832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670967208312b5%3A0x2600c7a819b930d1!2sDundrum%2C%20Dublin!5e0!3m2!1sen!2sie!4v1641780286254!5m2!1sen!2sie" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google Maps display the position of the Sweet and Sour HQ" rel="noopener noreferer"></iframe>
+                    
+                </div>
+            </div>
     </section>
     
     <footer>

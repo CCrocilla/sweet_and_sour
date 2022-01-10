@@ -388,11 +388,49 @@ footer {
     color: #181D31;
 
     border-radius: 10px;
-    display: inline-block;
+    display: block;
 }
 
 
 .buttons:hover {
     background-color: #FB743E;
     color: #181D31;
+}
+
+
+#buttons-area-contact-us > h6 {
+    display: block;
+    float: left;
+    margin-top: 80px;
+}
+
+
+/* This is the Address and Map Section of the Contact Us Page */
+
+#about-us-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #181D31;
+}
+
+
+.about-us-address {
+    flex: 60%;
+    color: #E6DDC4;
+    text-align: center;
+}
+
+.about-us-address h3 {
+    font-size: 150%;
+}
+
+.about-us-address li {
+    font-size: 110%;
+}
+
+
+.about-us-maps {
+    flex: 40%;
+    border-radius: 20px;
 }
