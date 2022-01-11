@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    /* box-sizing: border-box; */
 }
 
 
@@ -371,6 +372,7 @@ footer {
     font-size: 110%;
 }
 
+
 .buttons { 
     width: 150px;
     float: right;
@@ -388,6 +390,7 @@ footer {
     border-radius: 10px;
     display: block;
 }
+
 
 
 .buttons:hover {
@@ -423,7 +426,7 @@ footer {
     font-size: 200%;
     text-align: center;
     margin: 10px 40px 0 40px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .about-us-address li {
@@ -448,6 +451,21 @@ footer {
     align-items: center; 
 }
 
+
+/* Contact Details - Contact Us Page */
+
+
+.about-us-address h4 {
+    font-size: 125%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.company-details {
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto; 
+}
 
 
 /* Share Page */
