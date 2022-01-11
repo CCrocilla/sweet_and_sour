@@ -74,18 +74,21 @@ h1, h2 {
 
 
 
-/* Video loop for Home Page */
+/* Hero Image for Home Page */
+/* Idea from Love Running Project */
 
-#video-section {
+#hero-section {
     width: 100%;
-    height: 400px;
-    overflow: hidden; 
+    height: 500px;
+    overflow: hidden;
+    position: relative; 
 }
  
 
-#video-homepage {
+#hero-image {
    width: 100%;
-   height: 400px; 
+   height: 500px; 
+   background: url('/assets/images/hero-image.jpg');
    display: block;
    background-position: center center;
    background-repeat: no-repeat;
@@ -94,9 +97,9 @@ h1, h2 {
 
 
 
-/* Text above video. Source Love Running Project */
+/* Text above Image. Source Love Running Project */
 
-#video-text {
+#image-text {
     font-size: 150%;
     width: 250px;
     height: 150px;
@@ -105,14 +108,14 @@ h1, h2 {
 
     background-color: rgba(24, 29, 49, 0.9);
     
-    top: 250px;
+    top: 200px;
     right: 100px;
 
     position: absolute;
 }
 
 
-#video-text h2 {
+#image-text h2 {
     color:rgb(240, 233, 210);
 }
 
@@ -120,61 +123,54 @@ h1, h2 {
 /* This area is dedicated to the Story Section */
 
 #story-section {
-    height: 500px;
+    height: 600px;
     width: 100%;
+    overflow: hidden;
 }
 
 #story {
     height: 400px;
-    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     background-color: #181D31;
 }
 
 
-#comment-story-section {
+#comment-story {
+    flex: 60%;
+    width: 100%;
     color: #E6DDC4;   /* Add color for paragraphs in Story Area */
+    padding: 30px;
+    /*margin: 40px;*/
     float: left;
-    padding-top: 30px;
-    margin: 40px;
-    width: 60%;
-    
 }
 
-#comment-story-section h2 {   /* Add color, alignement and new font size for title in Story Area */
+#comment-story h2 {   /* Add color, alignement and new font size for title in Story Area */
     color: #E6DDC4;
     text-align: center;
     font-size: 30px;
 }
 
-#comment-story-section p {
-    font-size: 110%;
+#comment-story p {
+    font-size: 120%;
 }
 
-
-#video-story-section {
-    float: right;
-    margin: 40px;
+#video-story {
+    flex: 40%;
     width: 100%;
-    border-radius: 20px;
-}
-
-
-
-.flex-comment-story {
-    flex: 60%;
+    margin-right: 40px;
 }
 
 
 
 /* Add Flex Content for the Video in the Story Section */
 
-#flex-video-story {
-    flex: 30%;
-    width: 40%;
+#video-spaghetti {
     max-width: 550px;
     max-height: 350px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    float: right;
 }
 
 
