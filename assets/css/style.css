@@ -289,6 +289,10 @@ footer {
 }
 
 
+#social li i:hover {
+    color: #FB743E;
+}
+
 
 /* Media Queries */
 
@@ -486,6 +490,10 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 10px auto; 
+}
+
+.company-details h4 strong {
+    color: #FB743E;
 }
 
 
