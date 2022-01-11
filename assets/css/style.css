@@ -317,7 +317,7 @@ footer {
 
 
 
-
+}
 /* Contact Us Page */
 
 #form-area-contact-us {
@@ -497,8 +497,7 @@ footer {
     height: 1200px;
     overflow: hidden;
     background: url(/assets/images/share-background.jpg) repeat center;
-    position: relative;
-    
+    position: relative;   
 }
 
 #image-text-share{
