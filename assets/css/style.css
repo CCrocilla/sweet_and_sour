@@ -158,6 +158,7 @@ h1, h2 {
     flex: 40%;
     width: 100%;
     margin-right: 40px;
+    text-align: right;
 }
 
 
@@ -169,7 +170,7 @@ h1, h2 {
     max-height: 350px;
     border-radius: 20px;
     box-sizing: border-box;
-    float: right;
+    /*float: right;*/
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -308,7 +309,8 @@ footer {
     /* Home Page */
     #story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
-        width: 100%;   
+        width: 100%;  
+ 
     }
 
     #story {
@@ -325,7 +327,6 @@ footer {
         padding: 0;
         margin: 40px auto;
         text-align: center;
-        /*margin: 40px 75% 0 40px%;*/
     }
 
     #video-spaghetti {
@@ -339,6 +340,7 @@ footer {
         width: 100%;
         margin-left: 40px;
         margin-right: 40px;
+        text-align: justify;
     }
 
 
