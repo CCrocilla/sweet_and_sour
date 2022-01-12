@@ -308,23 +308,23 @@ footer {
     /* Home Page */
     #story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
-        width: 100%;    
+        width: 100%;   
     }
 
     #story {
-        flex: none;
+        flex-direction: column;
         height: fit-content;
         width: 100%;
+        justify-content: center;
         margin: 0 auto;
         padding: 0;
     }
 
     #video-story {
         width: 100%;
-        clear: left;
-        float: left;
         padding: 0;
-        margin: 0 auto;
+        margin: 40px auto;
+        text-align: center;
         /*margin: 40px 75% 0 40px%;*/
     }
 
