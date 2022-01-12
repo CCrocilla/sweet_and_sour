@@ -142,6 +142,8 @@ h1, h2 {
     color: #E6DDC4;   /* Add color for paragraphs in Story Area */
     padding: 30px;
     float: left;
+     /* line-height: ;  Suggerimento, Aggiungere piu spazio tra ingredienti, Impostare immagine centrata, testi ingredienti a destra e sinistra
+    letter-spacing: ;*/
 }
 
 #comment-story h2 {   /* Add color, alignement and new font size for title in Story Area */
