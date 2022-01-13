@@ -175,7 +175,6 @@ h1, h2 {
     max-height: 350px;
     border-radius: 20px;
     box-sizing: border-box;
-    /*float: right;*/
     text-align: right;
     background-attachment: fixed;
     background-position: center center;
@@ -307,8 +306,6 @@ footer {
 
 
 /* Media Queries */
-
-
 /* For larger to medium screen size from 1200px wide to down */
 @media screen and (max-width: 1200px) {
 
@@ -745,22 +742,34 @@ input[type="file"] {
 
 
 
-#text-thanks-error-pages {
-    font-size: 150%;
-    width: 500px;
-    height: 300px;
+.text-thanks-error-pages {
+    font-size: 125%;
+    width: 800px;
+    height: fit-content;
     text-align: center;
     padding: 25px 35px;
 
     background-color: rgba(24, 29, 49, 0.9);
     
-    top: 250px;
-    right: 50%;
+    top: 120px;
+    right: 50px;
+    margin-left: 40px;
 
     position: absolute;
 }
 
 
-#text-thanks-error-pages h2 {
+.text-thanks-error-pages h2 {
     color:rgb(240, 233, 210);
+}
+
+.anchor-text {
+    text-decoration-line: none;
+    color: #E6DDC4;
+}
+
+
+.anchor-text:hover {
+    color: #FB743E;
+    font-size: 125%;
 }
