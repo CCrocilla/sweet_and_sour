@@ -141,8 +141,9 @@ h1, h2 {
     width: 100%;
     color: #E6DDC4;   /* Add color for paragraphs in Story Area */
     padding: 30px;
-    float: left;
-     /* line-height: ;  Suggerimento, Aggiungere piu spazio tra ingredienti, Impostare immagine centrata, testi ingredienti a destra e sinistra
+    text-align: left;
+    text-align: justify;
+     /* line-height: ;  Aggiungere piu spazio tra ingredienti, Impostare immagine centrata, testi ingredienti a destra e sinistra
     letter-spacing: ;*/
 }
 
@@ -155,6 +156,7 @@ h1, h2 {
 #comment-story p {
     font-size: 120%;
     text-align: justify;
+    text-align: left;
 }
 
 #video-story {
@@ -311,15 +313,45 @@ footer {
 @media screen and (max-width: 1200px) {
 
     /* Home Page */
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+
+
+    #hero-section, #hero-image {
+        height: 300px;
+    }
+
+
+    #image-text {
+        font-size: 110%;
+        width: 250px;
+        height: fit-content;
+        text-align: center;
+        padding: 25px 35px;
+    
+        background-color: rgba(24, 29, 49, 0.9);
+        
+        top: 75px;
+        right: 100px;
+    
+        position: absolute;
+    }
+
+
     #story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
         width: 100%;  
     }
 
     #story {
-        flex-direction: column;
-        height: fit-content;
         width: 100%;
+        height: fit-content;
+        flex-direction: column;
         justify-content: center;
         margin: 0 auto;
         padding: 0;
@@ -330,19 +362,19 @@ footer {
         padding: 0;
         margin: 40px auto;
         text-align: center;
+        box-sizing: border-box;
     }
 
     #video-spaghetti {
         margin: 0 auto;
         width: 100%;
-        box-sizing: border-box;
     }
     
 
     #comment-story {
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
+        width: 90%;
+        margin: 0 40px 40px 40px;
+        padding: 0;
         text-align: justify;
     }
 
