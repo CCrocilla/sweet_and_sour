@@ -216,14 +216,14 @@ h1, h2 {
     flex-flow: row no-wrap; /* This is a shorthand for flex direction and wrap. To allow flex items to wrap onto multiple lines, from top to bottom use wrap. */
     align-items: center;
     justify-content: space-between; /* Justify-Content: Defines the alignment along the main axis. */
-    gap: 10px; 
+    gap: 15px; 
 }
 
 
 #image-recipe-homepage {
-    float: left;
     width: 550px;
     height: 350px;
+    box-sizing: border-box;
     margin-left: 40px;
     border-radius: 20px;
 }
@@ -234,15 +234,15 @@ h1, h2 {
     align-items: start;
 }
 
+.flex-image-recipe {
+    flex: 33.3%;
+    margin-top: 40px;
+}
+
 .flex-title-recipe {
     flex: 33.3%;
     margin-left: 40px;
     line-height: 25px;
-    margin-top: 40px;
-}
-
-.flex-image-recipe {
-    flex: 33.3%;
     margin-top: 40px;
 }
 
@@ -342,6 +342,7 @@ footer {
         position: absolute;
     }
 
+    /* Media Query Story Section - Home Page */
 
     #story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
@@ -378,13 +379,65 @@ footer {
         text-align: justify;
     }
 
+    /* Media Query Recipe of the Day Section - Home Page */
+    #recipe-section-homepage {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    #recipes {
+        height: fit-content;
+        flex-direction: column;
+    }
+    
 
+    #image-recipe-homepage {
+        width: 550px;
+        height: 350px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
 
     #recipe-title ul li {
         display: inline;
         text-align: center;
     }
 
+    .recipe-day-container {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .flex-image-recipe {
+        flex: 100%;
+        margin: 40px auto;
+        padding: 0;
+        align-content: center;
+        box-sizing: border-box;
+    }
+
+    .flex-title-recipe {
+        flex: 50%;
+        padding: 0;
+        align-self: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+
+    }
+
+    .flex-ingredient-recipe {
+        flex: 50%;
+        align-self: auto;
+        padding: 0;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
 
 
     /* Share Page */
