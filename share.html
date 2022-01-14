@@ -48,45 +48,48 @@
             </div>
 
                 <!-- Form Area for the User -->
-            <div id="form-user-share">
-                <div>
-                    <label for="full-name">Full Name</label>
-                    <input type="text" id="full-name" class="input-contact-us" name="full_name" required placeholder="* Insert here your Full Name!">
+            <div class="flex-container-form">
+                <div id="form-user-share">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" class="input-contact-us" name="full_name" required placeholder="* Insert here your Full Name!">
             
-                    <label for="email-share">Email Address</label>
-                    <input type="email" id="email-share" class="input-contact-us" name="email_address_share" required placeholder="* Insert here your email address!">
+                        <label for="email-share">Email Address</label>
+                        <input type="email" id="email-share" class="input-contact-us" name="email_address_share" required placeholder="* Insert here your email address!">
 
-                    <label for="recipe-name">Recipe Name</label>
-                    <input type="text" id="recipe-name" class="input-contact-us" name="recipe_name" required placeholder="* Insert here the name of your amazing dish!">
+                        <label for="recipe-name">Recipe Name</label>
+                        <input type="text" id="recipe-name" class="input-contact-us" name="recipe_name" required placeholder="* Insert here the name of your amazing dish!">
 
-                    <!-- This is the Area of the Radio Buttons -->
-                    <label for="appetizers">Appetizer</label>
-                    <input type="radio" id="appetizers" value="appetizers" name="dishes" required>
+                        <!-- This is the Area of the Radio Buttons -->
+                        <label for="appetizers" class="radio-label-contact-share">Appetizer</label>
+                        <input type="radio" id="appetizers" class="radio-buttons-contact-share" value="appetizers" name="dishes" required>
                 
-                    <label for="main_courses">Main Course</label>
-                    <input type="radio" id="main_courses" value="main_courses" name="dishes" required>
+                        <label for="main_courses" class="radio-label-contact-share">Main Course</label>
+                        <input type="radio" id="main_courses" class="radio-buttons-contact-share" value="main_courses" name="dishes" required>
                 
-                    <label for="desserts">Dessert</label>
-                    <input type="radio" id="desserts" value="desserts" name="dishes" required>
+                        <label for="desserts" class="radio-label-contact-share">Dessert</label>
+                        <input type="radio" id="desserts" class="radio-buttons-contact-share" value="desserts" name="dishes" required>
                     
-                    <!-- This is the Area for the Textarea Inputs -->
-                    <div class="textarea-area">
-                    <label for="ingredients">Ingredients</label>
-                    <textarea id="ingredients" name="ingredients" rows="4" cols="50" placeholder="List here the Ingredients necessary for your amazing dish!"></textarea>
+                        <!-- This is the Area for the Textarea Inputs -->
+                        <div class="textarea-area">
+                            <label for="ingredients">Ingredients</label>
+                            <textarea id="ingredients" name="ingredients" rows="4" cols="50" placeholder="List here the Ingredients necessary for your amazing dish!"></textarea>
 
-                    <label for="preparation">Preparation</label>
-                    <textarea id="preparation" name="preparation" rows="4" cols="50" placeholder="List here the Steps for the Preparation!"></textarea>
+                            <label for="preparation">Preparation</label>
+                            <textarea id="preparation" name="preparation" rows="4" cols="50" placeholder="List here the Steps for the Preparation!"></textarea>
+                        </div>
+                    
                     </div>
+
+                    <div id="buttons-area-share">
+                        <h6>Please note that the field with the symbol (*) are mandatory!</h6>
+                        <input type="submit" value="Submit Form!" class="buttons">
+                        <input type="reset" value="Reset Form" class="buttons">
                     
-                </div>
-                <div id="buttons-area-share">
-                    <h6>Please note that the field with the symbol (*) are mandatory!</h6>
-                    <input type="submit" value="Submit Form!" class="buttons">
-                    <input type="reset" value="Reset Form" class="buttons">
-                    
-                    <!-- This is the Area for the File Input - Studied on W3School -->
-                    <label for="files"></label>
-                    <input type="file" id="files" name="multiple-files" multiple>
+                        <!-- This is the Area for the File Input - Studied on W3School -->
+                        <label for="files"></label>
+                        <input type="file" id="files" name="multiple-files" multiple>
+                    </div>
                 </div>
             </div>
         </form>

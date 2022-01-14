@@ -358,6 +358,7 @@ footer {
 .input-contact-us {
     margin-top: 2px;
     margin-bottom: 15px; 
+    font-size: 100%;
     
     background: transparent;
     color: #E6DDC4;
@@ -384,11 +385,11 @@ footer {
 }
 
 
-.radio-contact-us {
+.radio-buttons-contact-share {
     margin-right: 50px;   
 }
 
-.radio-label-contact-us {
+.radio-label-contact-share {
     margin-right: 5px;
 }
 
@@ -495,29 +496,30 @@ footer {
 
 #form-area-share {
     width: 100%;
-    margin: 0 auto;
-    height: 1200px;
+    height: fit-content;
+    margin: 40px auto;
     overflow: hidden;
     background: url('../images/share-background.jpg') repeat center center;
     background-size: cover;
-    position: relative;   
+    position: relative;  
 }
 
 #image-text-share{
-    font-size: 150%;
-    width: 70%;
-    height: 150px;
+    width: 80%;
+    height: fit-content;
     text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    
+    margin: 40px auto;
     padding: 30px;
+    margin-bottom: 40px;
     
     background-color: rgba(24, 29, 49, 0.9);
     
-    margin: auto 0;
-    border-radius: 20px;
-    top: 7%;
-    left: 13.5%;
-
-    position: absolute;
+    border-radius: 20px;    
 }
 
 
@@ -535,13 +537,9 @@ footer {
     height: 750px;
     
     border-radius: 20px;
-    top: 25%;
-    left: 8.5%;
 
     padding: 30px;
     background-color: rgba(24, 29, 49, 0.9);
-
-    position: absolute;
 }
 
 textarea {
@@ -907,7 +905,7 @@ input[type="file"] {
     
     #image-recipe-homepage {
         width: 90%;
-        height: fit-content;
+        max-height: 200px;
         box-sizing: border-box;
         margin: 0 20px;
         padding: 0;
