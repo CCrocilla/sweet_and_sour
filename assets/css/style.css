@@ -320,18 +320,16 @@ footer {
 
 #image-text-contact-us{
     font-size: 150%;
-    width: 80%;
-    height: 190px;
+    width: 85%;
+    height: fit-content;
     text-align: center;
     padding: 30px;
-    margin: 0 auto;
+    margin: 40px auto;
     background-color: rgba(24, 29, 49, 0.9);
     
     border-radius: 20px;
-    top: 7%;
-    left: 7%;
-    
-    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -340,22 +338,22 @@ footer {
 }
 
 #form-user-contact-us {
-    margin: 100px 10% 0 0;
     color: #E6DDC4;
     text-align: left;
     font-size: 110%;
-
-    width: 40%;
-    height: 320px;
+    padding: 30px;
+    
+    width: 85%;
+    height: fit-content;
     
     border-radius: 20px;
-    top: 25%;
-    left: 26%;
 
-    padding: 30px;
     background-color: rgba(24, 29, 49, 0.9);
+}
 
-    position: absolute;
+.flex-container-form {
+    display: flex;
+    justify-content: center;
 }
 
 
