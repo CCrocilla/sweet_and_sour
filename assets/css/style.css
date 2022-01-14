@@ -332,9 +332,13 @@ footer {
     justify-content: center;
 }
 
-
 #image-text-contact-us h2 {
     color: #E6DDC4;
+}
+
+.flex-container-form {
+    display: flex;
+    justify-content: center;
 }
 
 #form-user-contact-us {
@@ -351,12 +355,6 @@ footer {
     background-color: rgba(24, 29, 49, 0.9);
 }
 
-.flex-container-form {
-    display: flex;
-    justify-content: center;
-}
-
-
 .input-contact-us {
     margin-top: 2px;
     margin-bottom: 15px; 
@@ -365,7 +363,7 @@ footer {
     color: #E6DDC4;
 
     width: 100%;
-    height: 25px;
+    height: 30px;
 
     border: 2px solid #E6DDC4 ;
     border-radius: 10px;
@@ -385,6 +383,14 @@ footer {
     font-size: 110%;
 }
 
+
+.radio-contact-us {
+    margin-right: 50px;   
+}
+
+.radio-label-contact-us {
+    margin-right: 5px;
+}
 
 .buttons { 
     width: 150px;
