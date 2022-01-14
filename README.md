@@ -69,24 +69,27 @@ Every page has a minimalistic structure which however contains all the relevant 
 <br>
 The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
 The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
-Choosen also a color that can be modified using the Dark Theme without creating any issue 
-Colour Source: https://color.adobe.com/create/color-wheel
+Colour Source: 
+    - [Adobe Color](https://color.adobe.com/create/color-wheel)
+    - [Color Hunt](https://colorhunt.co/)
 <br><br>  
 
 - Typography
 <br>
 Google Fonts has been used to select the fonts for the Website. 
-The Main font used is:  XXX while the Sans-serif has been set up as fall-back in case the main font is not loaded. 
-Source: https://fonts.google.com/
+<br>
+The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded.
+<br> 
+Source: 
+    - [Google Fonts](https://fonts.google.com/)
 <br><br>
 
 - Image and Video
 <br>
 Real images have been used to show the completed recipes.
-The developer selected and merged a set of videos for the home page of the websites. The video merging was performed using different tools such as: XXX 
+The developer selected a video for the home page of the websites. 
 Sources:  
- https://www.pexels.com/
- XXX
+    - [Pexels](https://www.pexels.com/)
 <br><br>
 
 
