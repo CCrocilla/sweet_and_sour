@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# Sweet & Sour Website
+# **Sweet & Sour** Website
 
 
 ## **Overview**
@@ -157,14 +157,129 @@ A Button will be present in order to allow the user to come back to the Home Pag
 ## **Wireframe**
 <hr>
 
-Balsamiq has been used in order to create the wireframe:
--	Home
--	Recipes
--	Share
--	Newsletter
--	Thanks Page
--	404 Error Page
--	Recipes
+Balsamiq has been used in order to create the wireframe.
+<br>
+Below you can open the accordions divided by page and by device used (desktop, tablet and smartphone).
+<br>
+
+- ## Home Page 
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+    
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+    
+</details>
+<br>
+<br>
+
+
+- ## Recipes Page
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
+
+- ## Recipe 
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
+
+- ## Share Page
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
+
+- ## Contact Us Page
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
+
+- ## Thanks You Page
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
+
+- ## 404 Error Page
+<details>
+    <summary>Click Here for: Desktop View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Tablet View</summary>
+
+</details>
+<details>
+    <summary>Click Here for: Smartphone View</summary>
+
+</details>
+<br>
+<br>
+
 <br><br>
 
 
@@ -177,19 +292,19 @@ The Languages used are:
 <br><br>
 
 ### **Frameworks, Libraries & Programs Used** [Section that needs to be reviewed]
-- Google Fonts: 
+- Google Fonts:<br> 
 Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
 
-- Font Awesome: 
+- Font Awesome:<br>
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-- Git: 
+- Git:<br> 
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-- GitHub: 
+- GitHub:<br> 
 GitHub is used to store the projects code after being pushed from Git.
 
-- Balsamiq: 
+- Balsamiq:<br> 
 Balsamiq was used to create the wireframes during the design process.
 <br><br>
 
