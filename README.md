@@ -3,13 +3,18 @@
 # **Sweet & Sour** Website
 
 
+**Developer: Claudio Crocilla**
+<br/>
+
 ## **Overview**
 <hr>
 The website provides the possibility to discover new recipes and not just that! 
 Internet users all around the world love to share every day experience using Social Media. Sharing images, documents, stories are part of everyday life. With this website the user will have the possibility to share one of the most beautiful thing in life… The passion for Food! Thousands of recipes will be available, each, for user convenience, categorized into 3 main sessions (Appetizer, Main, and Dessert). The best recipes are rewarded by making the Home Page in the section “Recipe of the Day!”
 The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing from for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
  
-[IMAGE BELOW]
+<br><br>
+
+<a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank"><img src="images-readme/amiresponsive.png" alt="Home Page Multi Device" width="800px"/></a>
 
 <br><br>
 
