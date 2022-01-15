@@ -313,6 +313,7 @@ footer {
     width: 100%;
     height: fit-content;
     display: flex;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
 
@@ -345,14 +346,50 @@ footer {
     font-size: 25px;
     display: flex;
     justify-content: center;
-
 }
 
 
 .recipes-title {
-    font-size: 100%;
+    font-size: 100%;  /*This reduce the font size for the Titles in this page only*/
 }
 
+
+.container-amd {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap; 
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    -ms-overflow-style: none;  /*  Remove scrollbar IE and Edge */
+    scrollbar-width: none;  /* Remove scrollbar Firefox */
+}
+
+/*Remove Lateral Scrollbar visualization - Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+.container-amd::-webkit-scrollbar {
+        display: none;
+}
+
+
+.container-amd div {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+.flex-single-recipe {
+    display: flex;
+    flex: 100%;
+    width: 520px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    border: 1px solid #181D31;
+    margin: 40px;
+    padding: 0px;
+}
 
 
 
