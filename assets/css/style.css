@@ -790,14 +790,6 @@ input[type="file"] {
 
     /* Home Page */
 
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        box-sizing: border-box;
-    }
-
-
     #menu {
        clear: both;
        float: left;
@@ -808,23 +800,13 @@ input[type="file"] {
 
     
 
-    #image-text {
-        
-    }
-
 }
 
 
 
 
 @media screen and (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        box-sizing: border-box;
-    }
-
+  
 }
 
 
@@ -832,13 +814,6 @@ input[type="file"] {
 
 
 @media screen and (max-width: 600px) {
-   
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        box-sizing: border-box;
-    }
     
     /* Home Page - Logo and Nav Bar*/    
 
@@ -925,8 +900,27 @@ input[type="file"] {
     #social li i {
         padding: 0;
     }
+}
 
 
+
+
+@media screen and (max-width: 350px) {
+
+    #logo {
+        font-size: 125%;
+        line-height: 50px;
+    }
+
+    #menu {
+        line-height: 50px;
+        font-size: 80%;
+    }
+
+
+    .titles-sections {
+        font-size: 200%;
+    }
 
 
 }
