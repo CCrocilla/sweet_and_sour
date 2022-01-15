@@ -31,6 +31,8 @@ Newsletter available in order to receive daily, weekly or monthly recipes via em
 ## **User Experience (UX)**
 <hr>
 
+<!-- User Stories Area -->
+
 ### **User Stories**
 
 - First Time Visitor Goals
@@ -57,6 +59,149 @@ Newsletter available in order to receive daily, weekly or monthly recipes via em
 
 <br><br>
 
+<!-- Use Cases Area -->
+
+### **Use Cases**
+
+- ### Home Page
+<details>
+    <summary>Description</summary>
+User can use this website to discover and share new recipes, in the home page the best recipes are selected and visualized in the Recipe of the Day section. 
+<br>
+Users should be able to see the most important information required for the realization of the dish, the ingredients and the preparation.
+<br>
+The home page also provides information about the history and rational of the website.
+</details>
+<br>
+
+<details>
+    <summary>System & Actors</summary>
+
+**System:** Website with recipes.
+
+**Actors:** User looking for some delicious food, new ideas to bring to their table and to share with the community.
+</details>
+<br>
+
+<details>
+    <summary>Pre-Conditions</summary>
+No Pre-Conditions Required.
+</details>
+<br>
+
+<details>
+    <summary>Basic Flow</summary>
+The user browses recipes food and discover the website. The user navigates to the Home Page of the website, and it is captured by the Recipe of the Day. 
+<br>
+The user see if the ingredient are present in his/her inventory and have the possibility to flag the missing ones using the checkboxes (The user can also take a screenshot of the ingredient list). 
+<br>
+The user can see the list of steps necessary for the preparation of the dish clicking on the Read More button. 
+</details>
+<br>
+
+<details>
+    <summary>Alternative/Exception Flow</summary>
+When the user selects a non-existent page, a 404 Error Page will be prompted guiding the user back to Home Page.
+</details>
+<br><br>
+
+
+
+- ### Recipes Page
+<details>
+    <summary>Description</summary>
+Users can use this website to discover new recipes. 
+<br>
+Users are able to browse between different type of dishes (Appetizers, Main Courses, or Desserts).
+<br>
+In this case the website should provide a clear section dedicated to the visualization of the dish as well as the ingredient necessary and a step by step guides for the preparation and realization. 
+</details>
+<br>
+
+<details>
+    <summary>System & Actors</summary>
+
+**System:** Website with recipes.
+
+**Actors:** Users looking for some new recipes and delicious food.
+</details>
+<br>
+
+<details>
+    <summary>Pre-Conditions</summary>
+No Pre-Conditions Required.
+</details>
+<br>
+
+<details>
+    <summary>Basic Flow</summary>
+The user browses recipes and discover the website. The user navigate to the home page and then go in the Recipes Page. 
+<br> 
+The users select one of the available categories and will be prompted into the desired section.
+<br>
+The user can see the image of the dish, the necessary ingredients, and the level of difficulty and have the possibility to flag the ingredients present/missing to complete the dishes, using checkboxes (The users can also take a screenshot of the ingredient list). 
+<br>
+The user can see the list of steps necessary for the preparation by clicking on the Read More Button and will be prompted in a new page where they can see the image of the final product, the ingredients and the preparation steps.  
+</details>
+<br>
+
+<details>
+    <summary>Alternative/Exception Flow</summary>
+When the user selects a non-existent page, a 404 Error Page will be prompted guiding the user back to Home Page.
+</details>
+<br><br>
+
+
+
+- ### Share
+<details>
+    <summary>Description</summary>
+Users can use this website to share their own recipes, having the possibility to “make the Home Page” by being selected for The Recipe of the Day section. 
+<br>
+Users should be able to fill-in an easy form to share their recipes providing basic personal information and the description and list of ingredients for the realization of the dish. 
+<br>
+The users can reset the form if needed or, when the steps are completed, submit their recipes, including the possibility of attaching an image of their final product.
+</details>
+<br>
+
+<details>
+    <summary>System & Actors</summary>
+
+**System:** Website with recipes.
+
+**Actors:** Users that would like to share their own recipes.
+</details>
+<br>
+
+<details>
+    <summary>Pre-Conditions</summary>
+No Pre-Conditions Required.
+</details>
+<br>
+
+<details>
+    <summary>Basic Flow</summary>
+The user navigates to the section of the website where it is possible to share his/her own recipe. 
+<br> 
+The user fill in the form (Name, email, name of the Recipe, Ingredient and Preparation steps) following the instruction provided in the placeholder for each textbox.
+<br>
+The user can upload images.
+<br>
+The user can clear the form using the Reset Form button.
+<br>  
+The user can submit the form using the Submit button.
+<br>
+Once the user has submitted the form a new page will be prompted Thanking the user for submitting the form.
+</details>
+<br>
+
+<details>
+    <summary>Alternative/Exception Flow</summary>
+When the user does not fill-in the form correctly, an error message will be triggered in relation to the field that has not being filled in. 
+</details>
+<br><br>
+
+<!-- Design Area -->
 
 ## **Design**
 <hr>
@@ -327,6 +472,9 @@ No errors have been identified from the W3C CSS Validator has can be seen in the
 IMAGE
 
 <br><br>
+
+
+### **Lighthouse Validator**
 
 Lighthouse Validation Area
 Example
