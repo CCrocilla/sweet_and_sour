@@ -279,7 +279,7 @@ h1, h2 {
 /* Credit: Love Running Project */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 #social {
@@ -327,6 +327,7 @@ footer {
     padding: 0 50px;
     list-style-type: none;
     display: inline-block;
+    
 }
 
 
@@ -346,6 +347,7 @@ footer {
     font-size: 25px;
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -362,14 +364,16 @@ footer {
     overflow-x: auto;
     justify-content: center;
     align-items: center;
-    -ms-overflow-style: none;  /*  Remove scrollbar IE and Edge */
-    scrollbar-width: none;  /* Remove scrollbar Firefox */
+    /*-ms-overflow-style: none;   Remove scrollbar IE and Edge 
+    scrollbar-width: none;   Remove scrollbar Firefox */
+    /*scrollbar-track-color: #181D31;
+    scrollbar-arrow-color: #181D31;*/
 }
 
 /*Remove Lateral Scrollbar visualization - Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-.container-amd::-webkit-scrollbar {
+/*.container-amd::-webkit-scrollbar-thumb {
         display: none;
-}
+}*/
 
 
 .container-amd div {
@@ -397,17 +401,19 @@ footer {
 
 #form-area-contact-us {
     width: 100%;
-    height: 900px;
+    height: fit-content;
     overflow: hidden;
     background: url('../images/contact-us-background.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
+    padding-bottom: 40px;
 }
 
 
 #image-text-contact-us{
-    font-size: 150%;
-    width: 85%;
+    font-size: 120%;
+    width: 40%;
+    min-width: 800px;
     height: fit-content;
     text-align: center;
     padding: 30px;
@@ -426,15 +432,18 @@ footer {
 .flex-container-form {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #form-user-contact-us {
     color: #E6DDC4;
     text-align: left;
-    font-size: 110%;
+    font-size: 100%;
     padding: 30px;
     
-    width: 85%;
+    width: 40%;
+    min-width: 800px;
     height: fit-content;
     
     border-radius: 20px;
@@ -452,6 +461,7 @@ footer {
 
     width: 100%;
     height: 30px;
+    padding: 5px;
 
     border: 2px solid #E6DDC4 ;
     border-radius: 10px;
@@ -468,7 +478,7 @@ footer {
 }
 
 #form-user-contact-us label {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 
@@ -481,21 +491,23 @@ footer {
 }
 
 .buttons { 
+    font-family: 'Viga', sans-serif;
+
     width: 150px;
     float: right;
 
     margin-top: 40px;
     margin-left: 10px;
-    padding: 15px 10px;
+    padding: 10px 10px;
 
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
 
     background-color: #E6DDC4;
     color: #181D31;
 
     border-radius: 10px;
-    display: block;
+    display: inline-block;
 }
 
 
@@ -506,10 +518,14 @@ footer {
 }
 
 
-#buttons-area-contact-us > h6, #buttons-area-share > h6 {
-    display: block;
-    float: left;
-    margin-top: 80px;
+.asterisks {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+
+    margin-left: 0;
+    padding-top: 20px;
 }
 
 
@@ -727,8 +743,6 @@ input[type="file"] {
 
 
 
-
-
 /* Media Queries */
 /* For larger to medium screen size from 1200px wide to down */
 @media screen and (max-width: 1200px) {
@@ -764,7 +778,7 @@ input[type="file"] {
         position: absolute;
     }
 
-    /* Media Query Story Section - Home Page */
+    /* Story Section - Home Page */
 
     #story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
@@ -801,7 +815,7 @@ input[type="file"] {
         text-align: justify;
     }
 
-    /* Media Query Recipe of the Day Section - Home Page */
+    /* Recipe of the Day Section - Home Page */
     #recipe-section-homepage {
         width: 100%;
         height: fit-content;
@@ -864,10 +878,29 @@ input[type="file"] {
 
     /* Share Page */
     #form-area-share {
-        height: 1200px;
+        height: fit-content;
     }
 
 
+    /* Contact Us Page*/
+    /* Form Serction */
+
+    #form-area-contact-us {
+        height: fit-content;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+
+    #image-text-contact-us {
+        min-width: 600px;
+        font-size: 80%;
+    }
+
+    #form-user-contact-us {
+        min-width: 600px;
+        font-size: 100%;
+    }
+   
 }
 
 
@@ -885,18 +918,34 @@ input[type="file"] {
        line-height: 75px;
     }
 
-    
+    /* Contact Us Page*/
+    #image-text-contact-us, #form-user-contact-us {
+        min-width: 500px;
+        font-size: 100%;
+    }
 
+    
 }
 
 
 
 
 @media screen and (max-width: 768px) {
-  
+
+
+    /* Contact Us Page*/
+    #image-text-contact-us, #form-user-contact-us {
+        font-size: 90%;
+        min-width: 400px;
+    }
+
+    .radio-buttons-contact-share, .radio-label-contact-share {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
 }
-
-
 
 
 
@@ -987,6 +1036,29 @@ input[type="file"] {
     #social li i {
         padding: 0;
     }
+
+
+    /* Contact Us Page */
+
+    #image-text-contact-us {
+        min-width: 300px;
+        font-size: 70%;
+    }
+
+    #form-user-contact-us {
+        min-width: 300px;
+        font-size: 100%;
+    }
+
+    .buttons { 
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+    
+        font-size: 80%;    
+    }
+
+
 }
 
 
