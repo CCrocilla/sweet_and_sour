@@ -921,6 +921,33 @@ input[type="file"] {
         font-size: 100%;
     }
 
+    #about-us-container {
+        height: fit-content;
+        display: flex;
+        flex: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    
+    .about-us-address {
+        flex: 100%;
+        margin: 0 auto;
+    }
+    
+    .about-us-maps {
+        flex: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    
+    .about-us-maps iframe {
+        width: 80%;
+        height: 350px;
+        border-radius: 20px;
+        align-items: center; 
+    }
     
 }
 
