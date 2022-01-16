@@ -507,7 +507,6 @@ footer {
     color: #181D31;
 
     border-radius: 10px;
-    display: inline-block;
 }
 
 
@@ -893,7 +892,7 @@ input[type="file"] {
 
     #image-text-contact-us {
         min-width: 600px;
-        font-size: 80%;
+        font-size: 100%;
     }
 
     #form-user-contact-us {
@@ -902,8 +901,6 @@ input[type="file"] {
     }
    
 }
-
-
 
 
 @media screen and (max-width: 950px) {
