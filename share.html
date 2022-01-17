@@ -42,7 +42,7 @@
                     Do you want to share with us your dishes?
                     <br>       
                     What are you waiting for?! 
-                    <br>
+                    <br><br>
                     Send us yours amazing Recipes!   
                 </h2>
             </div>
@@ -51,20 +51,20 @@
             <div class="flex-container-form">
                 <div id="form-user-share">
                     <div>
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" class="input-contact-us" name="full_name" required placeholder="* Insert here your Full Name!">
+                        <label for="full-name">* Full Name</label>
+                        <input type="text" id="full-name" class="input-contact-us" name="full_name" required placeholder="Insert here your Full Name!">
             
-                        <label for="email-share">Email Address</label>
-                        <input type="email" id="email-share" class="input-contact-us" name="email_address_share" required placeholder="* Insert here your email address!">
+                        <label for="email-share">* Email Address</label>
+                        <input type="email" id="email-share" class="input-contact-us" name="email_address_share" required placeholder="Insert here your email address!">
 
-                        <label for="recipe-name">Recipe Name</label>
-                        <input type="text" id="recipe-name" class="input-contact-us" name="recipe_name" required placeholder="* Insert here the name of your amazing dish!">
+                        <label for="recipe-name">* Recipe Name</label>
+                        <input type="text" id="recipe-name" class="input-contact-us" name="recipe_name" required placeholder="Insert here the name of your amazing dish!">
 
                         <!-- This is the Area of the Radio Buttons -->
                         <label for="appetizers" class="radio-label-contact-share">Appetizer</label>
                         <input type="radio" id="appetizers" class="radio-buttons-contact-share" value="appetizers" name="dishes" required>
                 
-                        <label for="main_courses" class="radio-label-contact-share">Main Course</label>
+                        <label for="main_courses" class="radio-label-contact-share">Main</label>
                         <input type="radio" id="main_courses" class="radio-buttons-contact-share" value="main_courses" name="dishes" required>
                 
                         <label for="desserts" class="radio-label-contact-share">Dessert</label>
@@ -85,16 +85,17 @@
                         <h5>The fields with the symbol (*) are mandatory!</h5>
                     </div>
 
+                    <!-- This is the Area for the File Input - Studied on W3School -->
+                    <div>
+                    <label for="files"></label>
+                    <input type="file" id="files" name="multiple-files" multiple>
+                    </div>
+
                     <div id="buttons-area-share">
                         <input type="submit" value="Submit Form!" class="buttons">
                         <input type="reset" value="Reset Form" class="buttons">
-                    
-                        <!-- This is the Area for the File Input - Studied on W3School -->
-                        <label for="files"></label>
-                        <input type="file" id="files" name="multiple-files" multiple>
                     </div>
 
-                    
                 </div>
             </div>
         </form>

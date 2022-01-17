@@ -39,6 +39,7 @@ h1, h2 {
 #menu {
     float: right;
     font-weight: 400;
+    font-size: 120%;
     word-spacing: 5px;
     margin-right: 40px;
 }
@@ -454,6 +455,8 @@ footer {
     background-color: rgba(24, 29, 49, 0.9);
 }
 
+
+
 .input-contact-us {
     margin-top: 2px;
     margin-bottom: 15px; 
@@ -630,17 +633,12 @@ textarea:focus {
 
 input[type="file"] { 
     width: fit-content;
-    /*float: right;*/
 
     margin-top: 40px;
-    margin-left: 10px;
-    padding: 15px 10px;
 
     font-size: 110%;
-
+    font-family: 'Viga', sans-serif;
     color: #E6DDC4;
-
-    border-radius: 10px;
     display: inline-block;
 }
 
@@ -842,45 +840,26 @@ input[type="file"] {
 
 
     /* Share Page */
-    #form-area-share {
-        height: fit-content;
-    }
-
+    
     #form-area-share {
         height: fit-content;
         padding-bottom: 40px;
     }
 
-    #image-text-share {
-        min-width: 600px;
-        font-size: 100%;
-    }
-
-    #form-user-share {
-        min-width: 600px;
+    #image-text-share, #form-user-share, #image-text-contact-us, #form-user-contact-us {
+        min-width: 80vw;
         font-size: 100%;
     }
 
 
     /* Contact Us Page*/
-    /* Form Serction */
+    /* Form Section */
 
     #form-area-contact-us {
         height: fit-content;
-        margin-bottom: 40px;
         padding-bottom: 40px;
     }
 
-    #image-text-contact-us {
-        min-width: 600px;
-        font-size: 100%;
-    }
-
-    #form-user-contact-us {
-        min-width: 600px;
-        font-size: 100%;
-    }
-   
 }
 
 
@@ -888,21 +867,24 @@ input[type="file"] {
 
     /* Home Page */
 
+    #logo {
+        line-height: inherit;
+    }
+
     #menu {
        clear: both;
        float: left;
        margin-left: 40px;
-       font-size: 120%;
-       line-height: 75px;
+       line-height: 65px;
     }
 
     /* Contact Us Page*/
     #image-text-contact-us, #form-user-contact-us {
-        min-width: 500px;
+        min-width: 80vw;
         font-size: 100%;
     }
 
-    #about-us-container {
+    #about-us-container{
         height: fit-content;
         display: flex;
         flex: 100%;
@@ -937,19 +919,7 @@ input[type="file"] {
 
 @media screen and (max-width: 768px) {
 
-
-    /* Contact Us Page*/
-    #image-text-contact-us, #form-user-contact-us {
-        font-size: 90%;
-        min-width: 400px;
-    }
-
-    .radio-buttons-contact-share, .radio-label-contact-share {
-        margin: 0 auto;
-        padding: 0;
-    }
-
-
+  
 }
 
 
@@ -1043,27 +1013,58 @@ input[type="file"] {
     }
 
 
-    /* Contact Us Page */
+    /* Contact Us & Share Pages */
 
-    #image-text-contact-us {
-        min-width: 300px;
+    #image-text-contact-us, #image-text-share {
+        min-width: 90vw;
         font-size: 70%;
+        padding: 20px;
     }
 
-    #form-user-contact-us {
-        min-width: 300px;
+    #form-user-contact-us, #form-user-share {
+        min-width: 90vw;
         font-size: 100%;
+        padding: 20px;
     }
 
     .buttons { 
         width: 100px;
-        margin: 10px;
-        padding: 10px;
+        margin-top: 40px;
+        padding: 10px 0;
     
-        font-size: 80%;    
+        font-size: 90%;    
     }
 
+    input[type="file"] {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+        font-size: 90%;
+    }
 
+    input[type="text"]::placeholder, input[type="email"]::placeholder {
+        color: transparent;
+    }
+
+    .titles-sections {
+        font-size: 200%;
+    }
+
+    #about-us-container h3 {
+        font-size: 150%;
+    }
+
+    .about-us-address h4 {
+        font-size: 100%;
+    }
+
+    .radio-label-contact-share {
+        margin-right: 1px;
+    }
+
+    .radio-buttons-contact-share{
+        margin-right: 5px;
+    }
 }
 
 
@@ -1071,7 +1072,7 @@ input[type="file"] {
 
 @media screen and (max-width: 350px) {
 
-    #logo {
+   #logo {
         font-size: 125%;
         line-height: 50px;
     }
