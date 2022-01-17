@@ -7,7 +7,7 @@
 <br/>
 
 ## **Overview**
-<hr>
+
 The website provides the possibility to discover new recipes and not just that! 
 Internet users all around the world love to share every day experience using Social Media. Sharing images, documents, stories are part of everyday life. With this website the user will have the possibility to share one of the most beautiful thing in life… The passion for Food! Thousands of recipes will be available, each, for user convenience, categorized into 3 main sessions (Appetizer, Main, and Dessert). The best recipes are rewarded by making the Home Page in the section “Recipe of the Day!”
 The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing from for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
@@ -20,7 +20,6 @@ The website is intuitive and user-friendly, guiding the users and helping them c
 
 
 ## **Project** 
-<hr>
 
 ### **User Goal**
 Easy, Intuitive and User-Friendly Website!
@@ -34,7 +33,6 @@ Newsletter available in order to receive daily, weekly or monthly recipes via em
 
 
 ## **User Experience (UX)**
-<hr>
 
 <!-- User Stories Area -->
 
@@ -209,14 +207,12 @@ When the user does not fill-in the form correctly, an error message will be trig
 <!-- Design Area -->
 
 ## **Design**
-<hr>
 
 The webpage has been designed to provide a simple, intuitive view which is able to provide a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect results. 
 Every page has a minimalistic structure which however contains all the relevant features in order to provide the user with a simple, clear and effective experience. 
 <br><br> 
 
 - Colour Scheme
-<br>
 The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
 The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
 Colour Source: 
@@ -225,7 +221,6 @@ Colour Source:
 <br><br>  
 
 - Typography
-<br>
 Google Fonts has been used to select the fonts for the Website. 
 <br>
 The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded.
@@ -235,7 +230,6 @@ Source:
 <br><br>
 
 - Image and Video
-<br>
 Real images have been used to show the completed recipes.
 The developer selected a video for the home page of the websites. 
 Sources:  
@@ -245,16 +239,13 @@ Sources:
 
 
 ## **Features**
-<hr>
 
 -	Structure:
-<br>
 The page has been structured in an easy and user-friendly way with 7 different pages. 
 The Structure of the website and the component used are listed below: 
 <br><br>
 
 -	Home Page:
-<br>
 The Home Page shows the logo of the website on the top left of the page and a navigation bar on the top right.
 A small animation activates when the user mouse hovers on of the elements in the nav bar, highlighting the content hovered. 
 The active page is underlined in the navigation bar when selected. 
@@ -267,7 +258,6 @@ There will also be in the unordered list the checkbox for each of the ingredient
 <br><br>
 
 -	Recipes Page:
-<br>
 This page has Header and Footer consistent with the Home Page. 
 The Recipes page is divided in Sections: Appetiser, Main Courses, and Dessert
 On the top pf the page, there will be a Hero Image below the Logo and the Nav Bar. After the hero image there will be 3 different buttons that will allow the user to easily reach the different sections of the page. 
@@ -277,7 +267,6 @@ When changing Device, the visualization of the element displayed in the row will
 
 
 -	Share Page:
-<br>
 This page has Header and Footer consistent with the Home Page.
 The page has an image extended in the page as background on top of which there will be a Form that the user can fill to be able to send and share a recipe including an attachment button for images. 
 All the fields have been set as required and the proper message is displayed to the user if the form is not filled in correctly. 
@@ -285,26 +274,22 @@ A Reset Button in order to clear the form and a Submit Button are included.
 <br><br>
 
 -	Newsletter Page:
-<br>
 This page has Header and Footer consistent with the Home Page.
 The page is characterized by a Form that the user can fill for: First Name, Last Name, Email Address and a Radio Button to select the frequency by which the users can receive the newsletter (daily, weekly, monthly).
 <br><br>
 
 -	Thank you page:
-<br>
 This page will be triggered when the user clicks on the Submit Button for both the Share and Newsletter Page. 
 This will be used to let the user know that the data has been inserted correctly. 
 <br><br>
 
 -	404 Error Page:
-<br>
 For any broken or incorrect links, the 404 Error page will be triggered. Here the user will have an image displayed in the background and a text in the image that will inform that the page is not correct. 
 A Button will be present in order to allow the user to come back to the Home Page.
 <br><br>  
  
 
 ## **Wireframe**
-<hr>
 
 Balsamiq has been used in order to create the wireframe.
 <br/>
@@ -454,7 +439,6 @@ Below you can open the accordions divided by page and by device used (desktop, t
 
 
 ## **Technologies Used**
-<hr>
 
 The Languages used are:
  - HTML5
@@ -481,7 +465,6 @@ Balsamiq was used to create the wireframes during the design process.
 
 
 ## **Testing**
-<hr>
 
 The testing phase have been carried out using the W3C Markup Validator and W3C CSS Validator Services. 
 No errors have been identified from the W3C Markup Validator has can be seen in the screenshot below: 
@@ -534,7 +517,6 @@ List here the bugs
 
 
 ## **Development**  [Need to be modified]
-<hr>
 
 Deployment
 
@@ -577,6 +559,5 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 <br><br>
 
 ## **Credits**
-<hr>
 
 Here the list of Credits. 
