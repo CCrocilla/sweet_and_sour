@@ -650,9 +650,9 @@ input[type="file"] {
 
 
 
-/* Error 404 Page */
+/* Error 404 Page & Thank You Page */
 
-#error-section {
+.thanks-error-section {
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -681,7 +681,6 @@ input[type="file"] {
     width: 800px;
     height: fit-content;
     display: flex;
-    flex: 100%;
     justify-content: center;
     align-content: center;
     
