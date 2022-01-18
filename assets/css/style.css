@@ -397,7 +397,7 @@ footer {
     line-height: 30px;
 }
 
-.recipe-1 > img {
+.recipe-appetizers > img {
     width: 100%;
     max-height: 250px;
     min-height: fit-content;
@@ -411,12 +411,12 @@ footer {
 
 }
 
-.ingredient-1 h2 {
+.ingredient-appetizers h2 {
     color: #FB743E;
     text-align: center;
 }
 
-.ingredient-1 ul li {
+.ingredient-appetizers ul li {
     list-style-type: none;
 }
 
