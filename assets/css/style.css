@@ -365,6 +365,7 @@ footer {
     flex-flow: row nowrap; 
     justify-content: center;
     align-items: center;
+    column-count: 3;
     
     /*-ms-overflow-style: none;   Remove scrollbar IE and Edge 
     scrollbar-width: none;   Remove scrollbar Firefox */
@@ -381,12 +382,10 @@ footer {
 .flex-single-recipe {
     display: flex;
     flex-flow: column wrap;
-    width: 400px;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-shrink: 0;
-    
     
     background-color: #181D31;
     color: #E6DDC4;
