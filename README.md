@@ -14,7 +14,7 @@ The website is intuitive and user-friendly, guiding the users and helping them c
  
 <br><br>
 
-<a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank"><img src="images-readme/amiresponsive.png" alt="Home Page Multi Device" width="800px"/></a>
+<a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank"><img src="assets/images-readme/amiresponsive.png" alt="Home Page Multi Device" width="800px"/></a>
 
 <br><br>
 
@@ -222,11 +222,9 @@ Colour Source:
 
 - Typography
 Google Fonts has been used to select the fonts for the Website. 
-<br>
-The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded.
-<br> 
-Source: 
-    - [Google Fonts](https://fonts.google.com/)
+The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded. 
+Source:
+  - [Google Fonts](https://fonts.google.com/)
 <br><br>
 
 - Image and Video
@@ -299,17 +297,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Home Page 
 <details>
     <summary>Click Here for: Desktop View</summary>  
-<img src="images-readme/desktop-homepage.png" alt="Desktop View Homepage" width="800px"/>
+<img src="assets/images-readme/desktop-homepage.png" alt="Desktop View Homepage" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-homepage.png" alt="Tablet View Homepage" width="600px"/>
+<img src="assets/images-readme/tablet-homepage.png" alt="Tablet View Homepage" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-homepage.png" alt="Smartphone View Homepage" width="400px"/>
+<img src="assets/images-readme/smartphone-homepage.png" alt="Smartphone View Homepage" width="400px"/>
 
 </details>
 <br>
@@ -319,17 +317,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Recipes Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-recipes.png" alt="Desktop View Recipes Page" width="800px"/>
+<img src="assets/images-readme/desktop-recipes.png" alt="Desktop View Recipes Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-recipes.png" alt="Tablet View Recipes Page" width="600px"/>
+<img src="assets/images-readme/tablet-recipes.png" alt="Tablet View Recipes Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-recipes.png" alt="Smartphone View Recipes Page" width="400px"/>
+<img src="assets/images-readme/smartphone-recipes.png" alt="Smartphone View Recipes Page" width="400px"/>
 
 </details>
 <br>
@@ -339,17 +337,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Recipe 
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-recipepage.png" alt="Desktop View Recipe Page" width="800px"/>
+<img src="assets/images-readme/desktop-recipepage.png" alt="Desktop View Recipe Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-recipepage.png" alt="Tablet View Recipe Page" width="600px"/>
+<img src="assets/images-readme/tablet-recipepage.png" alt="Tablet View Recipe Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-recipepage.png" alt="Smartphone View Recipe Page" width="400px"/>
+<img src="assets/images-readme/smartphone-recipepage.png" alt="Smartphone View Recipe Page" width="400px"/>
 
 </details>
 <br>
@@ -359,17 +357,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Share Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-share.png" alt="Desktop View Share Page" width="800px"/>
+<img src="assets/images-readme/desktop-share.png" alt="Desktop View Share Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-share.png" alt="Tablet View Share Page" width="600px"/>
+<img src="assets/images-readme/tablet-share.png" alt="Tablet View Share Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-share.png" alt="Smartphone View Share Page" width="400px"/>
+<img src="assets/images-readme/smartphone-share.png" alt="Smartphone View Share Page" width="400px"/>
 
 </details>
 <br>
@@ -379,17 +377,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Contact Us Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-contactus.png" alt="Desktop View Contact Us Page" width="800px"/>
+<img src="assets/images-readme/desktop-contactus.png" alt="Desktop View Contact Us Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-contactus.png" alt="Tablet View Contact Us Page" width="600px"/>
+<img src="assets/images-readme/tablet-contactus.png" alt="Tablet View Contact Us Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-contactus.png" alt="Smartphone View Contact Us Page" width="400px"/>
+<img src="assets/images-readme/smartphone-contactus.png" alt="Smartphone View Contact Us Page" width="400px"/>
 
 </details>
 <br>
@@ -399,17 +397,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## Thanks You Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-thankyou.png" alt="Desktop View Thank You Page" width="800px"/>
+<img src="assets/images-readme/desktop-thankyou.png" alt="Desktop View Thank You Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-thankyou.png" alt="Tablet View Thank You Page" width="600px"/>
+<img src="assets/images-readme/tablet-thankyou.png" alt="Tablet View Thank You Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-thankyou.png" alt="Smartphone View Thank You Page" width="400px"/>
+<img src="assets/images-readme/smartphone-thankyou.png" alt="Smartphone View Thank You Page" width="400px"/>
 
 </details>
 <br>
@@ -419,17 +417,17 @@ Below you can open the accordions divided by page and by device used (desktop, t
 - ## 404 Error Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="images-readme/desktop-error404.png" alt="Desktop View Error 404 Page" width="800px"/>
+<img src="assets/images-readme/desktop-error404.png" alt="Desktop View Error 404 Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="images-readme/tablet-error404.png" alt="Tablet View  Error 404 Page" width="600px"/>
+<img src="assets/images-readme/tablet-error404.png" alt="Tablet View  Error 404 Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="images-readme/smartphone-error404.png" alt="Smartphone View Error 404 Page" width="400px"/>
+<img src="assets/images-readme/smartphone-error404.png" alt="Smartphone View Error 404 Page" width="400px"/>
 
 </details>
 <br>
