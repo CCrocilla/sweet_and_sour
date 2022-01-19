@@ -363,8 +363,7 @@ footer {
     width: 100%;
     display: flex;
     flex-flow: row nowrap; 
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     column-count: 3;
     
     /*-ms-overflow-style: none;   Remove scrollbar IE and Edge 
@@ -381,16 +380,15 @@ footer {
 
 .flex-single-recipe {
     display: flex;
+    width: 400px;
     flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
     align-content: center;
     flex-shrink: 0;
     
     background-color: #181D31;
     color: #E6DDC4;
-    margin: 40px;
-    padding: 20px 10px;
+    margin: 5px 40px 20px 40px;
+    padding: 20px 20px;
     border: 1px solid #181D31;
     border-radius: 20px;
     line-height: 30px;
@@ -398,15 +396,17 @@ footer {
 
 .recipe-appetizers > img {
     width: 100%;
-    max-height: 250px;
-    min-height: fit-content;
+    height: auto;
     border-radius: 20px;
+    box-sizing: border-box;
+    display: block;
 }
 
 .flex-single-title h1 {
     color: #E6DDC4;
     margin: 10px;
     padding: 10px;
+    text-align: center;
 
 }
 
