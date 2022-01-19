@@ -215,9 +215,9 @@ h1, h2 {
 .container {
     width: 100%;
     display: flex;
-    flex-flow: row no-wrap; /* This is a shorthand for flex direction and wrap. To allow flex items to wrap onto multiple lines, from top to bottom use wrap. */
+    flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between; /* Justify-Content: Defines the alignment along the main axis. */
+    justify-content: space-between; 
     gap: 15px; 
 }
 
@@ -1033,7 +1033,7 @@ input[type="file"] {
     
     #image-recipe-homepage {
         width: 90%;
-        max-height: 250px;
+        height: auto;
         box-sizing: border-box;
         margin: 0 20px;
         padding: 0;
@@ -1136,4 +1136,58 @@ input[type="file"] {
     }
 
 
+}
+
+
+
+
+/* Popup */
+
+.wrapper {
+    max-width: 100%;
+    margin: 10% auto;
+    text-align: center;
+    color: #FB743E;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #181D31;
+    display: none;
+}
+
+#open-popup .content-popup {
+    width: 100%;
+    height: 100%;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid #181D31;
+    color: #FB743E;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #181D31;
+    border-radius: 50%;
+    border: 3px solid #FB743E;
+    color: #FB743E;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+}
+
+.popup:target {
+    display: block
+}
+
+.popup .content-popup h1, .popup .content-popup p {
+    color: #FB743E;
 }
