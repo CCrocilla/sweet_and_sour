@@ -255,8 +255,14 @@ h1, h2 {
     margin-top: 40px;
 }
 
-#recipe-ingredients h2, #recipe-title h2 {
+#recipe-title h2 {
     color: #E6DDC4;
+    text-align: center;
+    font-size: 200%;
+}
+
+#recipe-ingredients h2 {
+    color: #FB743E;
     text-align: center;
     font-size: 200%;
 }
