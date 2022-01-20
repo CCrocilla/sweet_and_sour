@@ -141,13 +141,11 @@ h1, h2 {
 
 #comment-story {
     flex: 60%;
-    width: 100%;
+    max-width: 100%;
     color: #E6DDC4;   /* Add color for paragraphs in Story Area */
     padding: 30px;
     text-align: left;
     text-align: justify;
-    /* line-height: ;  Aggiungere piu spazio tra ingredienti, Impostare immagine centrata, testi ingredienti a destra e sinistra
-    letter-spacing: ;*/
 }
 
 #comment-story h2 {   /* Add color, alignement and new font size for title in Story Area */
@@ -279,7 +277,18 @@ h1, h2 {
     font-size: 110%;
 }
 
+.btn-popup { 
+    font-family: 'Viga', sans-serif;
 
+    width: 150px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    font-size: 110%;
+    text-align: center;
+    background-color: #E6DDC4;
+    color: #181D31;
+    border-radius: 10px;
+}
 
 /* Footer Section */
 
@@ -319,21 +328,28 @@ footer {
 /* Recipes Page */
 
 #container-recipes-buttons {
-    width: 100%;
-    height: fit-content;
+    max-width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
-#recipes-menu ul li {
-    width: inherit;
+#recipes-menu {
+    max-width: 100%;
     padding: 10px;
     list-style-type: none;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
+}
+
+#recipes-menu ul li {
+    flex: 33%;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
 }
 
 
@@ -553,7 +569,9 @@ footer {
 
 
 
-.buttons:hover {
+
+
+.buttons:hover, .btn-popup:hover {
     background-color: #FB743E;
     color: #181D31;
 }
@@ -756,7 +774,6 @@ input[type="file"] {
 
 
 
-
 /* Media Queries */
 /* For larger to medium screen size from 1200px wide to down */
 @media screen and (max-width: 1200px) {
@@ -780,13 +797,9 @@ input[type="file"] {
         height: fit-content;
         text-align: center;
         padding: 25px 35px;
-    
-        background-color: rgba(24, 29, 49, 0.9);
         
         top: 75px;
         right: 100px;
-    
-        position: absolute;
     }
 
     /* Story Section - Home Page */
@@ -820,7 +833,7 @@ input[type="file"] {
     
 
     #comment-story {
-        width: 90%;
+        max-width: 90%;
         margin: 0 40px 40px 40px;
         padding: 0;
         text-align: justify;
@@ -846,8 +859,9 @@ input[type="file"] {
     }
 
     #recipe-title ul li {
-        display: inline;
-        text-align: center;
+        text-align: left;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .recipe-day-container {
@@ -881,11 +895,15 @@ input[type="file"] {
     }
 
     .flex-ingredient-recipe {
-        flex: 50%;
-        align-self: auto;
+        flex: 100%;
+        align-self: center;
         padding: 0;
         margin: 0 0 40px 0;
-        text-align: center;
+        text-align: left;
+    }
+
+    .flex-ingredient-recipe div ul {
+        margin-left: 20px;
     }
 
 
@@ -1061,7 +1079,7 @@ input[type="file"] {
         margin: 0 20px 40px 20px;
         padding: 0;
         
-        text-align: center;
+        text-align: left;
     }
 
 
