@@ -7,6 +7,7 @@
     padding: 0;
     border: none;
     /* box-sizing: border-box; */
+    scroll-behavior: smooth;
 }
 
 
@@ -110,7 +111,7 @@ h1, h2 {
     background-color: rgba(24, 29, 49, 0.9);
     
     top: 200px;
-    right: 100px;
+    right: 40px;
     border-radius: 20px;
 
     position: absolute;
@@ -328,10 +329,10 @@ footer {
 
 
 #recipes-menu ul li {
-    width: 180px;
-    padding: 0 50px;
+    width: inherit;
+    padding: 10px;
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -367,11 +368,15 @@ footer {
     flex-flow: row nowrap; 
     align-content: center;
     overflow-x: scroll;
+   
     -ms-overflow-style: none;  
     scrollbar-width: none;  
 
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+
+    margin: 0 auto;
+
 }
 
 /*Remove Lateral Scrollbar visualization - Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
@@ -562,7 +567,7 @@ footer {
 
     margin-left: 0;
     padding-top: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -749,9 +754,6 @@ input[type="file"] {
     /* Home Page */
 
     * {
-        margin: 0;
-        padding: 0;
-        border: none;
         box-sizing: border-box;
     }
 
@@ -1000,8 +1002,10 @@ input[type="file"] {
         width: 220px;
         height: fit-content;
         text-align: center;
-        padding: 15px 25px;
-        left: 20px;
+        padding: 15px 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     /* Home Page - Story Section */
@@ -1135,9 +1139,9 @@ input[type="file"] {
 
 
     .titles-sections {
-        font-size: 200%;
+        font-size: 150%;
+        margin: 20px auto;
     }
-
 
 }
 
@@ -1192,7 +1196,7 @@ input[type="file"] {
     display: block
 }
 
-.popup .content-popup h2  {
+.popup .content-popup h2 {
     color: #FB743E;
     text-align: center;
     line-height: 20px;
@@ -1216,16 +1220,6 @@ input[type="file"] {
     align-content: center;
     align-items: center;
   }
-
-  /*
-  .container-slides {
-    display: inline-flex;
-    align-items: center;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scroll-snap-align: none;
-  }*/
 
   .slider > a {
     display: inline-flex;
