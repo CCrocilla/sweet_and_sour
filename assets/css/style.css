@@ -126,7 +126,7 @@ h1, h2 {
 /* This area is dedicated to the Story Section */
 
 #story-section {
-    height: 600px;
+    height: 580px;
     width: 100%;
     overflow: hidden;
 }
@@ -324,9 +324,6 @@ footer {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-between;
-
-    margin: 20px auto; 
-    padding: 30px; 
 }
 
 
@@ -364,17 +361,17 @@ footer {
 }
 
 
-.container-amd {
-    width: 100%;
+.container-amd .container-slides {
+    max-width: 100%;
     display: flex;
     flex-flow: row nowrap; 
-    justify-content: space-around;
-    column-count: 3;
-    
-    /*-ms-overflow-style: none;   Remove scrollbar IE and Edge 
-    scrollbar-width: none;   Remove scrollbar Firefox */
-    /*scrollbar-track-color: #181D31;
-    scrollbar-arrow-color: #181D31;*/
+    align-content: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
 }
 
 /*Remove Lateral Scrollbar visualization - Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
@@ -384,12 +381,15 @@ footer {
 
 
 .flex-single-recipe {
-    display: flex;
-    width: 400px;
+    /*display: flex;
+    /*display: inline-block;
+    max-width: 400px;
     flex-flow: column wrap;
     align-content: center;
+    flex-shrink: 0;*/
+    flex: 25%;
+    min-width: 400px;
     flex-shrink: 0;
-    
     background-color: #181D31;
     color: #E6DDC4;
     margin: 5px 40px 20px 40px;
@@ -397,6 +397,7 @@ footer {
     border: 1px solid #181D31;
     border-radius: 20px;
     line-height: 30px;
+
 }
 
 .recipe-appetizers > img {
@@ -1194,10 +1195,57 @@ input[type="file"] {
 .popup .content-popup h2  {
     color: #FB743E;
     text-align: center;
+    line-height: 20px;
 }
 
 .popup .content-popup p {
     color: #E6DDC4;
     text-align: justify;
+    margin-top: 40px;
 }
 
+
+
+
+/* Lateral Slider CSS Experiment */
+.slider {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  /*
+  .container-slides {
+    display: inline-flex;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-snap-align: none;
+  }*/
+
+  .slider > a {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+
+    font-family: 'Viga', sans-serif;
+    background: #181D31;
+    text-decoration: none;
+    color: #E6DDC4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px 10px;
+  }
+
+
+  .slider > a:hover {
+    color: #FB743E;
+  }
+  
+   

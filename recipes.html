@@ -69,63 +69,75 @@
         <div class="titles-sections">
             <h2 class="recipes-title">Appetizers</h2>
         </div> 
+
+        <!-- Slider-->
+        <div class="slider">
+            <a href="#appetizer-1">Appetizer #1</a>
+            <a href="#appetizer-2">Appetizer #2</a>
+            <a href="#appetizer-3">Appetizer #3</a>
+        </div>
     </section>
     
     <section>
         <div class="container-amd">
-            <!-- Recipes Appetizers -->
-            <div class="flex-single-recipe">
-                <div class="recipe-appetizers">
-                    <img src="assets/images/crispy-mozzarella.jpg" alt="Gnocchi with pesto" loading="lazy" width="375px" height="250px">
-                </div>
-                <div class="flex-single-title">
-                    <h1>Crispy Mozzarella</h1>
-                </div>
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                                <h3>To make 24 pieces:</h3>
-                            <ul>
-                                <li>
+
+            <!-- Recipes #1 Appetizers -->
+            <div class ="container-slides">
+                <div class="flex-single-recipe" id="appetizer-1">
+                    
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/crispy-mozzarella.jpg" alt="Gnocchi with pesto" loading="lazy" width="375px" height="250px">
+                    </div>
+                   
+                    <div class="flex-single-title">
+                        <h1>Crispy Mozzarella</h1>
+                    </div>
+                    
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make 24 pieces:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-1" name="check-recipes-1" value="crispy-mozzarella">   
                                     <label for="check-recipes-1">Mozzarella chesse (500 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-2" name="check-recipes-2" value="crispy-bread">
                                     <label for="check-recipes-2">Breadcrumbs (400 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-3" name="check-recipes-3" value="crispy-plain"> 
                                     <label for="check-recipes-3">Plain Flour (100 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-4" name="check-recipes-4" value="crispy-eggs"> 
                                     <label for="check-recipes-4">Eggs (5 Large)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-5" name="check-recipes-5" value="crispy-salt">  
                                     <label for="check-recipes-5">Salt</label> 
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                             <br>
-                                <h3>For the fry:</h3>
-                            <ul>
-                                <li>
+                            <h3>For the fry:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-6" name="check-recipes-6" value="crispy-oil">
                                     <label for="check-recipes-6">Sunflower seed oil (1 l)</label>
-                                </li>
-                            </ul>
-                </div>
+                                    </li>
+                                </ul>
+                    </div>
                 
-                <!-- This is the Popup Button -->
-                <div class="wrapper">
-                    <a href="#open-popup" class="buttons">Preparation</a>
-                </div>
+                    <!-- This is the Popup Button -->
+                    <div class="wrapper">
+                        <a href="#open-popup" class="buttons">Preparation</a>
+                    </div>
 
-                <!-- Popup Experiment -->
-                <div class="popup" id="open-popup">
-                    <div class="content-popup">
-                        <h1>Preparation</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    <!-- Popup Experiment -->
+                    <div class="popup" id="open-popup">
+                        <div class="content-popup">
+                            <h2>Preparation</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                             Maecenas porttitor congue massa. Fusce posuere, 
                             magna sed pulvinar ultricies, purus lectus malesuada 
                             libero, sit amet commodo magna eros quis urna. 
@@ -136,306 +148,321 @@
                             Donec laoreet nonummy augue. Suspendisse dui purus, 
                             scelerisque at, vulputate vitae, pretium mattis, nunc.
                             Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-                        </p>
-                        <a href="#" class="close">X</a>
+                            </p>
+                            <a href="#" class="close">X</a>
+                        </div>
+                    </div>
+                </div>
+    
+
+
+                <!-- Recipes #2 Appetizers -->
+                <div class="flex-single-recipe" id="appetizer-2">
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/zucchini-scamorza-patties.webp" alt="Zucchini Scamorza Patties" loading="lazy" width="375px" height="250px">
+                    </div>
+
+                    <div class="flex-single-title">
+                        <h1>Zucchini with Scamorza Patties</h1>
+                    </div>
+
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make 6 Patties:</h3>
+                                <ul>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-7" name="check-recipes-7" value="zucchini-pattied">   
+                                    <label for="check-recipes-7">1 lb Zucchini (450 g)</label>
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-8" name="check-recipes-8" value="zucchini-bread">
+                                    <label for="check-recipes-8">1 oz Breadcrumbs (50 g)</label>  
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-9" name="check-recipes-9" value="zucchini-scamorza"> 
+                                    <label for="check-recipes-9">3 oz Scamorza (provola) cheese (100 g) </label>  
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-10" name="check-recipes-10" value="zucchini-grana"> 
+                                    <label for="check-recipes-10">1/4 cup grated Grana Padano DOP cheese (30 g)</label> 
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-11" name="check-recipes-11" value="zucchini-garlic">  
+                                    <label for="check-recipes-11">Extra virgin olive oil to taste</label> 
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-12" name="check-recipes-12" value="zucchini-salt">
+                                    <label for="check-recipes-12">Salt,  Black Pepper and Nutmeg</label>   
+                                    </li>
+                                </ul>
+                            <br>
+                            <h3>For the Breading:</h3>
+                                <ul>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-13" name="check-recipes-13" value="zucchini-oil">
+                                    <label for="check-recipes-13">2 Eggs</label>
+                                    </li>
+                                    <li>                                   
+                                    <input type="checkbox" id="check-recipes-14" name="check-recipes-14" value="zucchini-bread">
+                                    <label for="check-recipes-14">2 cups Breadcrumbs</label>
+                                    </li>
+                                    <li>
+                                    <input type="checkbox" id="check-recipes-15" name="check-recipes-15" value="zucchini-oven">
+                                    <label for="check-recipes-15">1/2 lb Zucchini (250 g)</label>
+                                    </li>
+                                </ul>
                     </div>
                 </div>
 
-            </div>
-            <div class="flex-single-recipe">
+                <!-- Recipes #3 Appetizers -->
+                <div id="appetizer-3" class="flex-single-recipe">
 
-                <div class="recipe-appetizers">
-                    <img src="assets/images/zucchini-scamorza-patties.webp" alt="Zucchini Scamorza Patties" loading="lazy" width="375px" height="250px">
-                </div>
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/samosa.webp" alt="Samosa" loading="lazy" width="375px" height="250px">
+                    </div>
 
-                <div class="flex-single-title">
-                    <h1>Zucchini with Scamorza Patties</h1>
-                </div>
-
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                                <h3>To make 6 Patties:</h3>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-7" name="check-recipes-7" value="zucchini-pattied">   
-                                    <label for="check-recipes-7">1 lb Zucchini (450 g)</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-8" name="check-recipes-8" value="zucchini-bread">
-                                    <label for="check-recipes-8">1 oz Breadcrumbs (50 g)</label>  
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-9" name="check-recipes-9" value="zucchini-scamorza"> 
-                                    <label for="check-recipes-9">3 oz Scamorza (provola) cheese (100 g) </label>  
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-10" name="check-recipes-10" value="zucchini-grana"> 
-                                    <label for="check-recipes-10">1/4 cup grated Grana Padano DOP cheese (30 g)</label> 
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-11" name="check-recipes-11" value="zucchini-garlic">  
-                                    <label for="check-recipes-11">Extra virgin olive oil to taste</label> 
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-12" name="check-recipes-12" value="zucchini-salt">
-                                    <label for="check-recipes-12">Salt,  Black Pepper and Nutmeg</label>   
-                                </li>
-                            </ul>
-                            <br>
-                                <h3>For the Breading:</h3>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="check-recipes-13" name="check-recipes-13" value="zucchini-oil">
-                                    <label for="check-recipes-13">2 Eggs</label>
-                                </li>
-                                <li>
-                                    
-                                    <input type="checkbox" id="check-recipes-14" name="check-recipes-14" value="zucchini-bread">
-                                    <label for="check-recipes-14">2 cups Breadcrumbs</label>
-                                </li>
-                                <li>
-                                    
-                                    <input type="checkbox" id="check-recipes-15" name="check-recipes-15" value="zucchini-oven">
-                                    <label for="check-recipes-15">1/2 lb Zucchini (250 g)</label>
-                                </li>
-                            </ul>
-                </div>
-            </div>
-            <div class="flex-single-recipe">
-
-                <div class="recipe-appetizers">
-                    <img src="assets/images/samosa.webp" alt="Samosa" loading="lazy" width="375px" height="250px">
-                </div>
-
-                <div class="flex-single-title">
-                    <h1>Samosa</h1>
-                </div>
+                    <div class="flex-single-title">
+                        <h1>Samosa</h1>
+                    </div>
                 
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make 8 Dough:</h3>
-                            <ul>
-                                <li>
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make 8 Dough:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-16" name="check-recipes-16" value="samosa-pattied">   
                                     <label for="check-recipes-16">00 plain flour (250 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-17" name="check-recipes-17" value="samosa-bread">
                                     <label for="check-recipes-17">Water (100 ml)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-18" name="check-recipes-18" value="samosa-scamorza"> 
                                     <label for="check-recipes-18">Seed oil (50 ml) and Vegetable oil (2 l) to deep fry</label>  
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                             <br>
-                                <h3>For the Stuffing:</h3>
-                            <ul>
-                                <li>
+                            <h3>For the Stuffing:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-19" name="check-recipes-19" value="samosa-oil">
                                     <label for="check-recipes-19">Potatoes (350 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-20" name="check-recipes-20" value="samosa-bread">
                                     <label for="check-recipes-20">Peas (100 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-21" name="check-recipes-21" value="samosa-oven">
                                     <label for="check-recipes-21">1 Carrot (100 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-22" name="check-recipes-22" value="samosa-oven">
                                     <label for="check-recipes-22">1 Onion (100 g) finely diced</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-23" name="check-recipes-23" value="samosa-oven">
                                     <label for="check-recipes-23">1 Fresh Green Chilli</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-24" name="check-recipes-24" value="samosa-oven">
                                     <label for="check-recipes-24">Cumin, Garam Masala, Ground Coriander (1 tsp each)</label>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div> <!-- Div New Experiment Slider -->
+        </div> <!-- Div New Experiment Slider -->
     </section>
+
 
     <!-- Main Courses Section -->
     <section id="main">
         <div class="titles-sections">
             <h2 class="recipes-title">Main</h2>
         </div> 
+        <!-- Slider-->
+        <div class="slider">
+            <a href="#main-1">Main #1</a>
+            <a href="#main-2">Main #2</a>
+            <a href="#main-3">Main #3</a>
+        </div>
     </section>
     
     <section>
         <div class="container-amd">
+            <div class ="container-slides">
             <!-- Recipe #1 Main Couses -->
-            <div class="flex-single-recipe">
+                <div id="main-1" class="flex-single-recipe">
 
-                <div class="recipe-appetizers">
-                    <img src="assets/images/red-cannelloni.webp" alt="Red Spinach & Ricotta Cannelloli" loading="lazy" width="375px" height="250px">
-                </div>
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/red-cannelloni.webp" alt="Red Spinach & Ricotta Cannelloli" loading="lazy" width="375px" height="250px">
+                    </div>
 
-                <div class="flex-single-title">
-                    <h1>Spinach & Ricotta Cannelloni</h1>
-                </div>
+                    <div class="flex-single-title">
+                        <h1>Spinach & Ricotta Cannelloni</h1>
+                    </div>
                 
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make the Cannelloni:</h3>
-                            <ul>
-                                <li>
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make the Cannelloni:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-25" name="check-recipes-25" value="cannelloni">   
                                     <label for="check-recipes-25">Cannelloni (200 g / 18 tubes)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-26" name="check-recipes-26" value="cannelloni-spinach">
                                     <label for="check-recipes-26">Spinach (500 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-27" name="check-recipes-27" value="cannelloni-ricotta"> 
                                     <label for="check-recipes-27">Ricotta (350 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-28" name="check-recipes-28" value="cannelloni-mozzarella">
                                     <label for="check-recipes-28">Mozzarella (250 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-29" name="check-recipes-29" value="cannelloni-eggs">
                                     <label for="check-recipes-29">Egg (1 Large)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-30" name="check-recipes-30" value="cannelloni-tomato">
                                     <label for="check-recipes-30">Tomato Sauce (800 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-31" name="check-recipes-31" value="cannelloni-onion">
                                     <label for="check-recipes-31">Onion (1 / 50g finely diced)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-32" name="check-recipes-32" value="cannelloni-basil">
                                     <label for="check-recipes-32">Fresh Basil</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-33" name="check-recipes-33" value="cannelloni-garlic">
                                     <label for="check-recipes-33">Garlic (2 cloves)</label>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
-            </div>
             
-            <!-- Recipe #2 Main Couses -->
-            <div class="flex-single-recipe">
-                <div class="recipe-appetizers">
-                    <img src="assets/images/prawn-noodles.webp" alt="Prawn Noodles" loading="lazy" width="375px" height="250px">
-                </div>
-                <div class="flex-single-title">
-                    <h1>Prawn Noodles</h1>
-                </div>
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                                <h3>To make 4 dishes:</h3>
-                            <ul>
-                                <li>
+            
+                <!-- Recipe #2 Main Couses -->
+                <div id="main-2" class="flex-single-recipe">
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/prawn-noodles.webp" alt="Prawn Noodles" loading="lazy" width="375px" height="250px">
+                    </div>
+                   
+                    <div class="flex-single-title">
+                        <h1>Prawn Noodles</h1>
+                    </div>
+                    
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make 4 dishes:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-34" name="check-recipes-34" value="noodles">   
                                     <label for="check-recipes-34">Rice Noodles (300 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-35" name="check-recipes-35" value="noodles-prawn">
                                     <label for="check-recipes-35">King Prawn (12 raw)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-36" name="check-recipes-36" value="noodles-onion"> 
                                     <label for="check-recipes-36">Onion (1 finely sliced)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-37" name="check-recipes-37" value="noodles-tomato"> 
                                     <label for="check-recipes-37">Baby Tomatos (200 g)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-38" name="check-recipes-38" value="noodles-pepper">  
                                     <label for="check-recipes-38">Red Pepper (1 finely sliced)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-39" name="check-recipes-39" value="noodles-curry">
                                     <label for="check-recipes-39">Mild Curry powder (2 tsp)</label>   
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-40" name="check-recipes-40" value="noodles-sesane">
                                     <label for="check-recipes-40">Sesane oil (2 tbsp)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-41" name="check-recipes-41" value="noodles-oyster">
                                     <label for="check-recipes-41">Oyster sauce (2 tbsp)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-42" name="check-recipes-42" value="noodles-soy">
                                     <label for="check-recipes-42">Soy sauce (2 tbsp)</label>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Recipe #3 Main Couses -->
-            <div class="flex-single-recipe">
+                <!-- Recipe #3 Main Couses -->
+                <div id="main-3" class="flex-single-recipe">
                 
-                <div class="recipe-appetizers">
-                    <img src="assets/images/gnocchi_pesto.jpg" alt="Gnocchi with pesto" loading="lazy" width="375px" height="250px">
-                </div>
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/gnocchi_pesto.jpg" alt="Gnocchi with pesto" loading="lazy" width="375px" height="250px">
+                    </div>
                 
-                <div class="flex-single-title">
-                    <h1>Gnocchi with Pesto</h1>
-                </div>
+                    <div class="flex-single-title">
+                        <h1>Gnocchi with Pesto</h1>
+                    </div>
                 
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make the basil pesto:</h3>
-                            <ul>
-                                <li>
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make the basil pesto:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-43" name="check-recipes-43" value="gnocchi-basil">   
                                     <label for="check-recipes-43">2 cups fresh basil leaves, packed</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-44" name="check-recipes-44" value="gnocchi-parmesan">
                                     <label for="check-recipes-44">1/2 cup freshly grated Parmesan-Reggiano cheese</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-45" name="check-recipes-45" value="gnocchi-olive"> 
                                     <label for="check-recipes-45">1/2 cup extra virgin olive oil</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-46" name="check-recipes-46" value="gnocchi-nuts"> 
                                     <label for="check-recipes-46">1/4 cup pine nuts</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-47" name="check-recipes-47" value="gnocchi-garlic">  
                                     <label for="check-recipes-47">2 minced garlic cloves</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-48" name="check-recipes-48" value="gnocchi-salt">
                                     <label for="check-recipes-48">Salt and black pepper</label>   
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                             <br>
-                                <h3>For the Gnocchi:</h3>
-                            <ul>
-                                <li>
+                            <h3>For the Gnocchi:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-49" name="check-recipes-49" value="gnocchi-oil">
                                     <label for="check-recipes-49">2 tablespoons olive oil</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     
                                     <input type="checkbox" id="check-recipes-50" name="check-recipes-50" value="gnocchi-gnocchi">
                                     <label for="check-recipes-50">1 lb package potato gnocchi</label>
-                                </li>
-                                <li>
-                                    
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-51" name="check-recipes-51" value="gnocchi-parmesan">
                                     <label for="check-recipes-51">Parmesan cheese, for serving</label>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                 
+                    </div>
                 </div>
             </div>
         </div>
@@ -446,161 +473,174 @@
         <div class="titles-sections">
             <h2 class="recipes-title">Desserts</h2>
         </div>
+        
+        <!-- Slider-->
+        <div class="slider">
+            <a href="#dessert-1">Dessert #1</a>
+            <a href="#dessert-2">Dessert #2</a>
+            <a href="#dessert-3">Dessert #3</a>
+        </div>
     </section>
     
     <section>
         <div class="container-amd">
+            <div class ="container-slides">
             
-            <!-- Recipe #1 Desserts -->
-            <div class="flex-single-recipe">
-                <div class="recipe-appetizers">
-                    <img src="assets/images/tiramisu.webp" alt="Tiramisú" loading="lazy" width="375px" height="250px">
-                </div>
-                <div class="flex-single-title">
-                    <h1>Tiramisú</h1>
-                </div>
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make 8 pieces:</h3>
-                            <ul>
-                                <li>
+                <!-- Recipe #1 Desserts -->
+                <div id="dessert-1" class="flex-single-recipe">
+                    
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/tiramisu.webp" alt="Tiramisú" loading="lazy" width="375px" height="250px">
+                    </div>
+                    
+                    <div class="flex-single-title">
+                        <h1>Tiramisú</h1>
+                    </div>
+                    
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make 8 pieces:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-52" name="check-recipes-52" value="tiramisu-mascarpone">   
                                     <label for="check-recipes-52">Mascarpone cheese (500 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-53" name="check-recipes-53" value="tiramisu-egg">
                                     <label for="check-recipes-53">Eggs (4)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-54" name="check-recipes-54" value="tiramisu-ladyfingers"> 
                                     <label for="check-recipes-54">Sponge Ladyfingers (300 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-55" name="check-recipes-55" value="tiramisu-coffee"> 
                                     <label for="check-recipes-55">Coffee (300 ml)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-56" name="check-recipes-56" value="tiramisu-sugar">  
                                     <label for="check-recipes-56">Sugar (100 g)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-57" name="check-recipes-57" value="tiramisu-cocoa">
                                     <label for="check-recipes-57">Cocoa Powder (for the surface)</label>   
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Recipe #2 Desserts -->
-            <div class="flex-single-recipe">
-                <div class="recipe-appetizers">
-                    <img src="assets/images/brownie.webp" alt="Brownie" loading="lazy" width="375px" height="250px">
-                </div>
-                <div class="flex-single-title">
-                    <h1>Brownie</h1>
-                </div>
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make the 20 brownies:</h3>
-                            <ul>
-                                <li>
+                <!-- Recipe #2 Desserts -->
+                <div id="dessert-2" class="flex-single-recipe">
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/brownie.webp" alt="Brownie" loading="lazy" width="375px" height="250px">
+                    </div>
+                    <div class="flex-single-title">
+                        <h1>Brownie</h1>
+                    </div>
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make the 20 brownies:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-58" name="check-recipes-58" value="brownie-butter">   
                                     <label for="check-recipes-58">Butter (180 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-59" name="check-recipes-59" value="brownie-chocolate">
                                     <label for="check-recipes-59">Dark Chocolate (200 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-60" name="check-recipes-60" value="brownie-flour"> 
                                     <label for="check-recipes-60">Plain Flour (90 g)</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-61" name="check-recipes-61" value="brownie-eggs"> 
                                     <label for="check-recipes-61">Eggs (4)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-62" name="check-recipes-62" value="brownie-cocoa">  
                                     <label for="check-recipes-62">Cocoa powder (50 g)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-63" name="check-recipes-63" value="brownie-milk">
                                     <label for="check-recipes-63">Milk Chocolate (50 g)</label>   
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-64" name="check-recipes-64" value="brownie-white-chocolate">
                                     <label for="check-recipes-64">White Chololate (50 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-65" name="check-recipes-65" value="brownie-sugar">
                                     <label for="check-recipes-65">Sugar (270 g)</label>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Recipe #3 Desserts -->
-            <div class="flex-single-recipe">
-                <div class="recipe-appetizers">
-                    <img src="assets/images/cheesecake.webp" alt="Cheesecake" loading="lazy" width="375px" height="250px">
-                </div>
-                <div class="flex-single-title">
-                    <h1>Cheesecake</h1>
-                </div>
-                <div class="ingredient-appetizers">
-                    <h2>Ingredients</h2>
-                        <h3>To make the base (approx 22cm diameter):</h3>
-                            <ul>
-                                <li>
+                <!-- Recipe #3 Desserts -->
+                <div id="dessert-3" class="flex-single-recipe">
+                    
+                    <div class="recipe-appetizers">
+                        <img src="assets/images/cheesecake.webp" alt="Cheesecake" loading="lazy" width="375px" height="250px">
+                    </div>
+                    
+                    <div class="flex-single-title">
+                        <h1>Cheesecake</h1>
+                    </div>
+                    
+                    <div class="ingredient-appetizers">
+                        <h2>Ingredients</h2>
+                            <h3>To make the base (approx 22cm diameter):</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-66" name="check-recipes-66" value="cheesecake-biscuit">   
                                     <label for="check-recipes-66">Biscuits (280 g)</label>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-67" name="check-recipes-67" value="cheesecake-butter">
                                     <label for="check-recipes-67">Melted Butter (110 g)</label>  
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                             <br>
-                                <h3>For the Cream:</h3>
-                            <ul>
-                                <li>
+                            <h3>For the Cream:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-68" name="check-recipes-68" value="cheesecake-cream"> 
                                     <label for="check-recipes-68">Cream Cheese (600 g) Example: Philadelphia</label>  
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-69" name="check-recipes-69" value="cheesecake-vanilla"> 
                                     <label for="check-recipes-69">Vanilla bean (1)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-70" name="check-recipes-70" value="cheesecake-egg">  
                                     <label for="check-recipes-70">Egg (1)</label> 
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-71" name="check-recipes-71" value="cheesecake-egg-yolks">
                                     <label for="check-recipes-71">Egg yolks (1)</label>   
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-72" name="check-recipes-72" value="cheesecake-cream-double">
                                     <label for="check-recipes-72">Double Cream (100 g)</label>   
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
                             <br>
-                                <h3>For the Coating:</h3>
-                            <ul>
-                                <li>
+                            <h3>For the Coating:</h3>
+                                <ul>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-73" name="check-recipes-73" value="cheesecake-strawberries">
                                     <label for="check-recipes-73">Strawberries (500 g)</label>
-                                </li>
-                                <li>
-                                    
+                                    </li>
+                                    <li>
                                     <input type="checkbox" id="check-recipes-74" name="check-recipes-74" value="cheesecake-berries">
                                     <label for="check-recipes-74">Berries and Raspberries, to taste</label>
-                                </li>
-                            </ul>
-                </div>
-            </div> 
-        </div>
-        
+                                    </li>
+                                </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>>
     </section>
 
     <footer>
