@@ -59,7 +59,8 @@ h1, h2 {
     text-decoration-line: none;
     color: #181D31;
     text-align: center;
-    padding: 5px 15px;
+    padding: 5px 10px;
+    font-weight: bold;
 }
 
 
