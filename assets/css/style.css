@@ -185,7 +185,7 @@ h1, h2 {
 
 
 
-/* This content is used for all the titles in the Homepage */
+/* This content is used for all the titles */
 
 .titles-sections {
     text-align: center;
@@ -330,51 +330,35 @@ footer {
 #container-recipes-buttons {
     max-width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
 }
 
-
-#recipes-menu {
-    max-width: 100%;
-    padding: 10px;
-    list-style-type: none;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-}
-
-#recipes-menu ul li {
-    flex: 33%;
-    list-style: none;
-    margin: 10px;
-    padding: 10px;
-}
-
-
-.recipe-anchor { 
-    width: 100%;
-    box-sizing: border-box;
+#container-recipes-buttons nav a { 
+    width: 180px; 
     
     text-align: center;
-    padding: 15px 30px;
-
-    border: 5px solid #181D31;
+    padding: 20px 25px;
+    margin: 0 5px;
     border-radius: 10px;
     background-color: #181D31;
     color: #E6DDC4;
     text-decoration-line: none;
     
     font-family: 'Viga', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     display: inline-flex;
     justify-content: center;
 }
 
 
-.recipes-title {
+
+.recipes-page-title {
     font-size: 100%;  /*This reduce the font size for the Titles in this page only*/
+    margin-top: 20px;
+    padding-top: 20px;
+    text-decoration-line: underline;
 }
 
 
@@ -390,15 +374,16 @@ footer {
 
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
 
     margin: 0 auto;
-
+    
 }
 
 /*Remove Lateral Scrollbar visualization - Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-/*.container-amd::-webkit-scrollbar-thumb {
+.container-amd::-webkit-scrollbar-thumb {
         display: none;
-}*/
+}
 
 
 .flex-single-recipe {
@@ -409,7 +394,8 @@ footer {
     align-content: center;
     flex-shrink: 0;*/
     flex: 25%;
-    min-width: 400px;
+    min-width: 300px;
+    max-width: 500px;
     flex-shrink: 0;
     background-color: #181D31;
     color: #E6DDC4;
@@ -1090,6 +1076,28 @@ input[type="file"] {
     }
 
 
+    /* Recipes Page MQ*/
+
+    .recipe-anchor { 
+        padding: 5px 15px;
+        font-size: 15px;
+        width: 100px;
+    }
+
+    #container-recipes-buttons nav a { 
+        width: 90px; 
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .recipes-page-title {
+        font-size: 80%;
+        margin-top: 20px;
+        padding-top: 20px;
+        text-decoration-line: underline;
+    }
+
+
     /* Contact Us & Share Pages */
 
     #image-text-contact-us, #image-text-share {
@@ -1125,6 +1133,7 @@ input[type="file"] {
 
     .titles-sections {
         font-size: 200%;
+        margin: 30px 20px 5px 20px;
     }
 
     #about-us-container h3 {
@@ -1251,8 +1260,8 @@ input[type="file"] {
 
   .slider > a {
     display: inline-flex;
-    width: 100px;
-    height: 50px;
+    width: 30px;
+    height: 20px;
 
     font-family: 'Viga', sans-serif;
     background: #181D31;
@@ -1260,8 +1269,8 @@ input[type="file"] {
     color: #E6DDC4;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 50px;
+    padding: 20px 20px;
     margin: 10px 10px;
   }
 
