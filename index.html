@@ -13,10 +13,10 @@
 <body>
     <header>
         <div>
-            <a href="index.html" id="logo" class="logo">
+            <a href="index.html" id="logo" class="logo-all">
                  <h1>Sweet & Sour</h1>
             </a>
-            <nav id="menu" class="menu">
+            <nav id="menu" class="menu-all">
                 <ul>
                     <li>
                          <a href="index.html" class="active">Home</a>
@@ -34,9 +34,9 @@
             </nav>
         </div>
     </header>
-        <section id="hero-section">
-            <div id="hero-image"></div>
-            <div id="image-text">
+        <section id="hero-section-homepage" class="hero-section">
+            <div id="hero-image-homepage" class="hero-image"></div>
+            <div id="image-text-homepage" class="image-text">
                 <h2>
                     Your favourite Worldwide Food!
                 </h2>
@@ -44,19 +44,19 @@
         </section>
 
     <!-- This section is dedicated to the story of the website -->
-    <section id="story-section">
+    <section id="story-section-homepage" class="story-section">
         <h2 class="titles-sections">Delicious dishes all in one website!</h2>
-            <div id="story" class="container">
+            <div id="story-container" class="story container">
                 
                 <!-- Video Story Section -->
-                <div id="video-story" class="right">
-                    <video autoplay="" muted="" loop="" id="video-spaghetti" controls>
+                <div id="video-story" class="right-story">
+                    <video autoplay="" muted="" loop="" id="video-spaghetti" class="videos" controls>
                         <source src="assets/videos/video-homepage.mp4" type="video/mp4">
                     </video>
                 </div>
                 
                 <!-- Comment Story Section -->
-                <div id="comment-story" class="left">
+                <div id="comment-story" class="left-story">
                     <h2>Food, yours and our passion!</h2>
                     <br>
                     <p>If you are looking for a quick fix, a new recipe or a way to impress your guests, Sweet & Sour is the place for you!
@@ -79,17 +79,15 @@
     
     <!-- Recipe of the Day Section -->
     
-    <section id="recipe-section-homepage">
+    <section id="recipe-section-homepage" class="recipe-section">
         <h2 class="titles-sections recipe-day-title">Recipe of the Day!</h2>
             
         <!--  Class container to implement structure for flex boxes -->     
-            <div id="recipes" class="container recipe-day-container">
+            <div id="recipes-day" class="container recipe-day-container">
 
                     <div id="recipe-image" class="flex-image-recipe">    
-                        <img src="assets/images/gnocchi-pesto.webp" alt="gnocchi with pesto" id="image-recipe-homepage">
+                        <img src="assets/images/gnocchi-pesto.webp" alt="gnocchi with pesto" id="image-recipe-homepage" class="images-recipes-day">
                     </div>
-
-                   
 
                     <div id="recipe-title" class="flex-title-recipe">
                         <div>
@@ -203,7 +201,7 @@
     </section>
 
     <footer>
-        <ul id="social">
+        <ul id="social" class="social-network">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" 
                 aria-label="Visit our Facebook Page (This link opens in a new tab)" ><i class="fab fa-facebook-square"></i></a>

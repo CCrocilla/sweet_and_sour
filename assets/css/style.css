@@ -28,7 +28,7 @@ h1, h2 {
 
 
 /* Display the Logo on the Left side and add margin and increased font size*/
-#logo {
+.logo-all {
     float: left;
     font-size: 200%;
     margin-left: 40px;
@@ -36,7 +36,7 @@ h1, h2 {
 
 
 /* Display the Menu Bar on the right side, add margin */
-.menu {
+.menu-all {
     float: right;
     font-weight: 400;
     font-size: 120%;
@@ -46,14 +46,14 @@ h1, h2 {
 
 
 /* Set the nav bar horizontally */
-.menu li {
+.menu-all li {
     display: inline;
     list-style-type: none; 
 }
 
 
 /* For the a element remove the underline, apply the color:#181D31 and then the padding in order to create space */
-.menu > ul > li > a {
+.menu-all > ul > li > a {
     text-decoration-line: none;
     color: #181D31;
     text-align: center;
@@ -61,11 +61,11 @@ h1, h2 {
     font-weight: bold;
 }
 
-.menu > ul > li > a:hover {
+.menu-all > ul > li > a:hover {
     border-bottom: 1px solid #181D31;
 }
 
-.menu, #logo {
+.menu-all, .logo-all {
     line-height: 100px;
     text-decoration-line: none;
 }
@@ -81,7 +81,7 @@ h1, h2 {
 /* Hero Image for Home Page */
 /* Idea from Love Running Project */
 
-#hero-section {
+.hero-section {
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -89,7 +89,7 @@ h1, h2 {
 }
  
 
-#hero-image {
+.hero-image {
    width: 100%;
    height: 500px; 
    background: url('../images/hero-image.webp');
@@ -103,7 +103,7 @@ h1, h2 {
 
 /* Text above Image. Idea from Love Running Project */
 
-#image-text {
+.image-text {
     font-size: 150%;
     width: 250px;
     height: 150px;
@@ -120,7 +120,7 @@ h1, h2 {
 }
 
 
-#image-text h2 {
+.image-text h2 {
     color:rgb(240, 233, 210);
 }
 
@@ -128,20 +128,19 @@ h1, h2 {
 
 /* This area is dedicated to the Story Section */
 
-#story-section {
+.story-section {
     height: 580px;
     width: 100%;
     overflow: hidden;
 }
 
-#story {
+#story-container {
     height: 450px;
     flex-direction: row-reverse;
     background-color: #181D31;
 }
 
-
-#comment-story {
+.left-story {
     flex: 60%;
     max-width: 100%;
     color: #E6DDC4;   /* Add color for paragraphs in Story Area */
@@ -150,19 +149,19 @@ h1, h2 {
     text-align: justify;
 }
 
-#comment-story h2 {   /* Add color, alignement and new font size for title in Story Area */
+.left-story h2 {   /* Add color, alignement and new font size for title in Story Area */
     color: #E6DDC4;
     text-align: center;
     font-size: 30px;
 }
 
-#comment-story p {
+.left-story p {
     font-size: 120%;
     text-align: justify;
     text-align: left;
 }
 
-#video-story {
+.right-story {
     flex: 40%;
     width: 100%;
     margin-right: 40px;
@@ -173,7 +172,7 @@ h1, h2 {
 
 /* Add Flex Content for the Video in the Story Section */
 
-#video-spaghetti {
+.videos {
     max-width: 550px;
     max-height: 350px;
     border-radius: 20px;
@@ -198,16 +197,10 @@ h1, h2 {
 
 /* Recipe of the Day Section - Homepage */
 
-#recipe-section-homepage {
+.recipe-section {
     height: 600px;
     width: 100%;
     /*overflow: hidden;*/
-}
-
-#recipes {
-    background-color: #181D31;
-    width: 100%;
-    height: 525px;
 }
 
 /* The Flex Box have been studied on W3School Website */
@@ -222,7 +215,7 @@ h1, h2 {
 }
 
 
-#image-recipe-homepage {
+.images-recipes-day {
     width: 550px;
     height: 350px;
     box-sizing: border-box;
@@ -234,6 +227,9 @@ h1, h2 {
 
 .recipe-day-container{
     align-items: start;
+    background-color: #181D31;
+    width: 100%;
+    height: 525px;
 }
 
 .flex-image-recipe {
@@ -255,25 +251,25 @@ h1, h2 {
     margin-top: 40px;
 }
 
-#recipe-title h2 {
+.flex-title-recipe h2 {
     color: #E6DDC4;
     text-align: center;
     font-size: 200%;
 }
 
-#recipe-ingredients h2 {
+.flex-ingredient-recipe h2 {
     color: #FB743E;
     text-align: center;
     font-size: 200%;
 }
 
-#recipe-ingredients h3 {
+.flex-ingredient-recipe h3 {
     color: #E6DDC4;
     font-size: 125%;
     text-align: center;
 }
 
-#recipe-ingredients ul li, #recipe-title ul li {
+.flex-ingredient-recipe ul li, .flex-title-recipe ul li {
     color: #E6DDC4;
     list-style-type: none;
     font-size: 110%;
@@ -304,17 +300,17 @@ footer {
     justify-content: center;
 }
 
-#social {
+.social-network {
     text-align: center;
     
 }
 
-#social li {
+.social-network li {
     display: inline;
     
 }
 
-#social li i {
+.social-network li i {
     font-size: 50px;
     text-decoration: none;
     list-style-type: none;
@@ -324,7 +320,7 @@ footer {
 }
 
 
-#social li i:hover {
+.social-network li i:hover {
     color: #FB743E;
 }
 
@@ -774,13 +770,13 @@ input[type="file"] {
     }
 
 
-    #hero-section, #hero-image {
+    .hero-section, .hero-image {
         height: 300px;
         background-size: cover;
     }
 
 
-    #image-text {
+    .image-text {
         font-size: 110%;
         width: 250px;
         height: fit-content;
@@ -793,12 +789,11 @@ input[type="file"] {
 
     /* Story Section - Home Page */
 
-    #story-section {
-        height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
-        width: 100%;  
+    .story-section {
+        height: fit-content;  
     }
 
-    #story {
+    #story-container {
         width: 100%;
         height: fit-content;
         flex-direction: column;
@@ -807,7 +802,7 @@ input[type="file"] {
         padding: 0;
     }
 
-    #video-story {
+    .right-story {
         width: 100%;
         padding: 0;
         margin: 40px auto;
@@ -815,13 +810,13 @@ input[type="file"] {
         box-sizing: border-box;
     }
 
-    #video-spaghetti {
+    .videos {
         margin: 0 auto;
         width: 100%;
     }
     
 
-    #comment-story {
+    .left-story {
         max-width: 90%;
         margin: 0 40px 40px 40px;
         padding: 0;
@@ -829,7 +824,7 @@ input[type="file"] {
     }
 
     /* Recipe of the Day Section - Home Page */
-    #recipe-section-homepage {
+    .recipe-section {
         width: 100%;
         height: fit-content;
     }
@@ -840,14 +835,14 @@ input[type="file"] {
     }
     
 
-    #image-recipe-homepage {
+    .images-recipes-day {
         width: 550px;
         height: 350px;
         box-sizing: border-box;
         margin: 0 auto;
     }
 
-    #recipe-title ul li {
+    .flex-title-recipe ul li {
         text-align: left;
         margin-left: 40px;
         margin-right: 40px;
@@ -859,7 +854,6 @@ input[type="file"] {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
         margin: 0 auto;
         padding: 0;
     }
@@ -923,15 +917,25 @@ input[type="file"] {
 
     /* Home Page */
 
-    #logo {
+    .logo-all {
         line-height: inherit;
     }
 
-    .menu {
+    .menu-all {
        clear: both;
        float: left;
        margin-left: 40px;
        line-height: 65px;
+    }
+
+    /*  Recipes Page */
+    
+    .container-amd .container-slides {
+        flex-flow: column nowrap;
+        gap: 10px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     /* Contact Us Page*/
@@ -975,6 +979,10 @@ input[type="file"] {
         height: fit-content;
         font-size: 100%;
     }
+
+
+  
+
 }
 
 
@@ -991,12 +999,12 @@ input[type="file"] {
     
     /* Home Page - Logo and Nav Bar*/    
 
-    #logo {
+    .logo-all {
         font-size: 150%;
         margin-left: 20px;
     }
 
-    .menu {
+    .menu-all {
         font-size: 100%;
         padding: 0;
         margin-left: 20px;
@@ -1004,7 +1012,7 @@ input[type="file"] {
         line-height: 35px;
     }
 
-    .menu ul li a {
+    .menu-all ul li a {
         padding: 0px 7px;
     }
 
@@ -1014,7 +1022,7 @@ input[type="file"] {
         font-size: 100%;
     }
     
-    #image-text {
+    .image-text {
         font-size: 100%;
         width: 220px;
         height: fit-content;
@@ -1026,26 +1034,20 @@ input[type="file"] {
     }
 
     /* Home Page - Story Section */
-    #story-section {
+    .story-section {
         height: fit-content; /* This is to extend the height of the sections (Story and Recipe of the day in order to allow more content) */
         width: 100%;  
     }
 
-    #video-story {
+    .right-story {
         width: 90%;
         padding: 0;
         margin: 40px 40px 0 40px;
         text-align: center;
         box-sizing: border-box;
     }
-
-    #video-spaghetti {
-        margin: 0 auto;
-        width: 100%;
-    }
     
-
-    #comment-story {
+    .left-story {
         width: 90%;
         margin: 0 40px 40px 40px;
         padding: 0;
@@ -1055,7 +1057,7 @@ input[type="file"] {
 
     /* Home Page - Recipe of the Day Section */
     
-    #image-recipe-homepage {
+    .images-recipes-day {
         width: 90%;
         height: auto;
         box-sizing: border-box;
@@ -1074,7 +1076,7 @@ input[type="file"] {
 
     /* Footer */
 
-    #social li i {
+    .social-network li i {
         padding: 0;
     }
 
@@ -1106,21 +1108,13 @@ input[type="file"] {
         flex-shrink: 0;
     }
 
-
-    .flex-single-recipe{
+    .container-amd .container-slides {
         flex-flow: column nowrap;
         gap: 10px;
         justify-content: center;
         align-content: center;
         align-items: center;
-      }
-
-
-    #container-slides {
-        flex-direction: column nowrap;
-        gap: 10px;
     }
-
 
     /* Contact Us & Share Pages */
 
@@ -1188,12 +1182,12 @@ input[type="file"] {
 
 @media screen and (max-width: 350px) {
 
-   #logo {
+   .logo-all {
         font-size: 125%;
         line-height: 50px;
     }
 
-    .menu {
+    .menu-all {
         line-height: 50px;
         font-size: 80%;
     }
