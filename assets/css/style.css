@@ -742,9 +742,10 @@ input[type="file"] {
 }
 
 
-.text-thanks-error-pages h2 {
+.text-thanks-error-pages h2, .text-thanks-error-pages p {
     color:rgb(240, 233, 210);
-}
+} 
+
 
 .anchor-text {
     text-decoration-line: none;
