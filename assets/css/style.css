@@ -42,6 +42,7 @@ h1, h2 {
     font-size: 120%;
     word-spacing: 5px;
     margin-right: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -368,9 +369,9 @@ footer {
 .container-amd .container-slides {
     max-width: 100%;
     display: flex;
-    flex-flow: row nowrap; 
+    flex-flow: row wrap; 
     align-content: center;
-    
+    justify-content: center;
     overflow-x: scroll;
     -ms-overflow-style: none;  
     scrollbar-width: none;  
@@ -758,6 +759,24 @@ input[type="file"] {
 
 
 /* Media Queries */
+/* Desktop Only */
+
+/* All pages */
+
+@media screen and (min-width: 1200px) {
+    .pull-bottom-desktop {
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+
+
+
+
 /* For larger to medium screen size from 1200px wide to down */
 @media screen and (max-width: 1200px) {
 
@@ -888,6 +907,13 @@ input[type="file"] {
     }
 
 
+    /* Recipes Page */
+    .flex-single-recipe {
+        height: auto;    
+    }
+
+
+
     /* Share Page */
     
     #form-area-share {
@@ -916,12 +942,14 @@ input[type="file"] {
     /* Home Page */
 
     .logo-all {
-        line-height: inherit;
+        text-align: center;
+        margin: auto;
+        float: none;
     }
 
     .menu-all {
-       clear: both;
-       float: left;
+       float: none;
+       text-align: center;
        margin-left: 40px;
        line-height: 65px;
     }
@@ -999,15 +1027,16 @@ input[type="file"] {
 
     .logo-all {
         font-size: 150%;
-        margin-left: 20px;
     }
 
     .menu-all {
         font-size: 100%;
         padding: 0;
-        margin-left: 20px;
         word-spacing: 0;
         line-height: 35px;
+        text-align: center;
+        
+        margin: 0;
     }
 
     .menu-all ul li a {
@@ -1207,7 +1236,6 @@ input[type="file"] {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    /*margin: 40px auto;*/
     text-align: center;
     color: #FB743E;
 }
@@ -1261,12 +1289,7 @@ input[type="file"] {
     margin-top: 40px;
 }
 
-.pull-bottom {
-    position: absolute;
-    bottom: 2rem;
-    left: 0;
-    right: 0;
-}
+
 
 
 /* Lateral Slider CSS Experiment */
