@@ -201,7 +201,6 @@ h1, h2 {
 .recipe-section {
     height: 600px;
     width: 100%;
-    /*overflow: hidden;*/
 }
 
 /* The Flex Box have been studied on W3School Website */
@@ -288,7 +287,12 @@ h1, h2 {
     color: #181D31;
     border-radius: 10px;
     text-decoration: none;
+}
 
+i {
+    margin-right: 10px;
+    text-align: center;
+    width: 1em;
 }
 
 /* Footer Section */
@@ -622,8 +626,8 @@ footer {
 
 .about-us-address h4 {
     font-size: 125%;
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
+    margin-right: 10px;
 }
 
 .company-details {
@@ -942,16 +946,19 @@ input[type="file"] {
     /* Home Page */
 
     .logo-all {
-        text-align: center;
         margin: auto;
-        float: none;
+        line-height: 80px;
     }
 
     .menu-all {
-       float: none;
-       text-align: center;
+       
        margin-left: 40px;
        line-height: 65px;
+    }
+
+    .logo-all, .menu-all {
+        float: none;
+        text-align: center;
     }
 
     /*  Recipes Page */
