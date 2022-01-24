@@ -531,20 +531,15 @@ footer {
 
 .buttons { 
     font-family: 'Viga', sans-serif;
-
     width: 150px;
     float: right;
-
     margin-top: 40px;
     margin-left: 10px;
     padding: 10px 10px;
-
     font-size: 110%;
     text-align: center;
-
     background-color: #E6DDC4;
     color: #181D31;
-
     border-radius: 10px;
 }
 
@@ -567,13 +562,12 @@ footer {
 
 /* Address and Map Section - Contact Us Page */
 
-.about-us-ad {
+.about-conad {
     width: 100%;
     height: 500px;
     display: flex;
     background-color: #181D31;
 }
-
 
 .about-us-address {
     flex: 50%;
@@ -581,7 +575,7 @@ footer {
     margin-left: 40px
 }
 
-.about-us-ad h3 {
+.about-conad h3 {
     font-size: 200%;
     text-align: center;
     margin: 10px 40px 0 40px;
@@ -594,14 +588,12 @@ footer {
     list-style-type: none;
 }
 
-
 .about-us-maps {
     flex: 50%;
     color: #E6DDC4;
     text-align: center;
     margin-right: 40px
 }
-
 
 .about-us-maps iframe {
     width: 80%;
@@ -612,8 +604,6 @@ footer {
 
 
 /* Contact Details - Contact Us Page */
-
-
 .about-us-address h4 {
     font-size: 125%;
     text-align: left;
@@ -715,24 +705,21 @@ input[type="file"] {
     position: absolute;
 }
 
-
 .text-thanks-error-pages h2, .text-thanks-error-pages p {
     color:rgb(240, 233, 210);
+    padding: 10px;
 } 
 
 .text-thanks-error-pages p {
     font-size: 140%;
     font-family: 'Viga', sans-serif;
-    text-align: center;
     line-height: 35px;
 }
-
 
 .anchor-text {
     text-decoration: none;
     color: #FB743E;
 }
-
 
 .anchor-text:hover {
     text-decoration: underline;
@@ -950,7 +937,7 @@ input[type="file"] {
         font-size: 100%;
     }
 
-    .about-us-ad {
+    .about-conad {
         height: fit-content;
         display: flex;
         flex: 100%;
@@ -985,26 +972,11 @@ input[type="file"] {
         height: fit-content;
         font-size: 100%;
     }
-
-
-  
-
 }
 
 
-
-
-@media screen and (max-width: 768px) {
-
-  
-}
-
-
-
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 600px) {    
     /* Home Page - Logo and Nav Bar*/    
-
     .logo-all {
         font-size: 150%;
     }
@@ -1062,8 +1034,7 @@ input[type="file"] {
     }
 
 
-    /* Home Page - Recipe of the Day Section */
-    
+    /* Home Page - Recipe of the Day Section */    
     .images-recipes-day {
         width: 90%;
         height: auto;
@@ -1076,7 +1047,6 @@ input[type="file"] {
         align-self: auto;
         margin: 0 20px 40px 20px;
         padding: 0;
-        
         text-align: left;
     }
 
@@ -1087,8 +1057,7 @@ input[type="file"] {
         padding: 0;
     }
 
-
-    /* Recipes Page MQ*/
+    /* Recipes Page */
     .recipe-anchor { 
         padding: 5px 15px;
         font-size: 15px;
@@ -1123,7 +1092,6 @@ input[type="file"] {
     }
 
     /* Contact Us & Share Pages */
-
     .images-text-sc {
         min-width: 90vw;
         font-size: 70%;
@@ -1140,7 +1108,6 @@ input[type="file"] {
         width: 100px;
         margin-top: 40px;
         padding: 10px 0;
-    
         font-size: 90%;    
     }
 
@@ -1160,7 +1127,7 @@ input[type="file"] {
         margin: 30px 20px 5px 20px;
     }
 
-    .about-us-ad h3 {
+    .about-conad h3 {
         font-size: 150%;
     }
 
@@ -1198,19 +1165,13 @@ input[type="file"] {
         font-size: 80%;
     }
 
-
     .titles-sections {
         font-size: 150%;
         margin: 20px auto;
     }
-
 }
 
-
-
-
-/* Popup */
-
+/* Popup - Studied how to create Popup in Codepen.io*/
 .wrapper {
     display: flex;
     justify-content: center;
@@ -1228,6 +1189,7 @@ input[type="file"] {
     background: #181D31;
     display: none;
     z-index: 1;
+    overflow-y: scroll;
 }
 
 .content-popup {
@@ -1248,29 +1210,37 @@ input[type="file"] {
     border: 2px solid #FB743E;
     color: #FB743E;
     text-decoration: none;
-    line-height: 1;
+    line-height: 1em;
     padding: 5px 8px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .popup:target {
     display: block
 }
 
-.popup .content-popup h2 {
+.content-popup h2, .content-popup h3 {
     color: #FB743E;
-    text-align: center;
-    line-height: 20px;
+    text-align: left;
+    line-height: 1em;
+    padding-top: 20px;
 }
 
-.popup .content-popup p {
+.content-popup p {
     color: #E6DDC4;
     text-align: justify;
-    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
+.content-popup ol li {
+    color: #E6DDC4;
+}
 
-
+.content-popup .tips {
+    padding-top: 0;
+} 
 
 /* Lateral Slider CSS Experiment */
 .slider {
@@ -1280,13 +1250,12 @@ input[type="file"] {
     justify-content: center;
     align-content: center;
     align-items: center;
-  }
+}
 
   .slider > a {
     display: inline-flex;
     width: 30px;
     height: 20px;
-
     font-family: 'Viga', sans-serif;
     background: #181D31;
     text-decoration: none;
@@ -1296,11 +1265,11 @@ input[type="file"] {
     border-radius: 50px;
     padding: 20px 20px;
     margin: 10px 10px;
-  }
+}
 
 
   .slider > a:hover {
     color: #FB743E;
-  }
+}
   
    
