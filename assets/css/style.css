@@ -1227,6 +1227,7 @@ input[type="file"] {
     top: 0;
     background: #181D31;
     display: none;
+    z-index: 1;
 }
 
 .content-popup {
