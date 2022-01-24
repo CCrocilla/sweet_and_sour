@@ -438,19 +438,23 @@ footer {
 
 /* Contact Us Page */
 
-#form-area-contact-us {
+.forms-sc {
     width: 100%;
     height: fit-content;
     overflow: hidden;
-    background: url('../images/contact-us-background.webp') no-repeat center center;
+    /*background: url('../images/contact-us-background.webp') no-repeat center center;*/
     background-size: cover;
     position: relative;
     padding-bottom: 40px;
 }
 
+.img-contact-us {
+    background: url('../images/contact-us-background.webp') no-repeat center center;
+}
+
  
 /* Contact Us and Share Form Image Text Section */
-#image-text-contact-us, #image-text-share{
+.images-text-sc {
     font-size: 120%;
     width: 40%;
     min-width: 800px;
@@ -459,13 +463,12 @@ footer {
     padding: 30px;
     margin: 40px auto;
     background-color: rgba(24, 29, 49, 0.9);
-    
     border-radius: 20px;
     display: flex;
     justify-content: center;
 }
 
-#image-text-contact-us h2, #image-text-share h2 {
+.images-text-sc h2 {
     color: #E6DDC4;
 }
 
@@ -478,18 +481,15 @@ footer {
     align-content: center;
 }
 
-#form-user-contact-us, #form-user-share {
+.forms-users {
     color: #E6DDC4;
     text-align: left;
     font-size: 100%;
     padding: 30px;
-    
     width: 40%;
     min-width: 800px;
     height: fit-content;
-    
     border-radius: 20px;
-
     background-color: rgba(24, 29, 49, 0.9);
 }
 
@@ -521,7 +521,7 @@ footer {
     border: 1px solid #FB743E;
 }
 
-#form-user-contact-us label {
+.forms-users label {
     font-size: 100%;
 }
 
@@ -577,7 +577,7 @@ footer {
 
 /* Address and Map Section - Contact Us Page */
 
-#about-us-container {
+.about-us-ad {
     width: 100%;
     height: 500px;
     display: flex;
@@ -591,7 +591,7 @@ footer {
     margin-left: 40px
 }
 
-#about-us-container h3 {
+.about-us-ad h3 {
     font-size: 200%;
     text-align: center;
     margin: 10px 40px 0 40px;
@@ -642,17 +642,9 @@ footer {
 
 
 /* Share Page */
-
-#form-area-share {
-    width: 100%;
-    height: fit-content;
-    padding-bottom: 40px;
-    overflow: hidden;
-    background: url('../images/share-background.webp') repeat center center;
-    background-size: cover;
-    position: relative;  
+.img-share {
+    background: url('../images/share-background.webp') no-repeat center center;
 }
-
 
 textarea {
     width: 100%;
@@ -670,13 +662,12 @@ textarea {
 
 textarea:focus {
     outline: 2px solid #FB743E ;
+    border-radius: 10px;
 }
 
 input[type="file"] { 
     width: fit-content;
-
     margin-top: 40px;
-
     font-size: 110%;
     font-family: 'Viga', sans-serif;
     color: #E6DDC4;
@@ -925,7 +916,7 @@ input[type="file"] {
         padding-bottom: 40px;
     }
 
-    #image-text-share, #form-user-share, #image-text-contact-us, #form-user-contact-us {
+    .images-text-sc, .forms-users {
         min-width: 80vw;
         font-size: 100%;
     }
@@ -972,12 +963,12 @@ input[type="file"] {
     }
 
     /* Contact Us Page*/
-    #image-text-contact-us, #form-user-contact-us {
+    .forms-users {
         min-width: 80vw;
         font-size: 100%;
     }
 
-    #about-us-container{
+    .about-us-ad {
         height: fit-content;
         display: flex;
         flex: 100%;
@@ -1116,7 +1107,6 @@ input[type="file"] {
 
 
     /* Recipes Page MQ*/
-
     .recipe-anchor { 
         padding: 5px 15px;
         font-size: 15px;
@@ -1152,13 +1142,13 @@ input[type="file"] {
 
     /* Contact Us & Share Pages */
 
-    #image-text-contact-us, #image-text-share {
+    .images-text-sc {
         min-width: 90vw;
         font-size: 70%;
         padding: 20px;
     }
 
-    #form-user-contact-us, #form-user-share {
+    .forms-users {
         min-width: 90vw;
         font-size: 100%;
         padding: 20px;
@@ -1188,7 +1178,7 @@ input[type="file"] {
         margin: 30px 20px 5px 20px;
     }
 
-    #about-us-container h3 {
+    .about-us-ad h3 {
         font-size: 150%;
     }
 
