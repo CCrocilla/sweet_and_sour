@@ -602,7 +602,6 @@ footer {
     align-items: center; 
 }
 
-
 /* Contact Details - Contact Us Page */
 .about-us-address h4 {
     font-size: 125%;
@@ -658,13 +657,10 @@ input[type="file"] {
     margin: 20px 0;
 }
 
-
-
 /* Error 404 Page & Thank You Page */
-
 .thanks-error-section {
     width: 100%;
-    height: 600px;
+    height: 800px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -673,25 +669,21 @@ input[type="file"] {
     align-content: center;
 }
 
-/* Needed to adjust*/
-.thanks-image {
+.te-img-container {
     width: 100%;
-    height: 600px; 
-    background: url('../images/thanks-image.webp');
+    height: 800px; 
     display: block;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.thanks-image {
+    background: url('../images/thanks-image.webp');
+}
+
 .error-image {
-   width: 100%;
-   height: 600px; 
    background: url('../images/error-image.webp');
-   display: block;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
 }
 
 .text-thanks-error-pages {
@@ -737,25 +729,18 @@ input[type="file"] {
     }
 }
 
-
-
-
-
 /* For larger to medium screen size from 1200px wide to down */
 @media screen and (max-width: 1200px) {
 
     /* Home Page */
-
     * {
         box-sizing: border-box;
     }
-
 
     .hero-section, .hero-image {
         height: 300px;
         background-size: cover;
     }
-
 
     .image-text {
         font-size: 110%;
@@ -763,13 +748,11 @@ input[type="file"] {
         height: fit-content;
         text-align: center;
         padding: 25px 35px;
-        
         top: 75px;
         right: 100px;
     }
 
     /* Story Section - Home Page */
-
     .story-section {
         height: fit-content;  
     }
@@ -796,7 +779,6 @@ input[type="file"] {
         width: 100%;
     }
     
-
     .left-story {
         max-width: 90%;
         margin: 0 40px 40px 40px;
@@ -815,7 +797,6 @@ input[type="file"] {
         flex-direction: column;
     }
     
-
     .images-recipes-day {
         width: 550px;
         height: 350px;
@@ -855,7 +836,6 @@ input[type="file"] {
         align-self: auto;
         margin: 0 0 10px 0;
         text-align: center;
-
     }
 
     .flex-ingredient-recipe {
@@ -876,11 +856,8 @@ input[type="file"] {
         height: auto;    
     }
 
-
-
-    /* Share Page */
-    
-    #form-area-share {
+    /* Share Page  & Contact Us*/
+    .forms-sc {
         height: fit-content;
         padding-bottom: 40px;
     }
@@ -889,29 +866,17 @@ input[type="file"] {
         min-width: 80vw;
         font-size: 100%;
     }
-
-
-    /* Contact Us Page & Form Section*/
-
-    #form-area-contact-us {
-        height: fit-content;
-        padding-bottom: 40px;
-    }
-
 }
 
 
 @media screen and (max-width: 950px) {
-
     /* Home Page */
-
     .logo-all {
         margin: auto;
         line-height: 80px;
     }
 
     .menu-all {
-       
        margin-left: 40px;
        line-height: 65px;
     }
@@ -922,7 +887,6 @@ input[type="file"] {
     }
 
     /*  Recipes Page */
-    
     .container-amd .container-slides {
         flex-flow: column nowrap;
         gap: 10px;
@@ -957,7 +921,6 @@ input[type="file"] {
         margin: 0;
     }
     
-    
     .about-us-maps iframe {
         width: 80%;
         height: 350px;
@@ -965,7 +928,6 @@ input[type="file"] {
         align-items: center; 
     }
     
-
     /* Error 404 Page */
     .text-thanks-error-pages {
         width: 80vw;
@@ -987,14 +949,12 @@ input[type="file"] {
         word-spacing: 0;
         line-height: 35px;
         text-align: center;
-        
         margin: 0;
     }
 
     .menu-all ul li a {
         padding: 0px 7px;
     }
-
 
     .active {
         border-bottom: 1px solid #181D31;
@@ -1033,7 +993,6 @@ input[type="file"] {
         text-align: justify;
     }
 
-
     /* Home Page - Recipe of the Day Section */    
     .images-recipes-day {
         width: 90%;
@@ -1050,9 +1009,7 @@ input[type="file"] {
         text-align: left;
     }
 
-
     /* Footer */
-
     .social-network li i {
         padding: 0;
     }
@@ -1150,9 +1107,6 @@ input[type="file"] {
 }
 
 
-
-
-
 @media screen and (max-width: 350px) {
 
    .logo-all {
@@ -1242,7 +1196,7 @@ input[type="file"] {
     padding-top: 0;
 } 
 
-/* Lateral Slider CSS Experiment */
+/* Slider CSS */
 .slider {
     width: 100%;
     text-align: center;
@@ -1266,7 +1220,6 @@ input[type="file"] {
     padding: 20px 20px;
     margin: 10px 10px;
 }
-
 
   .slider > a:hover {
     color: #FB743E;
