@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Viga&display=swap');
 
 /* Remove any default margin, padding and border */
-
 * {
     margin: 0;
     padding: 0;
     border: none;
     scroll-behavior: smooth;
 }
-
-
 
 body {
     font-family: 'Oxygen', sans-serif;
@@ -19,13 +16,11 @@ body {
     width: 100%;
 }
 
-
 /* Logo and Headers */
 h1, h2 {
     font-family: 'Viga', sans-serif;
     color: #181D31;
 }
-
 
 /* Display the Logo on the Left side and add margin and increased font size*/
 .logo-all {
@@ -33,7 +28,6 @@ h1, h2 {
     font-size: 200%;
     margin-left: 40px;
 }
-
 
 /* Display the Menu Bar on the right side, add margin */
 .menu-all {
@@ -45,13 +39,11 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-
 /* Set the nav bar horizontally */
 .menu-all li {
     display: inline;
     list-style-type: none; 
 }
-
 
 /* For the a element remove the underline, apply the color:#181D31 and then the padding in order to create space */
 .menu-all > ul > li > a {
@@ -77,11 +69,8 @@ h1, h2 {
     font-size: 125%;
 }
 
-
-
 /* Hero Image for Home Page */
 /* Idea from Love Running Project */
-
 .hero-section {
     width: 100%;
     height: 500px;
@@ -89,7 +78,6 @@ h1, h2 {
     position: relative; 
 }
  
-
 .hero-image {
    width: 100%;
    height: 500px; 
@@ -100,10 +88,7 @@ h1, h2 {
    background-size: cover;
 }
 
-
-
 /* Text above Image. Idea from Love Running Project */
-
 .image-text {
     font-size: 150%;
     width: 250px;
@@ -120,15 +105,11 @@ h1, h2 {
     position: absolute;
 }
 
-
 .image-text h2 {
     color:rgb(240, 233, 210);
 }
 
-
-
 /* This area is dedicated to the Story Section */
-
 .story-section {
     height: 580px;
     width: 100%;
@@ -169,10 +150,7 @@ h1, h2 {
     text-align: right;
 }
 
-
-
 /* Add Flex Content for the Video in the Story Section */
-
 .videos {
     max-width: 550px;
     max-height: 350px;
@@ -185,10 +163,7 @@ h1, h2 {
     background-size: cover;
 }
 
-
-
 /* This content is used for all the titles */
-
 .titles-sections {
     text-align: center;
     font-size: 250%;
@@ -197,14 +172,12 @@ h1, h2 {
 
 
 /* Recipe of the Day Section - Homepage */
-
 .recipe-section {
     height: 600px;
     width: 100%;
 }
 
 /* The Flex Box have been studied on W3School Website */
-
 .container {
     width: 100%;
     display: flex;
@@ -213,7 +186,6 @@ h1, h2 {
     justify-content: space-between; 
     gap: 15px; 
 }
-
 
 .images-recipes-day {
     width: 550px;
@@ -224,7 +196,6 @@ h1, h2 {
 }
 
 /* Add Flex property for the div elements of the Recipe of the Day Section */
-
 .recipe-day-container{
     align-items: start;
     background-color: #181D31;
@@ -296,9 +267,7 @@ i {
 }
 
 /* Footer Section */
-
 /* Credit: Love Running Project */
-
 footer {
     height: 100px;
     display: flex;
@@ -324,14 +293,11 @@ footer {
     color: #181D31;
 }
 
-
 .social-network li i:hover {
     color: #FB743E;
 }
 
-
 /* Recipes Page */
-
 #container-recipes-buttons {
     max-width: 100%;
     display: flex;
@@ -342,7 +308,6 @@ footer {
 
 #container-recipes-buttons nav a { 
     width: 180px; 
-    
     text-align: center;
     padding: 20px 25px;
     margin: 0 5px;
@@ -434,7 +399,6 @@ footer {
     background-size: cover;
 }
 
- 
 /* Contact Us and Share Form Image Text Section */
 .images-text-sc {
     font-size: 120%;
