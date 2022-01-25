@@ -1122,6 +1122,7 @@ input[type="file"] {
     text-align: left;
     line-height: 1em;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .content-popup p {
