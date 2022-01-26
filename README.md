@@ -29,25 +29,22 @@ Click in the image above to access the Live Website or [click here!](https://ccr
 ### **User Stories**
 
 - #### First Time Visitor Goals
-
-    1. As a First Time visitor of a website dedicated to food and recipes, I need to be able to have a visual impact of the type of food and recipes sponsored by this websites, this can be obtained showing images of the finished food products.  
-    2. As a First Time Visitor, I want to be able to navigate through the website and find recipes easily.
-    3. As a First Time Visitor, I want to be able to a large variety of recipes.
-    4. A First Time Visitor, I want to visually see the recipes and to understand their level of complexity.
-    5. As a First Time Visitor, I want to find the website pleasant to the eye, visually intuitive, with catchy colours and images.
-    6. As a First Time Visitor, I want to see in the foreground the necessary ingredients for the realization of the dishes. 
+	1. As a First Time visitor of a website dedicated to food and recipes, I need to be able to have a visual impact of the type of food and recipes sponsored by 		this websites, this can be obtained showing images of the finished food products.  
+	2. As a First Time Visitor, I want to be able to navigate through the website and find recipes easily.
+	3. As a First Time Visitor, I want to be able to a large variety of recipes.
+	4. A First Time Visitor, I want to visually see the recipes and to understand their level of complexity.
+	5. As a First Time Visitor, I want to find the website pleasant to the eye, visually intuitive, with catchy colours and images.
+	6. As a First Time Visitor, I want to see in the foreground the necessary ingredients for the realization of the dishes. 
 
 - #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to frequently be able find new recipes.
-    2. As a Returning Visitor, I want to share my personal recipes with the rest of the community sharing a similar passion for cooking.
-    3. As a Returning Visitor, I want to access the website through my social media account.
+	1. As a Returning Visitor, I want to frequently be able find new recipes.
+	2. As a Returning Visitor, I want to share my personal recipes with the rest of the community sharing a similar passion for cooking.
+	3. As a Returning Visitor, I want to access the website through my social media account.
 
 - #### Frequent User Goals
-
-    1. As a Frequent User, I want to see the recipe of the day.
-    2. As a Frequent User, I want to check if my recipes that I sent is displayed in the Recipes page.
-    3. As a Frequent User, I want to sign up to the Newsletter in order to receive daily/weekly/monthly update on the recipes and news. 
+	1. As a Frequent User, I want to see the recipe of the day.
+	2. As a Frequent User, I want to check if my recipes that I sent is displayed in the Recipes page.
+	3. As a Frequent User, I want to sign up to the Newsletter in order to receive daily/weekly/monthly update on the recipes and news. 
 
 <!-- Use Cases Area -->
 ### **Use Cases**
@@ -176,7 +173,7 @@ When the user does not fill-in the form correctly, an error message will be trig
 - ### Colour Scheme
 #### The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
 #### The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
-#### Colour Source: 
+Colour Source: 
   - #### [Adobe Color](https://color.adobe.com/create/color-wheel)
   - #### [Color Hunt](https://colorhunt.co/)  
 The Color Palette used are: 
@@ -249,8 +246,8 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 
 ## **Wireframe**
 
-### Balsamiq has been used in order to create the wireframe.
-### Below you can open the accordions divided by page and by device used (desktop, tablet and smartphone).
+#### Balsamiq has been used in order to create the wireframe.
+#### Below you can open the accordions divided by page and by device used (desktop, tablet and smartphone).
 
 
 - ## Home Page 
@@ -277,92 +274,86 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 <details>
     <summary>Click Here for: Desktop View</summary>
 <img src="assets/images-readme/desktop-recipes.webp" alt="Desktop View Recipes Page" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-recipes.webp" alt="Tablet View Recipes Page" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-recipes.webp" alt="Smartphone View Recipes Page" width="400px"/>
-
 </details>
 
 - ## Share Page
 <details>
     <summary>Click Here for: Desktop View</summary>
 <img src="assets/images-readme/desktop-share.webp" alt="Desktop View Share Page" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-share.webp" alt="Tablet View Share Page" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-share.webp" alt="Smartphone View Share Page" width="400px"/>
-
 </details>
-
 
 - ## Contact Us Page
 <details>
     <summary>Click Here for: Desktop View</summary>
 <img src="assets/images-readme/desktop-contactus.webp" alt="Desktop View Contact Us Page" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-contactus.webp" alt="Tablet View Contact Us Page" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-contactus.webp" alt="Smartphone View Contact Us Page" width="400px"/>
-
 </details>
-
 
 - ## Thanks You Page
 <details>
     <summary>Click Here for: Desktop View</summary>
 <img src="assets/images-readme/desktop-thankyoupage.webp" alt="Desktop View Thank You Page" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-thankyoupage.webp" alt="Tablet View Thank You Page" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-thankyoupage.webp" alt="Smartphone View Thank You Page" width="400px"/>
-
 </details>
-
 
 - ## 404 Error Page
 <details>
     <summary>Click Here for: Desktop View</summary>
 <img src="assets/images-readme/desktop-errorpage.webp" alt="Desktop View Error 404 Page" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-errorpage.webp" alt="Tablet View  Error 404 Page" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="400px"/>
-
 </details>
 
 
 ## **Technologies Used**
+
+- ### Languages
 
 #### The Languages used are:
  - HTML5
@@ -371,7 +362,7 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 #### Only custom HTML and CSS Code has been used.
 
 
-### **Frameworks, Libraries & Programs Used** 
+- ### **Frameworks, Libraries & Programs Used** 
 
 #### No Design Framework has been used.
 
@@ -435,66 +426,66 @@ The testing phase have been carried out using the W3C CSS Validator and W3C Mark
 
 
 ### **Lighthouse Validator**
-
 Below it is possible to taka e look at the result obtained in Lighthouse:
+
 <details>
     <summary>Click Here for: Lighthouse Desktop - Homepage</summary>
-<img src="assets/images-readme/lh-desktop.homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
+<img src="assets/images-readme/lh-desktop-homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Homepage</summary>
-<img src="assets/images-readme/lh-mobile.homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
+<img src="assets/images-readme/lh-mobile-homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Recipes</summary>
-<img src="assets/images-readme/lh-desktop.recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
+<img src="assets/images-readme/lh-desktop-recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Recipes</summary>
-<img src="assets/images-readme/lh-mobile.recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
+<img src="assets/images-readme/lh-mobile-recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Share</summary>
-<img src="assets/images-readme/lh-desktop.share.webp" alt="Lighthouse Desktop Share" width="800px"/>
+<img src="assets/images-readme/lh-desktop-share.webp" alt="Lighthouse Desktop Share" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Share</summary>
-<img src="assets/images-readme/lh-mobile.share.webp" alt="Lighthouse Mobile Share" width="800px"/>
+<img src="assets/images-readme/lh-mobile-share.webp" alt="Lighthouse Mobile Share" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Contact Us</summary>
-<img src="assets/images-readme/lh-desktop.contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
+<img src="assets/images-readme/lh-desktop-contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Contact Us</summary>
-<img src="assets/images-readme/lh-mobile.contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
+<img src="assets/images-readme/lh-mobile-contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Thanks you</summary>
-<img src="assets/images-readme/lh-desktop.thankyou.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
+<img src="assets/images-readme/lh-desktop-thankyoupage.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Thanks you</summary>
-<img src="assets/images-readme/lh-mobile.thankyou.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
+<img src="assets/images-readme/lh-mobile-thankyoupage.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Error 404</summary>
-<img src="assets/images-readme/lh-desktop.404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
+<img src="assets/images-readme/lh-desktop-404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Error 404</summary>
-<img src="assets/images-readme/lh-mobile.404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
+<img src="assets/images-readme/lh-mobile-404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
 </details>
 
 
@@ -513,14 +504,14 @@ Example:
 
 ### **Additional Tests**
 Tests have been performed on Firefox, Microsoft Edge, Chrome and Safari and the result is consistent in all the browser. 
-Additional tests include also the check on different devices. Here the list of device used for the tests:
+Additional tests include also the check on different devices. Here the list of device used for the tests through the Google Emulatore:
 * iPhone 8
 * iPhone 12 Pro Max
 * iPad Pro
 * iPad 
 * Moto 4G
 * Samsung Galaxy
-<br>
+
 Bugs
 List here the bugs
 <br><br>
