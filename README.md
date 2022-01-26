@@ -170,25 +170,25 @@ When the user does not fill-in the form correctly, an error message will be trig
 #### The webpage has been designed to provide a simple, intuitive view which is able to provide a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect results. 
 #### Every page has a minimalistic structure which however contains all the relevant features in order to provide the user with a simple, clear and effective experience.  
 
-- ### Colour Scheme
+- ### **Colour Scheme**
 #### The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
 #### The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
-#### The main colors are Navy (#181D31) and Beige (#E6DDC4) and those characterize the full website while an Orange (#FB743E) is used to make a good contrast in the element in order to provide a better view of the elements. 
 Colour Source: 
   - #### [Adobe Color](https://color.adobe.com/create/color-wheel)
-  - #### [Color Hunt](https://colorhunt.co/)  
+  - #### [Color Hunt](https://colorhunt.co/) 
+#### The main colors are Navy (#181D31) and Beige (#E6DDC4) and those characterize the full website while an Orange (#FB743E) is used to make a good contrast in the element in order to provide a better view of the elements. 
+ 
 
-
-- ### Typography
-Google Fonts has been used to select the fonts for the Website. 
-The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded. 
+- ### **Typography**
+#### Google Fonts has been used to select the fonts for the Website. 
+#### The Main fonts used are: 'Oxigen' and 'Viga' while the Sans-serif has been set up as fall-back in case the main font is not loaded. 
 Source:
   - [Google Fonts](https://fonts.google.com/)
 
 
-- ### Image and Video
-Real images have been used to show the completed recipes.
-The developer selected a video for the home page of the websites. 
+- ### **Image and Video**
+#### Real images have been used to show the completed recipes.
+#### The developer selected a video for the home page of the websites. 
 Sources:  
   - [Pexels](https://www.pexels.com/)
 
