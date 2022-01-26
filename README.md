@@ -256,17 +256,17 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 - ## Home Page 
 <details>
     <summary>Click Here for: Desktop View</summary>  
-<img src="assets/images-readme/desktop-homepage.png" alt="Desktop View Homepage" width="800px"/>
+<img src="assets/images-readme/desktop-homepage.webp" alt="Desktop View Homepage" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-homepage.png" alt="Tablet View Homepage" width="600px"/>
+<img src="assets/images-readme/tablet-homepage.webp" alt="Tablet View Homepage" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-homepage.png" alt="Smartphone View Homepage" width="400px"/>
+<img src="assets/images-readme/smartphone-homepage.webp" alt="Smartphone View Homepage" width="400px"/>
 
 </details>
 <br>
@@ -276,148 +276,113 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 - ## Recipes Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-recipes.png" alt="Desktop View Recipes Page" width="800px"/>
+<img src="assets/images-readme/desktop-recipes.webp" alt="Desktop View Recipes Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-recipes.png" alt="Tablet View Recipes Page" width="600px"/>
+<img src="assets/images-readme/tablet-recipes.webp" alt="Tablet View Recipes Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-recipes.png" alt="Smartphone View Recipes Page" width="400px"/>
+<img src="assets/images-readme/smartphone-recipes.webp" alt="Smartphone View Recipes Page" width="400px"/>
 
 </details>
-<br>
-<br>
-
-
-- ## Recipe 
-<details>
-    <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-recipepage.png" alt="Desktop View Recipe Page" width="800px"/>
-
-</details>
-<details>
-    <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-recipepage.png" alt="Tablet View Recipe Page" width="600px"/>
-
-</details>
-<details>
-    <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-recipepage.png" alt="Smartphone View Recipe Page" width="400px"/>
-
-</details>
-<br>
-<br>
-
 
 - ## Share Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-share.png" alt="Desktop View Share Page" width="800px"/>
+<img src="assets/images-readme/desktop-share.webp" alt="Desktop View Share Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-share.png" alt="Tablet View Share Page" width="600px"/>
+<img src="assets/images-readme/tablet-share.webp" alt="Tablet View Share Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-share.png" alt="Smartphone View Share Page" width="400px"/>
+<img src="assets/images-readme/smartphone-share.webp" alt="Smartphone View Share Page" width="400px"/>
 
 </details>
-<br>
-<br>
 
 
 - ## Contact Us Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-contactus.png" alt="Desktop View Contact Us Page" width="800px"/>
+<img src="assets/images-readme/desktop-contactus.webp" alt="Desktop View Contact Us Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-contactus.png" alt="Tablet View Contact Us Page" width="600px"/>
+<img src="assets/images-readme/tablet-contactus.webp" alt="Tablet View Contact Us Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-contactus.png" alt="Smartphone View Contact Us Page" width="400px"/>
+<img src="assets/images-readme/smartphone-contactus.webp" alt="Smartphone View Contact Us Page" width="400px"/>
 
 </details>
-<br>
-<br>
 
 
 - ## Thanks You Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-thankyou.png" alt="Desktop View Thank You Page" width="800px"/>
+<img src="assets/images-readme/desktop-thankyoupage.webp" alt="Desktop View Thank You Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-thankyou.png" alt="Tablet View Thank You Page" width="600px"/>
+<img src="assets/images-readme/tablet-thankyoupage.webp" alt="Tablet View Thank You Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-thankyou.png" alt="Smartphone View Thank You Page" width="400px"/>
+<img src="assets/images-readme/smartphone-thankyoupage.webp" alt="Smartphone View Thank You Page" width="400px"/>
 
 </details>
-<br>
-<br>
 
 
 - ## 404 Error Page
 <details>
     <summary>Click Here for: Desktop View</summary>
-<img src="assets/images-readme/desktop-error404.png" alt="Desktop View Error 404 Page" width="800px"/>
+<img src="assets/images-readme/desktop-errorpage.webp" alt="Desktop View Error 404 Page" width="800px"/>
 
 </details>
 <details>
     <summary>Click Here for: Tablet View</summary>
-<img src="assets/images-readme/tablet-error404.png" alt="Tablet View  Error 404 Page" width="600px"/>
+<img src="assets/images-readme/tablet-errorpage.webp" alt="Tablet View  Error 404 Page" width="600px"/>
 
 </details>
 <details>
     <summary>Click Here for: Smartphone View</summary>
-<img src="assets/images-readme/smartphone-error404.png" alt="Smartphone View Error 404 Page" width="400px"/>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="400px"/>
 
 </details>
-<br>
-<br>
-
-<br><br>
 
 
 ## **Technologies Used**
 
-The Languages used are:
+#### The Languages used are:
  - HTML5
  - CSS3
-<br><br>
 
 ### **Frameworks, Libraries & Programs Used** [Section that needs to be reviewed]
-- Google Fonts:<br> 
-Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
+- #### Google Fonts: 
+#### Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
 
-- Font Awesome:<br>
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+- #### Font Awesome:
+#### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-- Git:<br> 
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- #### Git: 
+#### Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-- GitHub:<br> 
-GitHub is used to store the projects code after being pushed from Git.
+- #### GitHub: 
+#### GitHub is used to store the projects code after being pushed from Git.
 
-- Balsamiq:<br> 
-Balsamiq was used to create the wireframes during the design process.
-<br><br>
+- #### Balsamiq: 
+#### Balsamiq was used to create the wireframes during the design process.
 
 
 
