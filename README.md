@@ -368,32 +368,72 @@ An hyperlink is present in the text displayed and highlighted in orange in order
  - HTML5
  - CSS3
 
-### **Frameworks, Libraries & Programs Used** [Section that needs to be reviewed]
+#### Only custom HTML and CSS Code has been used.
+
+
+### **Frameworks, Libraries & Programs Used** 
+
+#### No Design Framework has been used.
+
 - #### Google Fonts: 
-#### Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
+    - #### Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
 
 - #### Font Awesome:
-#### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - #### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 - #### Git: 
-#### Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - #### Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - #### GitHub: 
-#### GitHub is used to store the projects code after being pushed from Git.
+    - #### GitHub is used to store the projects code after being pushed from Git.
 
 - #### Balsamiq: 
-#### Balsamiq was used to create the wireframes during the design process.
+    - #### Balsamiq was used to create the wireframes during the design process.
 
+- #### TinyPNG
+    - #### TinyPNG has been used to compress images.
 
 
 ## **Testing**
 
-The testing phase have been carried out using the W3C Markup Validator and W3C CSS Validator Services. 
-No errors have been identified from the W3C Markup Validator has can be seen in the screenshot below: 
-<br>
+The testing phase have been carried out using the W3C Markup Validator and W3C CSS Validator Services in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
+
+<details>
+    <summary>Click Here for: W3C CSS Validator</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Home Page" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Home Page</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Home Page" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Recipes</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Recipes" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Share</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Share" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Contact Us</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Contact Us" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Thank You</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: W3C Markup Validator - Error 404</summary>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Error 404" width="800px"/>
+</details>
 
 
-IMAGE
 
 <br><br>
 No errors have been identified from the W3C CSS Validator has can be seen in the screenshot below: 
