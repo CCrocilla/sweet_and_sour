@@ -254,21 +254,17 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 <details>
     <summary>Click Here for: Desktop View</summary>  
 <img src="assets/images-readme/desktop-homepage.webp" alt="Desktop View Homepage" width="800px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Tablet View</summary>
 <img src="assets/images-readme/tablet-homepage.webp" alt="Tablet View Homepage" width="600px"/>
-
 </details>
+
 <details>
     <summary>Click Here for: Smartphone View</summary>
 <img src="assets/images-readme/smartphone-homepage.webp" alt="Smartphone View Homepage" width="400px"/>
-
 </details>
-<br>
-<br>
-
 
 - ## Recipes Page
 <details>
@@ -492,9 +488,8 @@ Below it is possible to taka e look at the result obtained in Lighthouse:
 
 ### **Test Cases**
 
-List of Test Cases Perfomed
+List of Test Cases perfomed. All the Tests have also been performed in all the Devices and the tests includes also Layout testing. 
 
-Example:
 | Page | Feature | Expected Result | Status | 
 | --- | --- | --- | --- |
 | Home | Header | Make sure that the Logo and the Nav Bare are displayed on top of the Home Page. | Pass |
@@ -526,31 +521,30 @@ Example:
 | Thanks you Page | Image | Make sure that the background image is displayed. | Pass |
 | Thanks you Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
 | Thanks you Page | Text | Make sure that the user can go back in the Home Page using the Home anchor element present in the text. | Pass |
-|   |   |
-<br><br>
-			
+
+
 
 ### **Additional Tests**
 Tests have been performed on Firefox, Microsoft Edge, Chrome and Safari and the result is consistent in all the browser. 
-Additional tests include also the check on different devices. Here the list of device used for the tests through the Google Emulatore:
-* iPhone 8
+
+Additional tests include also the check on different devices. 
+In order to test different devices has been used the Toggle device emulation in Firefox and Microsoft Edge. Here the list of device used for the tests through the Google Emulator:
 * iPhone 12 Pro Max
 * iPad Pro
 * iPad 
 * Moto 4G
-* Samsung Galaxy
+* Samsung Galaxy S20 Ultra
+* Surface Duo
 
 Bugs
 List here the bugs
-<br><br>
 
 
+## **Development** 
 
-## **Development**  [Need to be modified]
+### Deployment
 
-Deployment
-
-GitHub Pages
+- ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
@@ -586,8 +580,45 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-<br><br>
 
+---
 ## **Credits**
 
-Here the list of Credits. 
+The first thanks I owe to my Mentor Narender Singh who guided and supported me in the realization of this project, directing me towards the right path to take.  
+
+Thanks to the sources listed below I was able to create this site. Each of the links present helped me to understand how the various elements/components of HTML and CSS are used and through the deepening of the latter and the continuous tests and experiments I was able to understand how to make the most of them in the creation of the site.
+
+- ### Content & Media
+All of the contents on the website are custom and no design frameworks have been used for the realization. 
+
+The idea of the Logo, the Navbar and the Footer were taken from the Love Running Project. The realization of the latter has been studied and I have customized their implementation on the site for my needs. 
+
+I explored the writing part of the code and the best practices using the two sites below which allowed me to learn more about what I learned on the Code Institute Course.
+- [Medium.com](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+- [Learn.shayhowe.com](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+
+After deciding to create a website for people who love food in one of the cooking sites I was looking at (giallozafferano.com), opening the browser console, I came across the sign flex and tried to understand what it was. This led me to several sites on which I studied and deepened the use of flex boxes.
+After following some tutorials on youtube as well I thought I'd try to implement the use of flex boxes too and it was very important for the creation of the site.
+Listed here the Source of the studies: 
+- [Flexbox - W3School.com](https://www.w3schools.com/css/css3_flexbox.asp)
+- [Css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [Flex properties - W3School.com](https://www.w3schools.com/cssref/css3_pr_flex.asp)
+- [Web Dev Simplified - Youtube Video](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+
+During the construction phase of the site one of the most complex pages was the Recipes Page. Thanks to the help Narender Singh(Mentor) I studied concepts for the implementation of my idea on the website. He gave me the links where I can observe and study how the sliders work using only css and guided me towards a better solution to optimize the creation of the page and the preparations.
+The final results was obtained studing via the Codepen website and then customazing the code for my needs using the following sources: 
+- [Thanks to Chris Coyier for the Slider](https://codepen.io/chriscoyier/pen/XwbNwX)
+- [Thanks to Anna Blok for the Popup](https://codepen.io/anna_blok/pen/KKpwRVe)
+
+For the realization of the 404 error page I found a guide on how to create the file here: 
+- [Docs Github](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+Thanks to Kasia Bogucka and Narender Singh I got to know the github wiki site to create the Markdown file where I learn how to write them and the synthax that can be used.
+They have also provided the link for the Sample Readme of Code Institute that was very helpfull.
+- [Sample Readme File - Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
+- [Markdown - Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+All the Images as well as the Video present in the Home Page have been taken from [Pexels.com](https://www.pexels.com/)
+
+Thank you to the entire Code Instiutute Team and the Slack Community for their feedback, help and support. 
