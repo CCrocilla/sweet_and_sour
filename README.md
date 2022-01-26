@@ -353,7 +353,7 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 
 ## **Technologies Used**
 
-- ### Languages
+- ### **Languages**
 
 #### The Languages used are:
  - HTML5
@@ -470,20 +470,12 @@ Below it is possible to taka e look at the result obtained in Lighthouse:
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Thanks you</summary>
-<<<<<<< HEAD
-<img src="assets/images-readme/lh-desktop-thankyou.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
-=======
 <img src="assets/images-readme/lh-desktop-thankyoupage.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
->>>>>>> cb89e51846fc222b3222491ed2994aa75ddb45ce
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Thanks you</summary>
-<<<<<<< HEAD
-<img src="assets/images-readme/lh-mobile-thankyou.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
-=======
 <img src="assets/images-readme/lh-mobile-thankyoupage.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
->>>>>>> cb89e51846fc222b3222491ed2994aa75ddb45ce
 </details>
 
 <details>
@@ -503,18 +495,37 @@ Below it is possible to taka e look at the result obtained in Lighthouse:
 List of Test Cases Perfomed
 
 Example:
-| Area | Feature | Expected Result | Status | 
+| Page | Feature | Expected Result | Status | 
 | --- | --- | --- | --- |
 | Home | Header | Make sure that the Logo and the Nav Bare are displayed on top of the Home Page. | Pass |
-| Home | Header | Make sure that an Hero Image is displayed below the Logo and Nav Bar and don't overlap with other content. | Pass |
+| Home | Header | Make sure that clicking on the Logo the user is redirected to the Home Page. | Pass |
+| Home | Header | Make sure that the Hero Image is displayed below the Logo and Nav Bar and don't overlap with other contents. | Pass |
 | Home | Video Story Section | Make sure that the Video apppear in the Story Section and that the autoplay works. | Pass |
 | Home | Video | Make sure that the user is able to stop the Video. | Pass |
 | Home | Video | Make sure that video is muted when the homepage is opened. | Pass |
 | Home | Recipe of the Day | Make sure that the section is aligned and that Image, Details, Ingredients and the Read More Button are correctly displayed. | Pass |
-| Home | Recipe of the Day | Make sure that clicking on the Ream More Button a Popup is opened displaying the Preparation Steps. | Pass |
-| Recipes | Recipes | Make sure that the  | Pass |
-| Recipes | Nav bar Sections | Make sure that Clicking on Appetizers, Main and Desserts Button the user is moved to the clicked section. | Pass |
-| Home | Recipe of the Day | Make sure that clicking on the Ream More Button a Popup displaying the Preparation Steps are displayed. | Pass |
+| Home | Recipe of the Day | Make sure that clicking on the Read More Button a Popup is opened displaying the Preparation Steps. | Pass |
+| Recipes | Nav bar Section | Make sure that Clicking on Appetizers, Main and Desserts Button the user is moved to the clicked section. | Pass |
+| Recipes | Appetizers, Main, Desserts Sections | Make sure that the content/items are correctly displayed and that are aligned to the center. | Pass |
+| Recipes | Appetizers, Main, Desserts Sections | Make sure that in each Cards the Read More Button works and open the Popup with Details and Steps. | Pass |
+| Recipes | Appetizers, Main, Desserts Sections | Make sure that the slider button in each section works and that the user is able to reach the correct recipe. | Pass |
+| Share | Images | Make sure that the background image is displayed correcly. | Pass |
+| Share | Form | Make sure All the fields (First Name, Email, Recipe Name, Ingredients and Preparation) are editable. | Pass |
+| Share | Form | Make sure All the fields (First Name, Email, Recipe Name) are mandatory and that the user receive a clear message in case they are not filled in after clicking on the Submit Button. | Pass |
+| Share | Form | Make sure that the Reset Form Button works and that delete all the information entered in the form. | Pass |
+| Share | Form | Make sure that the Submit Button works and that open the thank you page. | Pass |
+| Contact | Images | Make sure that the background image is displayed correcly. | Pass |
+| Contact Us | Form | Make sure All the fields (First Name, Last Name and Email) are editable. | Pass |
+| Contact Us | Form | Make sure that the Reset Form Button works and that delete all the information entered in the form. | Pass |
+| Contact Us | Form | Make sure that the Submit Button works and that open the thank you page. | Pass |
+| 404 Error Page | Image | Make sure that the user is automatically redirected to the 404 Error Page if he is trying to displaying a page that does not ecisti in the website the background image is displayed. | Pass |
+| 404 Error Page | Image | Make sure that the background image is displayed. | Pass |
+| 404 Error Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
+| 404 Error Page | Text | Make sure that the user can go back in the Home Page using the Home anchor element present in the text. | Pass |
+| Thanks you Page | Image | Make sure that the page opens when the user clicks on one of the Submit Button in Share or Contact Us Pages | Pass |
+| Thanks you Page | Image | Make sure that the background image is displayed. | Pass |
+| Thanks you Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
+| Thanks you Page | Text | Make sure that the user can go back in the Home Page using the Home anchor element present in the text. | Pass |
 |   |   |
 <br><br>
 			
