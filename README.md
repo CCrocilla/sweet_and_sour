@@ -10,8 +10,8 @@
 #### The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing from for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
 
 
-<a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank" rel="noopener noreferrer"><img src="assets/images-readme/amiresponsive.png" alt="Home Page Multi Device" width="800px"/></a>
-[Click here to access the Live Page](https://ccrocilla.github.io/sweet_and_sour/ "Sweet & Sour's Home Page")
+<a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank" rel="noopener noreferrer"><img src="assets/images-readme/amiresponsive.webp" alt="Home Page Multi Device" width="800px"/></a>
+Click in the image above to access the Live Website or [click here!](https://ccrocilla.github.io/sweet_and_sour/ "Sweet & Sour's Home Page")
 
 ## **Project** 
 
@@ -396,59 +396,108 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 
 ## **Testing**
 
-The testing phase have been carried out using the W3C Markup Validator and W3C CSS Validator Services in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
+The testing phase have been carried out using the W3C CSS Validator and W3C Markup Validator in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
 
 <details>
     <summary>Click Here for: W3C CSS Validator</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Home Page" width="800px"/>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="W3C Markup Validator - Home Page" width="800"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Home Page</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Home Page" width="800px"/>
+<img src="assets/images-readme/w3c-html-homepage.webp" alt="W3C Markup Validator - Home Page" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Recipes</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Recipes" width="800px"/>
+<img src="assets/images-readme/smartphone-errorpage.webp" alt="W3C Markup Validator - Recipes" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Share</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Share" width="800px"/>
+<img src="assets/images-readme/w3c-html-share.webp" alt="W3C Markup Validator - Share" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Contact Us</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Contact Us" width="800px"/>
+<img src="assets/images-readme/w3c-html-contactus.webp" alt="W3C Markup Validator - Contact Us" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Thank You</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="800px"/>
+<img src="assets/images-readme/w3c-html-thankyou.webp" alt="W3C Markup Validator - Thank You" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: W3C Markup Validator - Error 404</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="HTML W3C Markup Validator - Error 404" width="800px"/>
+<img src="assets/images-readme/w3c-html-404.webp" alt="W3C Markup Validator - Error 404" width="800px"/>
 </details>
-
-
-
-<br><br>
-No errors have been identified from the W3C CSS Validator has can be seen in the screenshot below: 
-
-
-IMAGE
-
-<br><br>
 
 
 ### **Lighthouse Validator**
 
-Lighthouse Validation Area
-Example
-<br><br>
+Below it is possible to taka e look at the result obtained in Lighthouse:
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Homepage</summary>
+<img src="assets/images-readme/lh-desktop.homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Homepage</summary>
+<img src="assets/images-readme/lh-mobile.homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Recipes</summary>
+<img src="assets/images-readme/lh-desktop.recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Recipes</summary>
+<img src="assets/images-readme/lh-mobile.recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Share</summary>
+<img src="assets/images-readme/lh-desktop.share.webp" alt="Lighthouse Desktop Share" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Share</summary>
+<img src="assets/images-readme/lh-mobile.share.webp" alt="Lighthouse Mobile Share" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Contact Us</summary>
+<img src="assets/images-readme/lh-desktop.contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Contact Us</summary>
+<img src="assets/images-readme/lh-mobile.contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Thanks you</summary>
+<img src="assets/images-readme/lh-desktop.thankyou.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Thanks you</summary>
+<img src="assets/images-readme/lh-mobile.thankyou.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Desktop - Error 404</summary>
+<img src="assets/images-readme/lh-desktop.404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
+</details>
+
+<details>
+    <summary>Click Here for: Lighthouse Mobile - Error 404</summary>
+<img src="assets/images-readme/lh-mobile.404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
+</details>
+
+
 
 ### **Test Cases**
 
