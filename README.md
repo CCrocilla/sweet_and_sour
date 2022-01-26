@@ -439,62 +439,62 @@ The testing phase have been carried out using the W3C CSS Validator and W3C Mark
 Below it is possible to taka e look at the result obtained in Lighthouse:
 <details>
     <summary>Click Here for: Lighthouse Desktop - Homepage</summary>
-<img src="assets/images-readme/lh-desktop.homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
+<img src="assets/images-readme/lh-desktop-homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Homepage</summary>
-<img src="assets/images-readme/lh-mobile.homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
+<img src="assets/images-readme/lh-mobile-homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Recipes</summary>
-<img src="assets/images-readme/lh-desktop.recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
+<img src="assets/images-readme/lh-desktop-recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Recipes</summary>
-<img src="assets/images-readme/lh-mobile.recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
+<img src="assets/images-readme/lh-mobile-recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Share</summary>
-<img src="assets/images-readme/lh-desktop.share.webp" alt="Lighthouse Desktop Share" width="800px"/>
+<img src="assets/images-readme/lh-desktop-share.webp" alt="Lighthouse Desktop Share" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Share</summary>
-<img src="assets/images-readme/lh-mobile.share.webp" alt="Lighthouse Mobile Share" width="800px"/>
+<img src="assets/images-readme/lh-mobile-share.webp" alt="Lighthouse Mobile Share" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Contact Us</summary>
-<img src="assets/images-readme/lh-desktop.contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
+<img src="assets/images-readme/lh-desktop-contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Contact Us</summary>
-<img src="assets/images-readme/lh-mobile.contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
+<img src="assets/images-readme/lh-mobile-contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Thanks you</summary>
-<img src="assets/images-readme/lh-desktop.thankyou.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
+<img src="assets/images-readme/lh-desktop-thankyou.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Thanks you</summary>
-<img src="assets/images-readme/lh-mobile.thankyou.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
+<img src="assets/images-readme/lh-mobile-thankyou.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Desktop - Error 404</summary>
-<img src="assets/images-readme/lh-desktop.404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
+<img src="assets/images-readme/lh-desktop-404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
 </details>
 
 <details>
     <summary>Click Here for: Lighthouse Mobile - Error 404</summary>
-<img src="assets/images-readme/lh-mobile.404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
+<img src="assets/images-readme/lh-mobile-404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
 </details>
 
 
@@ -504,9 +504,18 @@ Below it is possible to taka e look at the result obtained in Lighthouse:
 List of Test Cases Perfomed
 
 Example:
-| Area  | Feature | Expected Result | Status | 
+| Area | Feature | Expected Result | Status | 
 | --- | --- | --- | --- |
-| Home  | Read More Button | Recipe opened in a new browser tab and content displayed correctly | Pass |
+| Home | Header | Make sure that the Logo and the Nav Bare are displayed on top of the Home Page. | Pass |
+| Home | Header | Make sure that an Hero Image is displayed below the Logo and Nav Bar and don't overlap with other content. | Pass |
+| Home | Video Story Section | Make sure that the Video apppear in the Story Section and that the autoplay works. | Pass |
+| Home | Video | Make sure that the user is able to stop the Video. | Pass |
+| Home | Video | Make sure that video is muted when the homepage is opened. | Pass |
+| Home | Recipe of the Day | Make sure that the section is aligned and that Image, Details, Ingredients and the Read More Button are correctly displayed. | Pass |
+| Home | Recipe of the Day | Make sure that clicking on the Ream More Button a Popup is opened displaying the Preparation Steps. | Pass |
+| Recipes | Recipes | Make sure that the  | Pass |
+| Recipes | Nav bar Sections | Make sure that Clicking on Appetizers, Main and Desserts Button the user is moved to the clicked section. | Pass |
+| Home | Recipe of the Day | Make sure that clicking on the Ream More Button a Popup displaying the Preparation Steps are displayed. | Pass |
 |   |   |
 <br><br>
 			
