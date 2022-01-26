@@ -1,7 +1,7 @@
 
 # **Sweet & Sour** Website
 
-## **Developer: Claudio Crocilla**
+### **Developer: Claudio Crocilla**
 
 ## **Overview**
 
@@ -23,11 +23,11 @@ Click in the image above to access the Live Website or [click here!](https://ccr
 - Possibility for the user to share his/her own recipes.
 - Newsletter available in order to receive daily, weekly or monthly recipes via email.
 
+---
+
 ## **User Experience (UX)**
 
-<!-- User Stories Area -->
 ### **User Stories**
-
 - #### First Time Visitor Goals
 	1. As a First Time visitor of a website dedicated to food and recipes, I need to be able to have a visual impact of the type of food and recipes sponsored by 		this websites, this can be obtained showing images of the finished food products.  
 	2. As a First Time Visitor, I want to be able to navigate through the website and find recipes easily.
@@ -163,8 +163,8 @@ No Pre-Conditions Required.
 When the user does not fill-in the form correctly, an error message will be triggered in relation to the field that has not being filled in. 
 </details>
 
+---
 
-<!-- Design Area -->
 ## **Design**
 
 #### The webpage has been designed to provide a simple, intuitive view which is able to provide a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect results. 
@@ -173,10 +173,10 @@ When the user does not fill-in the form correctly, an error message will be trig
 - ### Colour Scheme
 #### The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
 #### The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
+#### The main colors are Navy (#181D31) and Beige (#E6DDC4) and those characterize the full website while an Orange (#FB743E) is used to make a good contrast in the element in order to provide a better view of the elements. 
 Colour Source: 
   - #### [Adobe Color](https://color.adobe.com/create/color-wheel)
   - #### [Color Hunt](https://colorhunt.co/)  
-The Color Palette used are: 
 
 
 - ### Typography
@@ -192,9 +192,9 @@ The developer selected a video for the home page of the websites.
 Sources:  
   - [Pexels](https://www.pexels.com/)
 
+--- 
 
 ## **Features**
-
 - ### Structure:
 The page has been structured in an easy and user-friendly way with 6 different pages. 
 The Structure of the website and the component used are listed below: 
@@ -243,9 +243,9 @@ The user have also the possibility to click on the highlighted orange text in or
 For any broken or incorrect links, the 404 Error page will be triggered. Here the user will have an image displayed in the background and a text in the image that will inform that the page is not correct. 
 An hyperlink is present in the text displayed and highlighted in orange in order to allow the user to come back to the Home Page.  
  
+---
 
 ## **Wireframe**
-
 #### Balsamiq has been used in order to create the wireframe.
 #### Below you can open the accordions divided by page and by device used (desktop, tablet and smartphone).
 
@@ -346,6 +346,7 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 <img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="400px"/>
 </details>
 
+---
 
 ## **Technologies Used**
 
@@ -380,10 +381,9 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 - #### TinyPNG
     - #### TinyPNG has been used to compress images.
 
-
+---
 ## **Testing**
-
-The testing phase have been carried out using the W3C CSS Validator and W3C Markup Validator in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
+The testing phase have been carried out using the **W3C CSS Validator** and **W3C Markup Validator** in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
 
 <details>
     <summary>Click Here for: W3C CSS Validator</summary>
@@ -421,7 +421,7 @@ The testing phase have been carried out using the W3C CSS Validator and W3C Mark
 </details>
 
 
-### **Lighthouse Validator**
+- ### **Lighthouse Validator**
 Below it is possible to taka e look at the result obtained in Lighthouse:
 
 <details>
@@ -486,7 +486,7 @@ Below it is possible to taka e look at the result obtained in Lighthouse:
 
 
 
-### **Test Cases**
+- ### **Test Cases**
 
 List of Test Cases perfomed. All the Tests have also been performed in all the Devices and the tests includes also Layout testing. 
 
@@ -539,47 +539,55 @@ In order to test different devices has been used the Toggle device emulation in 
 Bugs
 List here the bugs
 
+---
 
 ## **Development** 
-
 ### Deployment
 
-- ### GitHub Pages
-The project was deployed to GitHub Pages using the following steps...
-1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
-o	Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
+- ### **Github**
+The repository for the project Sweet & Sour has been created using Github using the following steps:
+1. Create a Github account [Github.com](https://github.com/)
+2. In the top left Github Home Page click on the green New Button in order to create a new repository
+3. Select the Template if available (Example: Code-Institute-Org/gitpod-full-template)
+4. Choose the Repository name
+5. Then Click on the Create Repository Button in order to create the repository
+6. Install the Gitpod Extension in your browser
+7. Once Gitpod Extension has been installed, accessing the repository previously created, click on the Gitpod Button as shown in the screenshot below:
+8. A new page will be opened and the Workspace will be created
+9. Let's code
+
+
+- ### **GitHub Pages**
+The project was deployed to GitHub Pages using the following steps:
+1.	Log in to GitHub and locate the GitHub Repository created
+2.	Click on the Setting Button as shown in the screenshot below: 
+3.	On the left menu bar, click on the "Pages" Tab
 4.	Under "Source", click the dropdown called "None" and select "Master Branch".
 5.	The page will automatically refresh.
-6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+6.	When the website is disployed, on top of this page you can see the link of the live website. 
 
-<br><br>
-Forking the GitHub Repository
-<br>
+
+
+- ### **Forking the GitHub Repository**
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-<br>
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3.	You should now have a copy of the original repository in your GitHub account.
 
-<br><br>
-Making a Local Clone
-<br>
-1.	Log in to GitHub and locate the GitHub Repository
-2.	Under the repository name, click "Clone or download".
+
+- ### **Local Clone**
+By creating a Local Clone you will be able to create a copy of the repository that is avilable in your local computer.
+In order to create a Local Clone follow the steps below: 
+1.	Log in to GitHub and locate the GitHub Repository that you want to clone
+2.	Click on the Code Button
 3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4.	Open Git Bash
 5.	Change the current working directory to the location where you want the cloned directory to be made.
-6.	Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-7.	Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+6.	Type git clone as shown in the example below and then paste the URL copied in Step 3.
+>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7. Press Enter. 
+8. Your local clone will be created.
+
 
 ---
 ## **Credits**
