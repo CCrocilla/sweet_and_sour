@@ -95,13 +95,10 @@ h1, h2 {
     height: 150px;
     text-align: center;
     padding: 25px 35px;
-
     background-color: rgba(24, 29, 49, 0.9);
-    
     top: 200px;
     right: 40px;
     border-radius: 20px;
-
     position: absolute;
 }
 
@@ -1140,9 +1137,8 @@ input[type="file"] {
 }
 
 .list-order-popup {
-    padding-left: 15px;
+    padding-left: 30px;
 }
-
 
 /* Slider CSS */
 .slider {
