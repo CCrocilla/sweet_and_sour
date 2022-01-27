@@ -344,7 +344,7 @@ footer {
     min-width: 350px;
     max-width: 450px;
     position: relative;
-    height: 1000px;
+    height: 980px;
     flex-shrink: 0;
     background-color: #181D31;
     color: #E6DDC4;
@@ -366,9 +366,7 @@ footer {
 .single-title h2 {
     color: #E6DDC4;
     margin: 10px;
-    padding: 10px;
     text-align: center;
-
 }
 
 .ingredient-appetizers h2 {
@@ -379,6 +377,13 @@ footer {
 
 .ingredient-appetizers ul li {
     list-style-type: none;
+}
+
+.check-usage {
+    font-size: 85%;
+    color: #FB743E;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* Contact Us Page */
@@ -1125,6 +1130,8 @@ input[type="file"] {
 
 .content-popup .tips {
     padding-top: 0;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 } 
 
 .list-unorder-popup li {
