@@ -196,7 +196,7 @@ h1, h2 {
 }
 
 /* Add Flex property for the div elements of the Recipe of the Day Section */
-.recipe-day-container{
+.recipe-day-container {
     align-items: start;
     background-color: #181D31;
     width: 100%;
@@ -248,7 +248,6 @@ h1, h2 {
 
 .btn-popup { 
     font-family: 'Viga', sans-serif;
-
     width: 160px;
     margin-top: 30px;
     padding: 10px 10px;
@@ -261,7 +260,7 @@ h1, h2 {
 }
 
 i {
-    margin-right: 10px;
+    margin-right: 7px;
     text-align: center;
     width: 1em;
 }
@@ -275,13 +274,11 @@ footer {
 }
 
 .social-network {
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .social-network li {
-    display: inline;
-    
+    display: inline;  
 }
 
 .social-network li i {
@@ -315,7 +312,6 @@ footer {
     background-color: #181D31;
     color: #E6DDC4;
     text-decoration-line: none;
-    
     font-family: 'Viga', sans-serif;
     font-size: 20px;
     display: inline-flex;
@@ -346,7 +342,7 @@ footer {
 
 .container-single-recipe {
     min-width: 350px;
-    max-width: 500px;
+    max-width: 450px;
     position: relative;
     height: 1000px;
     flex-shrink: 0;
@@ -417,7 +413,6 @@ footer {
 .images-text-sc h2 {
     color: #E6DDC4;
 }
-
 
 /* Contact Us and Share Form User Section */
 .flex-container-form {
@@ -657,8 +652,7 @@ input[type="file"] {
 }
 
 /* Media Queries */
-/* Desktop Only */
-/* All pages */
+/* Desktop Only - All Pages */
 @media screen and (min-width: 1200px) {
     .pull-bottom-desktop {
         position: absolute;
@@ -788,7 +782,6 @@ input[type="file"] {
     .flex-ingredient-recipe div ul {
         margin-left: 20px;
     }
-
 
     /* Recipes Page */
     .container-single-recipe {
@@ -1124,8 +1117,6 @@ input[type="file"] {
 .content-popup p {
     color: #E6DDC4;
     text-align: justify;
-    padding-top: 30px;
-    padding-bottom: 40px;
 }
 
 .content-popup ol li {
@@ -1135,6 +1126,16 @@ input[type="file"] {
 .content-popup .tips {
     padding-top: 0;
 } 
+
+.list-unorder-popup li {
+    color: #E6DDC4;
+    list-style-type: none;
+}
+
+.list-order-popup {
+    padding-left: 15px;
+}
+
 
 /* Slider CSS */
 .slider {
