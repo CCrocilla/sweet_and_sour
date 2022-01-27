@@ -7,7 +7,7 @@
 
 #### The website provides the possibility to discover new recipes and not just that! 
 #### Internet users all around the world love to share every day experience using Social Media. Sharing images, documents, stories are part of everyday life. With this website the user will have the possibility to share one of the most beautiful thing in life… The passion for Food! Thousands of recipes will be available, each, for user convenience, categorized into 3 main sessions (Appetizer, Main, and Dessert). The best recipes are rewarded by making the Home Page in the section “Recipe of the Day!”
-#### The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing from for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
+#### The website is intuitive and user-friendly, guiding the users and helping them choosing the dishes that they’d like to prepare, showing a step by step guide to prepare the most delicious food, a detailed list of the needed ingredients, the level of difficulty, including images of the finished product. In addition, checkboxes are provided for the ingredient list giving the user the possibility to easily discover what is present/missing for the realization of the dish! The users can subscribe to a newsletter to receive regular updates and are also provided the possibilities to share their own personal recipes with the entire community.
 
 
 <a href="https://ccrocilla.github.io/sweet_and_sour/" target="_blank" rel="noopener noreferrer"><img src="assets/images-readme/amiresponsive.webp" alt="Home Page Multi Device" width="800px"/></a>
@@ -17,11 +17,11 @@ Click in the image above to access the Live Website or [click here!](https://ccr
 
 ### **User Goal**
 - Easy, Intuitive and User-Friendly Website!
-- Wide compatibility with every Browser and Devices.
-- Images of the final products are displayed to catch users attention (and appetite!), providing clear instructions for the realization of the dish and a detailed lists of needed ingredients.
-- Possibility for the user to check the ingredients in order to highlight what is missing/presents for the realization of the selected dishes (including the possibility of take a screenshot of the final list to store in your phone for your supermarket trip).
+- Wide compatibility with every Browsers and Devices.
+- Images of the final products are displayed to catch users attention (and appetite!), providing clear instructions for the realization of the dishes and a detailed lists of needed ingredients.
+-  Possibility of checking dedicated checkboxes, in order to highlight what is missing/presents for the realization of the selected dishes and help your supermarket trips!
 - Possibility for the user to share his/her own recipes.
-- Newsletter available in order to receive daily, weekly or monthly recipes via email.
+- Newsletter available to receive daily, weekly or monthly recipes via email.
 
 ---
 
@@ -31,20 +31,20 @@ Click in the image above to access the Live Website or [click here!](https://ccr
 - #### First Time Visitor Goals
 	1. As a First Time visitor of a website dedicated to food and recipes, I need to be able to have a visual impact of the type of food and recipes sponsored by 		this websites, this can be obtained showing images of the finished food products.  
 	2. As a First Time Visitor, I want to be able to navigate through the website and find recipes easily.
-	3. As a First Time Visitor, I want to be able to a large variety of recipes.
-	4. A First Time Visitor, I want to visually see the recipes and to understand their level of complexity.
-	5. As a First Time Visitor, I want to find the website pleasant to the eye, visually intuitive, with catchy colours and images.
-	6. As a First Time Visitor, I want to see in the foreground the necessary ingredients for the realization of the dishes. 
+	3. As a First Time Visitor, I want to be able to access a large variety of recipes.
+	4. As a First Time Visitor, I want to see in the foreground the necessary ingredients for the realization of the dishes. 
+	5. A First Time Visitor, I want to visually see the recipes and to understand their level of complexity.
+	6. As a First Time Visitor, I want to find the website pleasant to the eye, visually intuitive, with catchy colours and images.
 
 - #### Returning Visitor Goals
-	1. As a Returning Visitor, I want to frequently be able find new recipes.
+	1. As a Returning Visitor, I want to frequently be able to find new recipes.
 	2. As a Returning Visitor, I want to share my personal recipes with the rest of the community sharing a similar passion for cooking.
-	3. As a Returning Visitor, I want to access the website through my social media account.
+	3. As a Returning Visitor, I want to access the website through my social media accounts.
 
 - #### Frequent User Goals
-	1. As a Frequent User, I want to see the recipe of the day.
-	2. As a Frequent User, I want to check if my recipes that I sent is displayed in the Recipes page.
-	3. As a Frequent User, I want to sign up to the Newsletter in order to receive daily/weekly/monthly update on the recipes and news. 
+	1. As a Frequent User, I want to see the Recipe of the Day.
+	2. As a Frequent User, I want to check if the recipe that I sent is displayed in the Home Page.
+	3. As a Frequent User, I want to sign up to the Newsletter in order to receive daily/weekly/monthly updates on the recipes and news. 
 
 <!-- Use Cases Area -->
 ### **Use Cases**
@@ -167,16 +167,16 @@ When the user does not fill-in the form correctly, an error message will be trig
 
 ## **Design**
 
-#### The webpage has been designed to provide a simple, intuitive view which is able to provide a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect results. 
+#### The webpage has been designed to provide a simple, intuitive view which is able to offer a quick overview of the necessary information needed by the user to prepare the selected recipes including images of the finished preparation and the needed ingredients and cooking times for a perfect result. 
 #### Every page has a minimalistic structure which however contains all the relevant features in order to provide the user with a simple, clear and effective experience.  
 
 - ### **Colour Scheme**
 #### The goal is to use a colour palette that will provide the user with a good and positive impact at a first glance, when opening the website and through the entire navigation experience. 
-#### The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours is required without tiring the eyes. 
+#### The list of colors is chosen to be pleasing to the eyes providing an excellent contrast that will allow the user to have prolonged navigation hours without tiring the eyes. 
 Colour Source: 
   - #### [Adobe Color](https://color.adobe.com/create/color-wheel)
   - #### [Color Hunt](https://colorhunt.co/) 
-#### The main colors are Navy (#181D31) and Beige (#E6DDC4) and those characterize the full website while an Orange (#FB743E) is used to make a good contrast in the element in order to provide a better view of the elements. 
+#### The main colors are Navy (#181D31) and Beige (#E6DDC4) and those characterize the full website while Orange (#FB743E) is used to make a good contrast in the elements to provide a better view of those elements. 
  
 
 - ### **Typography**
@@ -186,9 +186,9 @@ Source:
   - [Google Fonts](https://fonts.google.com/)
 
 
-- ### **Image and Video**
+- ### **Images and Videos**
 #### Real images have been used to show the completed recipes.
-#### The developer selected a video for the home page of the websites. 
+#### The developer selected a video for the home page of the websites, the selected video helps in providing a pleasant visual experience to the user.
 Sources:  
   - [Pexels](https://www.pexels.com/)
 
@@ -197,41 +197,40 @@ Sources:
 ## **Features**
 - ### Structure:
 The page has been structured in an easy and user-friendly way with 6 different pages. 
-The Structure of the website and the component used are listed below: 
+The Structure of the website and the components used are listed below: 
 
 - ### Home Page:
 The Home Page shows the logo of the website on the top left of the page and a navigation bar on the top right.
-A small underline animation activates when the user mouse hovers on of the elements in the nav bar, highlighting the content hovered. 
+A small underline animation activates when the user mouse hovers on of the elements in the nav bar, highlighting the content. 
 The active page is underlined in the navigation bar when selected. 
-Depending on the device used (if laptop, desktop, tablet or smartphone) the position of the logo and the nav bar changes moving the nav bar below the logo to adapt the view and for a highly responsive rendering and centering the elements. 
+Depending on the device used (if laptop, desktop, tablet or smartphone) the positions of the logo and the nav bar change, with the latest moving below the logo to adapt the view for a highly responsive rendering, centering the elements. 
 Those behaviour are consistent in all pages. 
-Below the Logo and the Nav Bar the user will see a Hero Image. 
-Below the Hero Image there will be a section dedicated to the rational and history of the website and an additional section dedicated to the Recipe of the Day.
-The Recipe of the Day shows an image of the recipe and the ingredient necessary for the realization using an unordered list.
-There is also, in the unordered list, the checkbox for each of the ingredient in order to allow the user to flag which ingredients might be missing and have the possibility to take a screenshot of the list of the necessary ingredients.
+Following from Logo and the nav bar the user will see a Hero Image below which there is a section to introduce the website and its rational to the user and an additional section dedicated to the Recipe of the Day.
+The Recipe of the Day shows an image of the recipe and the necessary ingredient for the realization of the dish using an unordered list.
+In the unordered list, checkboxes for each ingredient are introduced in order to allow the user to flag what might be missing and have the possibility to take a screenshot of the list of the necessary ingredients.
 
 - ### Recipes Page:
 This page has Header and Footer consistent with the Home Page. 
-The Recipes page is divided in Sections: Appetiser, Main and Dessert.
-On the top of the page, there is a Hero Image below the Logo and the Nav Bar. After the Hero Image there are 3 different buttons that allow the user to easily reach the different sections of the page. 
-In each section there are 3 dishes displayed with an image and the ingredients. All the recipes have a clickable "Read More" button that open a Popup.
-The Popup displays the Details of the dish and the Steps necessary for the realization. 
-When changing Device, the visualization of the elements displayed in the row will change adapting to the selected device dimensions. 
+The Recipes page is divided in sections: Appetiser, Main and Dessert.
+On the top of the page, there is a Hero Image below the Logo and the Nav Bar. Below that 3 different buttons allow the user to easily reach the different sections of the page. 
+In each section there are 3 dishes displayed with an image and the ingredients. All the recipes have a clickable "Read More" button that opens a Popup.
+The Popup displays the Details of the dish and the steps necessary for the realization. 
+When changing device, the visualization of the elements displayed will change adapting to the selected device dimensions. 
 
 - ### Share Page:
 This page has Header and Footer consistent with the Home Page.
-The page has an image extended in the page as background on top of which there is a Form that the user can fill to be able to send and share a recipe including an attachment button for images. 
+The page has an image extended as background on top of which there is a Form that the user can fill to be able to send and share a recipe including an attachment button for images. 
 All the fields have been set as required (at exception of the textarea elements for Ingredient and Preparation) and a proper message is displayed to the user if the form is not filled in correctly. 
 A Reset Button in order to clear the form and a Submit Button are included.
 The Reset Button resets the form. 
-The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user that the recipe has been sent. 
+The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user stating that the recipe has been sent. 
 
 - ### Contact Us Page:
 This page has Header and Footer consistent with the Home Page.
 The page is characterized by an image extended as background on top of which there is a Form that the user can fill for: First Name, Last Name, Email Address and a Radio Button to select the frequency by which the users can receive the newsletter (daily, weekly, monthly).
 A Reset Button in order to clear the form and a Submit Button are included.
 The Reset Button resets the form. 
-The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user that the recipe has been sent correctly.  
+The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user stating that the form has been sent correctly.  
 
 - ### Thank you page:
 This page will be triggered when the user clicks on the Submit Button for both the Share and Contact Us Page. 
