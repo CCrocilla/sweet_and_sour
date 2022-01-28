@@ -252,97 +252,97 @@ A hyperlink is present in the text displayed and highlighted in orange in order 
 
 - ## Home Page 
 <details>
-    <summary>Click Here for: Desktop View</summary>  
+    <summary>Click here for Desktop View</summary>  
 <img src="assets/images-readme/desktop-homepage.webp" alt="Desktop View Homepage" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-homepage.webp" alt="Tablet View Homepage" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-homepage.webp" alt="Smartphone View Homepage" width="400px"/>
 </details>
 
 - ## Recipes Page
 <details>
-    <summary>Click Here for: Desktop View</summary>
+    <summary>Click here for Desktop View</summary>
 <img src="assets/images-readme/desktop-recipes.webp" alt="Desktop View Recipes Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-recipes.webp" alt="Tablet View Recipes Page" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-recipes.webp" alt="Smartphone View Recipes Page" width="400px"/>
 </details>
 
 - ## Share Page
 <details>
-    <summary>Click Here for: Desktop View</summary>
+    <summary>Click here for Desktop View</summary>
 <img src="assets/images-readme/desktop-share.webp" alt="Desktop View Share Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-share.webp" alt="Tablet View Share Page" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-share.webp" alt="Smartphone View Share Page" width="400px"/>
 </details>
 
 - ## Contact Us Page
 <details>
-    <summary>Click Here for: Desktop View</summary>
+    <summary>Click here for Desktop View</summary>
 <img src="assets/images-readme/desktop-contactus.webp" alt="Desktop View Contact Us Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-contactus.webp" alt="Tablet View Contact Us Page" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-contactus.webp" alt="Smartphone View Contact Us Page" width="400px"/>
 </details>
 
 - ## Thanks You Page
 <details>
-    <summary>Click Here for: Desktop View</summary>
+    <summary>Click here for Desktop View</summary>
 <img src="assets/images-readme/desktop-thankyoupage.webp" alt="Desktop View Thank You Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-thankyoupage.webp" alt="Tablet View Thank You Page" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-thankyoupage.webp" alt="Smartphone View Thank You Page" width="400px"/>
 </details>
 
 - ## 404 Error Page
 <details>
-    <summary>Click Here for: Desktop View</summary>
+    <summary>Click here for Desktop View</summary>
 <img src="assets/images-readme/desktop-errorpage.webp" alt="Desktop View Error 404 Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Tablet View</summary>
+    <summary>Click here for Tablet View</summary>
 <img src="assets/images-readme/tablet-errorpage.webp" alt="Tablet View  Error 404 Page" width="600px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Smartphone View</summary>
+    <summary>Click here for Smartphone View</summary>
 <img src="assets/images-readme/smartphone-errorpage.webp" alt="Smartphone View Error 404 Page" width="400px"/>
 </details>
 
@@ -385,38 +385,47 @@ A hyperlink is present in the text displayed and highlighted in orange in order 
 ## **Testing**
 The testing phases have been carried out using the **W3C CSS Validator** and **W3C Markup Validator** in all pages. No errors have been identified from the Validators as can be seen in the screenshot below: 
 
+- **CSS**
+
 <details>
-    <summary>Click Here for: W3C CSS Validator</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="W3C Markup Validator - Home Page" width="800"/>
+    <summary>Click here for W3C CSS Validator</summary>
+<img src="assets/images-readme/w3c-css.webp" alt="W3C Markup Validator - Home Page" width="800"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Home Page</summary>
+    <summary>Click here for W3C CSS Validator - Warning</summary>
+<img src="assets/images-readme/w3c-css-warning.webp" alt="W3C Markup Validator - Home Page" width="800"/>
+</details>
+
+- **HTML**
+
+<details>
+    <summary>Click here for W3C Markup Validator - Home Page</summary>
 <img src="assets/images-readme/w3c-html-homepage.webp" alt="W3C Markup Validator - Home Page" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Recipes</summary>
+    <summary>Click here for W3C Markup Validator - Recipes</summary>
 <img src="assets/images-readme/smartphone-errorpage.webp" alt="W3C Markup Validator - Recipes" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Share</summary>
+    <summary>Click here for W3C Markup Validator - Share</summary>
 <img src="assets/images-readme/w3c-html-share.webp" alt="W3C Markup Validator - Share" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Contact Us</summary>
+    <summary>Click here for W3C Markup Validator - Contact Us</summary>
 <img src="assets/images-readme/w3c-html-contactus.webp" alt="W3C Markup Validator - Contact Us" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Thank You</summary>
+    <summary>Click here for W3C Markup Validator - Thank You</summary>
 <img src="assets/images-readme/w3c-html-thankyou.webp" alt="W3C Markup Validator - Thank You" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: W3C Markup Validator - Error 404</summary>
+    <summary>Click here for W3C Markup Validator - Error 404</summary>
 <img src="assets/images-readme/w3c-html-404.webp" alt="W3C Markup Validator - Error 404" width="800px"/>
 </details>
 
@@ -425,62 +434,62 @@ The testing phases have been carried out using the **W3C CSS Validator** and **W
 Below it is possible to taka e look at the result obtained in Lighthouse:
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Homepage</summary>
+    <summary>Click Here for Lighthouse Desktop - Homepage</summary>
 <img src="assets/images-readme/lh-desktop-homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Homepage</summary>
+    <summary>Click Here for Lighthouse Mobile - Homepage</summary>
 <img src="assets/images-readme/lh-mobile-homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Recipes</summary>
+    <summary>Click Here for Lighthouse Desktop - Recipes</summary>
 <img src="assets/images-readme/lh-desktop-recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Recipes</summary>
+    <summary>Click Here for Lighthouse Mobile - Recipes</summary>
 <img src="assets/images-readme/lh-mobile-recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Share</summary>
+    <summary>Click Here for Lighthouse Desktop - Share</summary>
 <img src="assets/images-readme/lh-desktop-share.webp" alt="Lighthouse Desktop Share" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Share</summary>
+    <summary>Click Here for Lighthouse Mobile - Share</summary>
 <img src="assets/images-readme/lh-mobile-share.webp" alt="Lighthouse Mobile Share" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Contact Us</summary>
+    <summary>Click Here for Lighthouse Desktop - Contact Us</summary>
 <img src="assets/images-readme/lh-desktop-contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Contact Us</summary>
+    <summary>Click Here for Lighthouse Mobile - Contact Us</summary>
 <img src="assets/images-readme/lh-mobile-contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Thanks you</summary>
+    <summary>Click Here for Lighthouse Desktop - Thanks you</summary>
 <img src="assets/images-readme/lh-desktop-thankyoupage.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Thanks you</summary>
+    <summary>Click Here for Lighthouse Mobile - Thanks you</summary>
 <img src="assets/images-readme/lh-mobile-thankyoupage.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Desktop - Error 404</summary>
+    <summary>Click Here for Lighthouse Desktop - Error 404</summary>
 <img src="assets/images-readme/lh-desktop-404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for: Lighthouse Mobile - Error 404</summary>
+    <summary>Click Here for Lighthouse Mobile - Error 404</summary>
 <img src="assets/images-readme/lh-mobile-404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
 </details>
 
