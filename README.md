@@ -536,10 +536,12 @@ Additional tests include checks on different devices using the Toggle Device Emu
 * Surface Duo
 
 ### **Bugs**
-- Double Vertical Scroll Bar in Read More Popup
-Please note that opening the Read More Popup in the Recipes Page generates a second vertical scroll bar.
+- Double Scroll y-axis bars in Read More Popup
+#### Please note that when opening the Read More Popup, two scroll bars y-axis are visible.
+#### Pleasde note that only one should be visible. 
+#### The developer is aware of this issue, with a fix under investigation for future releases. 
 
-- No other Bugs are present.
+- No other bugs could be found in the website during the test phase.
 
 ---
 
@@ -569,8 +571,8 @@ The project was deployed to GitHub Pages using the following steps:
 6.	When the website is disployed, on top of this page you can see the link of the live website 
 
 
-
-- ### **Forking the GitHub Repository**
+<!-- Forking Content from Code Institute Readme File Sample -->
+- ### **Forking the GitHub Repository**  
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button
@@ -617,10 +619,11 @@ One of the most complex pages for the implementation of the website was the Reci
 
 The following websites were inspirational for customizing the code of the slider to my needs:
 - [Thanks to Chris Coyier for the Slider](https://codepen.io/chriscoyier/pen/XwbNwX)
+
 - [Thanks to Anna Blok for the Popup](https://codepen.io/anna_blok/pen/KKpwRVe)
 
-[Favicon.io](https://favicon.io/) was used to include the favicon used in the website.
-[Cooks.com](https://www.cooks.com/) was used as reference for the creation of the recipes. 
+- [Favicon.io](https://favicon.io/) was used to include the favicon in the website.
+- [Cooks.com](https://www.cooks.com/) was used as reference for the creation of the recipes. 
 
 
 For the realization of the 404 error page I found a guide on how to create the file here: 
