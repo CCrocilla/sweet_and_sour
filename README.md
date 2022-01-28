@@ -535,8 +535,11 @@ Additional tests include checks on different devices using the Toggle Device Emu
 * Samsung Galaxy S20 Ultra
 * Surface Duo
 
-Bugs
-List here the bugs
+### **Bugs**
+- Double Vertical Scroll Bar in Read More Popup
+Please note that opening the Read More Popup in the Recipes Page generates a second vertical scroll bar.
+
+- No other Bugs are present.
 
 ---
 
