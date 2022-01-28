@@ -52,10 +52,11 @@ Click in the image above to access the Live Website or [click here!](https://ccr
 ### *__Home Page__*
 <details>
     <summary>Description</summary>
-
+    
 - User can use this website to discover and share new recipes, in the home page the best recipes are selected and visualized in the Recipe of the Day section. 
 - Users should be able to see the most important information required for the realization of the dish, the ingredients and the preparation.
 - The home page also provides information about the history and rational of the website.
+
 </details>
 
 <details>
@@ -219,28 +220,28 @@ When changing device, the visualization of the elements displayed will change ad
 
 - ### Share Page:
 This page has Header and Footer consistent with the Home Page.
-The page has an image extended as background on top of which there is a Form that the user can fill to be able to send and share a recipe including an attachment button for images. 
-All the fields have been set as required (at exception of the textarea elements for Ingredient and Preparation) and a proper message is displayed to the user if the form is not filled in correctly. 
-A Reset Button in order to clear the form and a Submit Button are included.
+The page has an image extended as background on top of which there is a form that the user can fill to be able to send and share a recipe including an attachment button for images. 
+All the fields have been set as required (at exception of the textarea elements for Ingredient and Preparation) and a proper message is displayed to the user if the form is not filled correctly. 
+A Reset and a Submit Button are included.
 The Reset Button resets the form. 
-The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user stating that the recipe has been sent. 
+The Submit Button opens a dummy thank you page to provide a clear feedback to the user stating that the recipe has been sent. 
 
 - ### Contact Us Page:
 This page has Header and Footer consistent with the Home Page.
-The page is characterized by an image extended as background on top of which there is a Form that the user can fill for: First Name, Last Name, Email Address and a Radio Button to select the frequency by which the users can receive the newsletter (daily, weekly, monthly).
-A Reset Button in order to clear the form and a Submit Button are included.
+The page is characterized by an image extended as background on top of which there is a form that the user can fill with the following information: First Name, Last Name, Email Address and a Radio Button to select the frequency by which the users can receive the newsletter (daily, weekly, monthly).
+A Reset and a Sign In Button are included.
 The Reset Button resets the form. 
-The Submit Button opens a dummy thank you page in order to provide a clear feedback to the user stating that the form has been sent correctly.  
+The Sign In Button opens a dummy thank you page to provide a clear feedback to the user stating that the form has been sent correctly.  
 
 - ### Thank you page:
 This page will be triggered when the user clicks on the Submit Button for both the Share and Contact Us Page. 
-The page is characterized by an image extended as background on top of which there is a clear message for the user.
+The page is characterized by an image extended as background overlaid by a clear message for the user.
 This page is used to let the user know that the data has been inserted correctly.
-The user have also the possibility to click on the highlighted orange text in order to came back to the Home Page. 
+The users have also the possibility to click on the highlighted orange text in order to navigate back to the Home Page. 
 
 - ### 404 Error Page:
-For any broken or incorrect links, the 404 Error page will be triggered. Here the user will have an image displayed in the background and a text in the image that will inform that the page is not correct. 
-An hyperlink is present in the text displayed and highlighted in orange in order to allow the user to come back to the Home Page.  
+For any broken or incorrect links, the 404 Error page will be triggered. Here the user will have an image displayed in the background and above text box that will inform the users that the page is not correct. 
+A hyperlink is present in the text displayed and highlighted in orange in order to allow the user to navigate back to the Home Page.  
  
 ---
 
@@ -382,7 +383,7 @@ An hyperlink is present in the text displayed and highlighted in orange in order
 
 ---
 ## **Testing**
-The testing phase have been carried out using the **W3C CSS Validator** and **W3C Markup Validator** in all the pages and No errors have been identified from the Validators has can be seen in the screenshot below: 
+The testing phases have been carried out using the **W3C CSS Validator** and **W3C Markup Validator** in all pages. No errors have been identified from the Validators as can be seen in the screenshot below: 
 
 <details>
     <summary>Click Here for: W3C CSS Validator</summary>
@@ -491,43 +492,42 @@ List of Test Cases perfomed. All the Tests have also been performed in all the D
 
 | Page | Feature | Expected Result | Status | 
 | --- | --- | --- | --- |
-| Home | Header | Make sure that the Logo and the Nav Bare are displayed on top of the Home Page. | Pass |
-| Home | Header | Make sure that clicking on the Logo the user is redirected to the Home Page. | Pass |
-| Home | Header | Make sure that the Hero Image is displayed below the Logo and Nav Bar and don't overlap with other contents. | Pass |
-| Home | Video Story Section | Make sure that the Video apppear in the Story Section and that the autoplay works. | Pass |
-| Home | Video | Make sure that the user is able to stop the Video. | Pass |
+| Home | Header | Make sure that the Logo and the nav bar are displayed on the top part of the Home Page. | Pass |
+| Home | Header | Make sure that by clicking on the Logo the user is redirected to the Home Page. | Pass |
+| Home | Header | Make sure that the Hero Image is displayed below the Logo and Nav Bar with no overlap with other contents. | Pass |
+| Home | Video Story Section | Make sure that the video apppears in the Story Section and that the autoplay works. | Pass |
+| Home | Video | Make sure that the user is able to stop the video. | Pass |
 | Home | Video | Make sure that video is muted when the homepage is opened. | Pass |
-| Home | Recipe of the Day | Make sure that the section is aligned and that Image, Details, Ingredients and the Read More Button are correctly displayed. | Pass |
-| Home | Recipe of the Day | Make sure that clicking on the Read More Button a Popup is opened displaying the Preparation Steps. | Pass |
-| Recipes | Nav bar Section | Make sure that Clicking on Appetizers, Main and Desserts Button the user is moved to the clicked section. | Pass |
-| Recipes | Appetizers, Main, Desserts Sections | Make sure that the content/items are correctly displayed and that are aligned to the center. | Pass |
-| Recipes | Appetizers, Main, Desserts Sections | Make sure that in each Cards the Read More Button works and open the Popup with Details and Steps. | Pass |
+| Home | Recipe of the Day | Make sure that the section is aligned and Image, Details, Ingredients and the Read More Button are correctly displayed. | Pass |
+| Home | Recipe of the Day | Make sure that, when clicking on the Read More Button a Popup is opened displaying the Preparation steps. | Pass |
+| Recipes | Nav bar Section | Make sure that, when clicking on Appetizers, Main and Desserts Button the user is redirected to the chosen section. | Pass |
+| Recipes | Appetizers, Main, Desserts Sections | Make sure that the content/items are correctly displayed and aligned to the center. | Pass |
+| Recipes | Appetizers, Main, Desserts Sections | Make sure that in each recipe card the Read More Button works and opens the Popup with Details and Steps. | Pass |
 | Recipes | Appetizers, Main, Desserts Sections | Make sure that the slider button in each section works and that the user is able to reach the correct recipe. | Pass |
 | Share | Images | Make sure that the background image is displayed correcly. | Pass |
-| Share | Form | Make sure All the fields (First Name, Email, Recipe Name, Ingredients and Preparation) are editable. | Pass |
-| Share | Form | Make sure All the fields (First Name, Email, Recipe Name) are mandatory and that the user receive a clear message in case they are not filled in after clicking on the Submit Button. | Pass |
-| Share | Form | Make sure that the Reset Form Button works and that delete all the information entered in the form. | Pass |
-| Share | Form | Make sure that the Submit Button works and that open the thank you page. | Pass |
-| Contact | Images | Make sure that the background image is displayed correcly. | Pass |
-| Contact Us | Form | Make sure All the fields (First Name, Last Name and Email) are editable. | Pass |
-| Contact Us | Form | Make sure that the Reset Form Button works and that delete all the information entered in the form. | Pass |
-| Contact Us | Form | Make sure that the Submit Button works and that open the thank you page. | Pass |
-| 404 Error Page | Image | Make sure that the user is automatically redirected to the 404 Error Page if he is trying to displaying a page that does not ecisti in the website the background image is displayed. | Pass |
-| 404 Error Page | Image | Make sure that the background image is displayed. | Pass |
+| Share | Form | Make sure all the fields (First Name, Email, Recipe Name, Ingredients and Preparation) are editable. | Pass |
+| Share | Form | Make sure all the fields (First Name, Email, Recipe Name) are mandatory. Make sure that that the user will receive a clear message when these mandatory fields are not filled after clicking on the Submit Button. | Pass |
+| Share | Form | Make sure that the Reset Form Button works and that deletes all the information entered in the form. | Pass |
+| Share | Form | Make sure that the Submit Button works and that opens the thank you page. | Pass |
+| Contact Us | Images | Make sure that the background image is displayed correcly. | Pass |
+| Contact Us | Form | Make sure all the fields (First Name, Last Name and Email) are editable. | Pass |
+| Contact Us | Form | Make sure that the Reset Form Button works and that deletes all the information entered in the form. | Pass |
+| Contact Us | Form | Make sure that the Sign In Button works and that opens the thank you page. | Pass |
+| 404 Error Page | Image | Make sure that the background image is displayed correctly when the user is automatically redirected to the 404 Error Page if trying to displaying a page that does not exist in the website. | Pass |
 | 404 Error Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
-| 404 Error Page | Text | Make sure that the user can go back in the Home Page using the Home anchor element present in the text. | Pass |
-| Thanks you Page | Image | Make sure that the page opens when the user clicks on one of the Submit Button in Share or Contact Us Pages | Pass |
-| Thanks you Page | Image | Make sure that the background image is displayed. | Pass |
-| Thanks you Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
-| Thanks you Page | Text | Make sure that the user can go back in the Home Page using the Home anchor element present in the text. | Pass |
+| 404 Error Page | Text | Make sure that the user can be redirected back to the Home Page using the Home anchor element present in the text. | Pass |
+| Thank you Page | Image | Make sure that the page opens when the user clicks on the Submit Button in Share | Pass |
+| Thank you Page | Image | Make sure that the page opens when the user clicks on the Sign In Button in the Contact Us Page | Pass |
+| Thank you Page | Image | Make sure that the background image is displayed. | Pass |
+| Thank you Page | Text | Make sure that the text is displayed in the center of the page. | Pass |
+| Thank you Page | Text | Make sure that the user can be redirected back to the Home Page using the Home anchor element present in the text. | Pass |
 
 
 
 ### **Additional Tests**
-Tests have been performed on Firefox, Microsoft Edge, Chrome and Safari and the result is consistent in all the browser. 
+Tests have been performed on Firefox, Microsoft Edge, Chrome and Safari and the result is consistent in all the browsers. 
 
-Additional tests include also the check on different devices. 
-In order to test different devices has been used the Toggle device emulation in Firefox and Microsoft Edge. Here the list of device used for the tests through the Google Emulator:
+Additional tests include checks on different devices using the Toggle Device Emulation in Firefox and Microsoft Edge. Below the list of devices used for the tests through the Responsive Design Mode in Firefox is shown:
 * iPhone 12 Pro Max
 * iPad Pro
 * iPad 
@@ -544,34 +544,34 @@ List here the bugs
 ### Deployment
 
 - ### **Github**
-The repository for the project Sweet & Sour has been created using Github using the following steps:
+The repository for the project Sweet & Sour has been created using Github using the following procedures:
 1. Create a Github account [Github.com](https://github.com/)
 2. In the top left Github Home Page click on the green New Button in order to create a new repository
 3. Select the Template if available (Example: Code-Institute-Org/gitpod-full-template)
 4. Choose the Repository name
-5. Then Click on the Create Repository Button in order to create the repository
+5. Click on the Create Repository Button in order to create the repository
 6. Install the Gitpod Extension in your browser
-7. Once Gitpod Extension has been installed, accessing the repository previously created, click on the Gitpod Button as shown in the screenshot below:
+7. Once Gitpod Extension has been installed, accessing the repository previously created, click on the Gitpod Button
 8. A new page will be opened and the Workspace will be created
-9. Let's code
+   
 
 
 - ### **GitHub Pages**
 The project was deployed to GitHub Pages using the following steps:
 1.	Log in to GitHub and locate the GitHub Repository created
-2.	Click on the Setting Button as shown in the screenshot below: 
+2.	Click on the Setting Button
 3.	On the left menu bar, click on the "Pages" Tab
-4.	Under "Source", click the dropdown called "None" and select "Master Branch".
-5.	The page will automatically refresh.
-6.	When the website is disployed, on top of this page you can see the link of the live website. 
+4.	Under "Source", click the dropdown called "None" and select "Main"
+5.	The page will automatically refresh
+6.	When the website is disployed, on top of this page you can see the link of the live website 
 
 
 
 - ### **Forking the GitHub Repository**
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3.	You should now have a copy of the original repository in your GitHub account.
+2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button
+3.	You should now have a copy of the original repository in your GitHub account
 
 
 - ### **Local Clone**
@@ -579,33 +579,30 @@ By creating a Local Clone you will be able to create a copy of the repository th
 In order to create a Local Clone follow the steps below: 
 1.	Log in to GitHub and locate the GitHub Repository that you want to clone
 2.	Click on the Code Button
-3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link
 4.	Open Git Bash
-5.	Change the current working directory to the location where you want the cloned directory to be made.
-6.	Type git clone as shown in the example below and then paste the URL copied in Step 3.
+5.	Change the current working directory to the location where you want the cloned directory to be made
+6.	Type git clone as shown in the example below and then paste the URL copied in Step 3
 >$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-7. Press Enter. 
-8. Your local clone will be created.
+1. Press Enter 
+2. Your local clone will be created
 
 
 ---
 ## **Credits**
 
-The first thanks I owe to my Mentor Narender Singh who guided and supported me in the realization of this project, directing me towards the right path to take.  
-
-Thanks to the sources listed below I was able to create this site. Each of the links present helped me to understand how the various elements/components of HTML and CSS are used and through the deepening of the latter and the continuous tests and experiments I was able to understand how to make the most of them in the creation of the site.
+Thanks to my Mentor, Narender Singh, for his guide and support in the realization of this project.
+Thanks to the useful reference and suggestions derived from sources listed below, I manage to gain a deeper understanding of how the various elements/components of HTML and CSS are used. In addition, continuous trial and error tests provided a useful means to further experiment on the usage of these two programming languages for the creation of the site.
 
 - ### Content & Media
-All of the contents on the website are custom and no design frameworks have been used for the realization. 
-
-The idea of the Logo, the Navbar and the Footer were taken from the Love Running Project. The realization of the latter has been studied and I have customized their implementation on the site for my needs. 
-
-I explored the writing part of the code and the best practices using the two sites below which allowed me to learn more about what I learned on the Code Institute Course.
+All of the contents on the website are customised and no design frameworks have been used for the realization of the site.
+The idea of the Logo, the Navbar and the Footer were taken from the Love Running Project analysing and customizing their implementation for the created website.
+I explored the writing part of the code and the best practices associated to this using the two sites listed below. Consulting those allowed me to further cement the learning gained during the Code Institute Course.
 - [Medium.com](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
 - [Learn.shayhowe.com](https://learn.shayhowe.com/html-css/writing-your-best-code/)
 
-After deciding to create a website for people who love food in one of the cooking sites I was looking at (giallozafferano.com), opening the browser console, I came across the sign flex and tried to understand what it was. This led me to several sites on which I studied and deepened the use of flex boxes.
-After following some tutorials on youtube as well I thought I'd try to implement the use of flex boxes too and it was very important for the creation of the site.
+After deciding to create a website for people who love food in one of the cooking sites I was often referring to (giallozafferano.com), opening the browser console, I came across the sign flex and tried to understand what it was. This led me to explore around several other websites including some tutorials on YouTube. 
+This gave me the inspiration of implementing the use of flex boxes which was very important for the creation of the site. 
 Listed here the Source of the studies: 
 - [Flexbox - W3School.com](https://www.w3schools.com/css/css3_flexbox.asp)
 - [Css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -613,19 +610,23 @@ Listed here the Source of the studies:
 - [Flex properties - W3School.com](https://www.w3schools.com/cssref/css3_pr_flex.asp)
 - [Web Dev Simplified - Youtube Video](https://www.youtube.com/watch?v=fYq5PXgSsbE)
 
-During the construction phase of the site one of the most complex pages was the Recipes Page. Thanks to the help Narender Singh(Mentor) I studied concepts for the implementation of my idea on the website. He gave me the links where I can observe and study how the sliders work using only css and guided me towards a better solution to optimize the creation of the page and the preparations.
-The final results was obtained studing via the Codepen website and then customazing the code for my needs using the following sources: 
+One of the most complex pages for the implementation of the website was the Recipes Page. My mentor Narender Singh (Mentor) provided some materials where I could observe and study the implementation of sliders using only css with no JavaScript, generally used for these types of tasks. 
+
+The following websites were inspirational for customizing the code of the slider to my needs:
 - [Thanks to Chris Coyier for the Slider](https://codepen.io/chriscoyier/pen/XwbNwX)
 - [Thanks to Anna Blok for the Popup](https://codepen.io/anna_blok/pen/KKpwRVe)
+
+[Favicon.io](https://favicon.io/) was used to include the favicon used in the website.
+[Cooks.com](https://www.cooks.com/) was used as reference for the creation of the recipes. 
+
 
 For the realization of the 404 error page I found a guide on how to create the file here: 
 - [Docs Github](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
-Thanks to Kasia Bogucka and Narender Singh I got to know the github wiki site to create the Markdown file where I learn how to write them and the synthax that can be used.
-They have also provided the link for the Sample Readme of Code Institute that was very helpfull.
+Thanks to Kasia Bogucka and Narender Singh for suggesting the use of github wiki site to create the Markdown file. They have also provided the link for the Sample Readme of Code Institute.
 - [Sample Readme File - Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
 - [Markdown - Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-All the Images as well as the Video present in the Home Page have been taken from [Pexels.com](https://www.pexels.com/)
+All the Images as well as the Video included in the Home Page have been taken from [Pexels.com](https://www.pexels.com/)
 
-Thank you to the entire Code Instiutute Team and the Slack Community for their feedback, help and support. 
+Thank you to the entire Code Institute Team and the Slack Community for their feedback, help and support. 
