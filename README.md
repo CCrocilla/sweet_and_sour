@@ -406,7 +406,7 @@ The testing phases have been carried out using the **W3C CSS Validator** and **W
 
 <details>
     <summary>Click here for W3C Markup Validator - Recipes</summary>
-<img src="assets/images-readme/smartphone-errorpage.webp" alt="W3C Markup Validator - Recipes" width="800px"/>
+<img src="assets/images-readme/w3c-html-recipes.webp" alt="W3C Markup Validator - Recipes" width="800px"/>
 </details>
 
 <details>
@@ -434,62 +434,62 @@ The testing phases have been carried out using the **W3C CSS Validator** and **W
 Below it is possible to taka e look at the result obtained in Lighthouse:
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Homepage</summary>
+    <summary>Click here for for Lighthouse Desktop - Homepage</summary>
 <img src="assets/images-readme/lh-desktop-homepage.webp" alt="Lighthouse Desktop Homepage" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Homepage</summary>
+    <summary>Click here for for Lighthouse Mobile - Homepage</summary>
 <img src="assets/images-readme/lh-mobile-homepage.webp" alt="Lighthouse Mobile Homepage" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Recipes</summary>
+    <summary>Click here for for Lighthouse Desktop - Recipes</summary>
 <img src="assets/images-readme/lh-desktop-recipes.webp" alt="Lighthouse Desktop Recipes" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Recipes</summary>
+    <summary>Click here for for Lighthouse Mobile - Recipes</summary>
 <img src="assets/images-readme/lh-mobile-recipes.webp" alt="Lighthouse Mobile Recipes" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Share</summary>
+    <summary>Click here for for Lighthouse Desktop - Share</summary>
 <img src="assets/images-readme/lh-desktop-share.webp" alt="Lighthouse Desktop Share" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Share</summary>
+    <summary>Click here for for Lighthouse Mobile - Share</summary>
 <img src="assets/images-readme/lh-mobile-share.webp" alt="Lighthouse Mobile Share" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Contact Us</summary>
+    <summary>Click here for for Lighthouse Desktop - Contact Us</summary>
 <img src="assets/images-readme/lh-desktop-contactus.webp" alt="Lighthouse Desktop Contact Us" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Contact Us</summary>
+    <summary>Click here for for Lighthouse Mobile - Contact Us</summary>
 <img src="assets/images-readme/lh-mobile-contactus.webp" alt="Lighthouse Mobile Contact Us" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Thanks you</summary>
+    <summary>Click here for for Lighthouse Desktop - Thanks you</summary>
 <img src="assets/images-readme/lh-desktop-thankyoupage.webp" alt="Lighthouse Desktop Thank you" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Thanks you</summary>
+    <summary>Click here for for Lighthouse Mobile - Thanks you</summary>
 <img src="assets/images-readme/lh-mobile-thankyoupage.webp" alt="Lighthouse Mobile Thank You" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Desktop - Error 404</summary>
+    <summary>Click here for for Lighthouse Desktop - Error 404</summary>
 <img src="assets/images-readme/lh-desktop-404page.webp" alt="Lighthouse Desktop Error 404" width="800px"/>
 </details>
 
 <details>
-    <summary>Click Here for Lighthouse Mobile - Error 404</summary>
+    <summary>Click here for for Lighthouse Mobile - Error 404</summary>
 <img src="assets/images-readme/lh-mobile-404page.webp" alt="Lighthouse Mobile Error 404" width="800px"/>
 </details>
 
